@@ -3,12 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto Serif';
 }
 
 /* Body and layout */
 body {
-    font-family: Arial, sans-serif;
-    background-color: antiquewhite;
+    background-color: rgb(26, 26, 32);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -37,7 +37,7 @@ body {
 }
 
 .navbar a {
-    color: white;
+    color: rgb(188, 198, 233);
     text-decoration: none;
     font-size: 18px;
     text-transform: uppercase;
@@ -56,13 +56,13 @@ body {
 
 /* Card-like button styling */
 .card-button {
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(0, 0, 0, 0.4);
     border: none;
     border-radius: 25px;
-    color: rgb(0, 0, 0);
+    color: rgb(188, 198, 233);
     height: 500px;
     width: 300px;
-    font-size: 18px;
+    font-size: 25px;
     cursor: pointer;
     transition: transform 0.3s ease, background-color 0.3s ease;
     font-weight: 600;
@@ -71,10 +71,24 @@ body {
 }
 
 .card-button:hover {
-    transform: translateY(-20px);
-    background-color: rgba(255, 255, 255, 0.6);
+    transform: translateY(-20px); 
+    color: white;
 }
-
+#B1:hover{
+    background-color: brown
+}
+#B2:hover{
+    background-color: rgb(42, 130, 165)
+}
+#B3:hover{
+    background-color: rgb(142, 165, 42)
+}
+#B4:hover{
+    background-color: rgb(255, 0, 221)
+}
+#B5:hover{
+    background-color: rgb(165, 126, 42)
+}
 .card-button:focus {
     outline: none;
 }
@@ -84,4 +98,10 @@ body {
     .button-container {
         flex-direction: column;
     }
+}
+footer{
+    color: rgb(188, 198, 233);
+    padding: 10px 10px;
+    background-color: black;
+    font-size: 12px;
 }
