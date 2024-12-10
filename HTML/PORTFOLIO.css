@@ -72,22 +72,22 @@ body {
 
 .card-button:hover {
     transform: translateY(-20px); 
-    color: white;
+    color: rgb(0, 0, 0);
 }
 #B1:hover{
-    background-color: brown
+    background-color: rgb(255, 0, 0)
 }
 #B2:hover{
-    background-color: rgb(42, 130, 165)
+    background-color: rgb(255, 0, 255)
 }
 #B3:hover{
     background-color: rgb(142, 165, 42)
 }
 #B4:hover{
-    background-color: rgb(255, 0, 221)
+    background-color: rgb(42, 30, 206)
 }
 #B5:hover{
-    background-color: rgb(165, 126, 42)
+    background-color: rgb(255, 174, 0)
 }
 .card-button:focus {
     outline: none;
@@ -104,4 +104,6 @@ footer{
     padding: 10px 10px;
     background-color: black;
     font-size: 12px;
+    margin-top: auto;
+
 }
