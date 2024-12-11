@@ -3,12 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Serif';
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Body and layout */
 body {
-    background-color: rgb(26, 26, 32);
+    background-color: hsl(334, 11%, 10%);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -34,14 +34,14 @@ body {
     margin-right: 67vb;
 }
 #CONT{
-    background-color: hsl(231, 72%, 60%);
+    background-color: hsl(1, 79%, 48%);
     padding: 1.3vb;
     border-radius: 3vb;
     margin-left: 67vb;
 }
 
 #CONT:hover{
-    background-color: hsl(231, 72%, 90%);
+    background-color: hsl(334, 14%, 90%);
     color: black;
 }
 .navbar li {
@@ -49,15 +49,16 @@ body {
 }
 
 .navbar a {
-    color: rgb(188, 198, 233);
+    color: hsl(334, 14%, 90%);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 2vb;
     text-transform: uppercase;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* Button container to center the buttons */
 .button-container {
+    font-family: 'Roboto Serif';
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -69,12 +70,13 @@ body {
 
 /* Card-like button styling */
 .card-button {
-    background-color: rgba(0, 0, 0, 0.4);
+    font-family: 'Roboto Serif';
+    background-color: rgba(255, 255, 255, 0.014);
     border: none;
     border-radius: 25px;
-    color: rgb(188, 198, 233);
-    height: 500px;
-    width: 300px;
+    color: hsl(334, 14%, 90%);
+    height: 50vb;
+    width: 30vb;
     font-size: 25px;
     cursor: pointer;
     transition: transform 0.3s ease, background-color 0.3s ease;
@@ -88,19 +90,19 @@ body {
     color: rgb(0, 0, 0);
 }
 #B1:hover{
-    background-color: rgb(255, 0, 0);
+    background-color: hsl(1, 79%, 48%);
 }
 #B2:hover{
-    background-color: rgb(255, 0, 255);
+    background-color: hsl(43, 86%, 53%);
 }
 #B3:hover{
-    background-color: rgb(142, 165, 42)
+    background-color: hsl(63, 86%, 50%);
 }
 #B4:hover{
-    background-color: rgb(42, 30, 206)
+    background-color: hsl(260, 80%, 49%);
 }
 #B5:hover{
-    background-color: rgb(255, 174, 0)
+    background-color: hsl(302, 89%, 52%);
 }
 .card-button:focus {
     outline: none;
@@ -113,10 +115,11 @@ body {
     }
 }
 footer{
-    color: rgb(188, 198, 233);
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(334, 14%, 90%);
     padding: 20px 20px;
     background-color: rgba(0, 0, 0, 0);
-    font-size: 12px;
+    font-size: 1.5vb;
     margin-top: auto;
 
 }
