@@ -26,6 +26,24 @@ body {
     flex-direction: column;
     height: 100vh;
 }
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0,);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    transition: backdrop-filter 0.3s ease-in-out;
+    
+}
+
+.moving-text{
+    visibility: hidden;
+}
 
 /* Navbar styles */
 .navbar {
@@ -36,7 +54,7 @@ body {
     position: sticky;
     top: 0;
     width: 100%;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.151);
 backdrop-filter: blur(20px);
 -webkit-backdrop-filter: blur(20px);
 
@@ -58,12 +76,7 @@ backdrop-filter: blur(20px);
     text-transform: uppercase;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.navbar:hover{
-    color:hsl(334, 14%, 10%);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(200px);
--webkit-backdrop-filter: blur(200px);
-}
+
 #CONT{
     background-color: hsl(1, 79%, 48%);
     padding-top: 1.3vb;
@@ -99,7 +112,7 @@ backdrop-filter: blur(200px);
 
 /* Card-like button styling */
 .card-button {
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1cap 10vb rgb(0, 0, 0,1);
 backdrop-filter: blur(1vb);
 -webkit-backdrop-filter: blur(20px);
 border: 1px solid rgba(255, 255, 255, 1);
@@ -113,29 +126,68 @@ border: 1px solid rgba(255, 255, 255, 1);
     font-size: 2.5vb;
     cursor: pointer;
     transition: transform 0.3s ease, background-color 0.3s ease;
-    font-weight: 600;
     margin-left: 20px;
     margin-right: 20px;
 }
 
+.moving-text{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20vb;
+    display: flex;
+    position: absolute;
+    rotate: 45deg;
+    display: inline-block;
+    animation: moveDiagonal 10s linear infinite;
+}
+
+@keyframes moveDiagonal {
+    0% {
+      transform: translate(0%, 0%);
+    }
+    100% {
+      transform: translate(5%, 5%
+    );
+    }
+}  
 .card-button:hover {
     transform: translateY(-20px); 
     color: rgb(0, 0, 0);
 }
+.card-button:hover + .background {
+    background-color: rgba(0, 0, 0, 0.205);
+    backdrop-filter: blur(2vb);
+-webkit-backdrop-filter: blur(1.3vb);
+} 
+
+.card-button:hover + .background .moving-text {
+    visibility: visible;
+    opacity: 1;
+    transition: 1s ease-in-out
+  }
+
+  .background .moving-text {
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s ease-in-out, viibility 0s linear 1s;
+  }
+  
 #B1:hover{
     background-color: hsl(1, 79%, 48%);
 }
 #B2:hover{
-    background-color: hsl(32, 62%, 51%);
+    background-color: hsl(63, 45%, 60%);
 }
 #B3:hover{
-    background-color: hsl(63, 45%, 55%);
+    background-color: hsl(125, 11%, 61%);
+}
+#B3:hover + div.moving-text{
+    color: hsl(125, 11%, 61%,1);
 }
 #B4:hover{
-    background-color: hsl(94, 28%, 58%);
+    background-color: hsl(139, 13%, 44%);
 }
 #B5:hover{
-    background-color: hsl(125, 11%, 61%);
+    background-color: hsl(153, 16%, 27%);
 }
 .card-button:focus {
     outline: none;
@@ -154,5 +206,8 @@ footer{
     background-color: rgba(0, 0, 0, 0);
     font-size: 1.5vb;
     margin-top: auto;
+    list-style: none;
+    display: flex;
+    justify-content: center;
 
 }
