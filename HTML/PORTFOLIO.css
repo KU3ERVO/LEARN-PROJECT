@@ -20,6 +20,7 @@ $raisin-black: hsla(334, 12%, 12%, 1);*/
 /* Body and layout */
 body {
     background-color: hsl(334, 11%, 10%);
+    background-image: url(https://png.pngtree.com/background/20230607/original/pngtree-some-red-roses-are-seen-here-in-a-dark-setting-picture-image_2902794.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -29,12 +30,16 @@ body {
 /* Navbar styles */
 .navbar {
     background-color: rgba(0, 0, 0, );
-    border-bottom: 0.01vb solid hsl(334, 14%, 90%);
+    border-bottom: 0.01vb solid hsl(334, 14%, 90%,0);
     background-blend-mode: color luminosity 100% 0%;
     padding: 2.5vb;
     position: sticky;
     top: 0;
     width: 100%;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+
     
 }
 
@@ -44,7 +49,7 @@ body {
     justify-content: center;
 }
 #HOME{
-    margin-right: 67vb;
+    margin-right: 60vb;
 }
 .navbar a {
     color: hsl(334, 14%, 90%);
@@ -54,15 +59,19 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .navbar:hover{
-    border-left: 1vb solid  hsl(334, 14%, 90%);
-    background-color: hsl(334, 14%, 70%);
     color:hsl(334, 14%, 10%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(200px);
+-webkit-backdrop-filter: blur(200px);
 }
 #CONT{
     background-color: hsl(1, 79%, 48%);
-    padding: 1.3vb;
+    padding-top: 1.3vb;
+    padding-bottom: 1.3vb;
+    padding-left: 3vb ;
+    padding-right: 3vb;
     border-radius: 3vb;
-    margin-left: 67vb;
+    margin-left: 60vb;
 }
 
 #CONT:hover{
@@ -85,10 +94,15 @@ body {
     flex-grow: 1;
     gap: 20px;
     margin-top: 50px; /* Space below navbar */
+    
 }
 
 /* Card-like button styling */
 .card-button {
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+border: 1px solid rgba(255, 255, 255, 1);
     font-family: 'Roboto Serif';
     background-color: rgba(255, 255, 255, 0.014);
     border: none;
@@ -96,7 +110,7 @@ body {
     color: hsl(334, 14%, 90%);
     height: 50vb;
     width: 30vb;
-    font-size: 25px;
+    font-size: 2.5vb;
     cursor: pointer;
     transition: transform 0.3s ease, background-color 0.3s ease;
     font-weight: 600;
@@ -112,16 +126,16 @@ body {
     background-color: hsl(1, 79%, 48%);
 }
 #B2:hover{
-    background-color: hsl(43, 59%, 52%);
+    background-color: hsl(32, 62%, 51%);
 }
 #B3:hover{
-    background-color: hsl(67, 100%, 50%);
+    background-color: hsl(63, 45%, 55%);
 }
 #B4:hover{
-    background-color: hsl(260, 86%, 53%);
+    background-color: hsl(94, 28%, 58%);
 }
 #B5:hover{
-    background-color: hsl(303, 100%, 50%);
+    background-color: hsl(125, 11%, 61%);
 }
 .card-button:focus {
     outline: none;
