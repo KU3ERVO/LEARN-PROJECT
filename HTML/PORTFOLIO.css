@@ -1,4 +1,15 @@
-/* Basic Reset */
+/* SCSS HSL
+$lemon-lime: hsla(67, 100%, 50%, 1);
+$citrine: hsla(58, 76%, 48%, 1);
+$satin-sheen-gold: hsla(43, 59%, 52%, 1);
+$pomp-and-power: hsla(303, 22%, 49%, 1);
+$blue-violet: hsla(268, 51%, 51%, 1);
+$electric-indigo: hsla(260, 86%, 53%, 1);
+$fuchsia: hsla(303, 100%, 50%, 1);
+$rojo: hsla(1, 79%, 48%, 1);
+$falu-red: hsla(359, 65%, 30%, 1);
+$raisin-black: hsla(334, 12%, 12%, 1);*/
+
 * {
     margin: 0;
     padding: 0;
@@ -17,12 +28,14 @@ body {
 
 /* Navbar styles */
 .navbar {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, );
+    border-bottom: 0.01vb solid hsl(334, 14%, 90%);
     background-blend-mode: color luminosity 100% 0%;
     padding: 2.5vb;
     position: sticky;
     top: 0;
     width: 100%;
+    
 }
 
 .navbar ul {
@@ -32,6 +45,18 @@ body {
 }
 #HOME{
     margin-right: 67vb;
+}
+.navbar a {
+    color: hsl(334, 14%, 90%);
+    text-decoration: none;
+    font-size: 2vb;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar:hover{
+    border-left: 1vb solid  hsl(334, 14%, 90%);
+    background-color: hsl(334, 14%, 70%);
+    color:hsl(334, 14%, 10%);
 }
 #CONT{
     background-color: hsl(1, 79%, 48%);
@@ -48,13 +73,7 @@ body {
     margin: 0 2%;
 }
 
-.navbar a {
-    color: hsl(334, 14%, 90%);
-    text-decoration: none;
-    font-size: 2vb;
-    text-transform: uppercase;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+
 
 /* Button container to center the buttons */
 .button-container {
@@ -93,16 +112,16 @@ body {
     background-color: hsl(1, 79%, 48%);
 }
 #B2:hover{
-    background-color: hsl(43, 86%, 53%);
+    background-color: hsl(43, 59%, 52%);
 }
 #B3:hover{
-    background-color: hsl(63, 86%, 50%);
+    background-color: hsl(67, 100%, 50%);
 }
 #B4:hover{
-    background-color: hsl(260, 80%, 49%);
+    background-color: hsl(260, 86%, 53%);
 }
 #B5:hover{
-    background-color: hsl(302, 89%, 52%);
+    background-color: hsl(303, 100%, 50%);
 }
 .card-button:focus {
     outline: none;
