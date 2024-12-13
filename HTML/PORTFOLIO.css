@@ -109,7 +109,6 @@ backdrop-filter: blur(20px);
     margin-top: 5vb; /* Space below navbar */
     
 }
-
 /* Card-like button styling */
 .card-button {
     box-shadow: 0 1cap 10vb rgb(0, 0, 0,1);
