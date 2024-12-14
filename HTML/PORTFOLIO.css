@@ -26,6 +26,91 @@ body {
     flex-direction: column;
     height: 100vh;
 }
+#BACKGROUNDBH{
+    backdrop-filter: blur(2vb);
+-webkit-backdrop-filter: blur(1.3vb);
+}
+#BACKGROUND .moving-text {
+    visibility: visible;
+    opacity: 1;
+  }
+#BACKGROUND #MT2{
+    animation: moveDiagonal 20s linear reverse infinite;
+}
+#BACKGROUND #MT3{
+    animation: moveDiagonal 20s linear infinite;
+}
+
+.project-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1vb, 37vb)); /* Responsive */
+    gap: 10vb;
+    margin: 6vb;
+  
+}
+.block{
+    background-color: red;
+    background-size: auto;
+    padding-top: 26vb;
+    padding-bottom: 7.5vb;
+    border-radius: 1vb;
+    text-align: center;
+    font-size: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+    transition: ease-in-out 0.2s;
+}
+#BL1{
+    background-image: url("../HTML/rsc/70s VHS poster.png");
+    background-size: cover;
+    background-position: center;
+}
+#BL2{
+    background-image: url("../HTML/rsc/VHS\ GLITCH\ POSTER.png");
+    background-size: cover;
+    background-position: center;
+}
+#BL3{
+    background-image: url("../HTML/rsc/vhs2\ mobile.png");
+    background-size: cover;
+}
+#BL4{
+    background-image: url("../HTML/rsc/VHS\ NIGMA\ POSTER.png");
+    background-size: cover;
+    background-position: bottom;
+}
+#BL5{
+    background-image: url("../HTML/rsc/WTF\ POSTER.png");
+    background-size: cover;
+    background-position: right;
+}
+#BL6{
+    background-image: url("../HTML/rsc/WRONG\ VHS.png");
+    background-size: cover;
+    background-position: bottom;
+}
+#BL7{
+    background-image: url("../HTML/rsc/VHS2\ P.png");
+    background-size: cover;
+    background-position: top;
+}
+#BL8{
+    background-image: url("../HTML/rsc/skull-and-flowers-poster.png");
+    background-size: cover;
+    background-position: center;
+}
+.block:hover{
+    transform: scale(1.05);
+    transform: translateY(-2vb);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    transition: ease-in-out 0.5s;
+}
+.block:hover + .background{
+    background-color: rgba(0, 0, 0, 0.205);
+    backdrop-filter: blur(2vb);
+-webkit-backdrop-filter: blur(1.3vb);
+}
 .background {
     position: fixed;
     top: 0;
@@ -41,10 +126,6 @@ body {
     
 }
 
-.moving-text{
-    visibility: hidden;
-}
-
 /* Navbar styles */
 .navbar {
     background-color: rgba(0, 0, 0, );
@@ -54,9 +135,7 @@ body {
     position: sticky;
     top: 0;
     width: 100%;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.151);
-backdrop-filter: blur(20px);
--webkit-backdrop-filter: blur(20px);
+
 
     
 }
@@ -151,7 +230,7 @@ border: 1px solid rgba(255, 255, 255, 1);
     color: rgb(0, 0, 0);
 }
 .card-button:hover + .background {
-    background-color: rgba(0, 0, 0, 0.205);
+    background-color: rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(2vb);
 -webkit-backdrop-filter: blur(1.3vb);
 } 
