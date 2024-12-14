@@ -45,20 +45,28 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(1vb, 37vb)); /* Responsive */
     gap: 10vb;
-    margin: 6vb;
+    margin: 7vb;
   
 }
 .block{
     background-color: red;
     background-size: auto;
-    padding-top: 26vb;
-    padding-bottom: 7.5vb;
+    padding-top: 25vb;
+    padding-bottom: 6vb;
     border-radius: 1vb;
     text-align: center;
     font-size: 1rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s, box-shadow 0.3s;
     transition: ease-in-out 0.2s;
+}
+.block .content {
+    background-color: rgba(0, 0, 0, 0.7); /* Optional: dark background for text visibility */
+    color: white; /* Make text visible on dark background */
+    padding: 1vb;
+    width: 100%;
+    text-align: left;
+    visibility: visible;
 }
 #BL1{
     background-image: url("../HTML/rsc/70s VHS poster.png");
@@ -105,11 +113,17 @@ body {
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
     border-radius: 50%;
     transition: ease-in-out 0.5s;
+    cursor: cell;
 }
 .block:hover + .background{
     background-color: rgba(0, 0, 0, 0.205);
     backdrop-filter: blur(2vb);
 -webkit-backdrop-filter: blur(1.3vb);
+}
+.block:hover .content{
+visibility: hidden;
+opacity: 0;
+transition: ease-in-out 0.5s;
 }
 .background {
     position: fixed;
@@ -132,7 +146,7 @@ body {
     border-bottom: 0.01vb solid hsl(334, 14%, 90%,0);
     background-blend-mode: color luminosity 100% 0%;
     padding: 2.5vb;
-    position: sticky;
+    position: static;
     top: 0;
     width: 100%;
 
@@ -144,10 +158,9 @@ body {
     list-style: none;
     display: flex;
     justify-content: center;
+    gap: 3vb;
 }
-#HOME{
-    margin-right: 60vb;
-}
+
 .navbar a {
     color: hsl(334, 14%, 90%);
     text-decoration: none;
@@ -163,15 +176,11 @@ body {
     padding-left: 3vb ;
     padding-right: 3vb;
     border-radius: 3vb;
-    margin-left: 60vb;
 }
 
 #CONT:hover{
     background-color: hsl(334, 14%, 90%);
     color: black;
-}
-.navbar li {
-    margin: 0 2%;
 }
 
 
