@@ -67,6 +67,119 @@ body {
     width: 100%;
     text-align: left;
     visibility: visible;
+    font-size: 2vb;
+}
+.project-container > .block:nth-child(n):not(:nth-last-child(-n+1)) {
+    margin-right: 0;
+}
+
+/* Ensure the outermost elements respect the container margin */
+.project-container > .block:first-child {
+    margin-left: 0;
+}
+
+
+
+
+
+/* Expanded View */
+.expanded-view {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.164);
+    backdrop-filter: blur(5vb);
+    display: none; /* Initially hidden */
+    z-index: 1000;
+    padding: 3vb;
+}
+
+.expanded-view.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.expanded-content {
+    display: flex;
+    flex-direction: row;
+    background: rgba(0, 0, 0, 0.438);
+    border-radius: 2vb;
+    width: calc(100% - 6vb); /* Account for margins */
+    height: calc(100% - 6vb); /* Account for margins */
+    overflow: hidden;
+}
+
+.expanded-image {
+    background-size: contain;
+    background-position: left;
+    max-width: 50%;
+    height: auto;
+    flex: content;
+    background-repeat: no-repeat;
+}
+
+.expanded-text {
+    flex: 1; /* Allow text to take remaining space */
+    display: flex;
+    flex-direction: column; /* Align text vertically */
+    justify-content: center; /* Center text vertically */
+    padding: 2vb; /* Add spacing around the text */
+    overflow-y: auto; /* Scroll if the content overflows */
+    color: white;
+}
+
+.expanded-text h3 {
+    margin: 0;
+    font-size: 2rem;
+    color: white;
+}
+
+.expanded-text p {
+    color: white;
+    margin: 1vb 0 0;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* Close Button */
+.close-btn {
+    position: relative;
+    top: 1.5vb;
+    right: -90vb;
+    background: rgb(214, 13, 13);
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    border: none;
+    border-radius: 50%;
+    width: 3vb;
+    height: 3vb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.close-btn:hover{
+    transform: translateY(-5px);
+    transition: ease-in-out 0.1s;
+}
+
+
+
+
+
+
+
+
+
+
+.desc{
+    font-size: 1vb;
+    margin-top: auto;
 }
 #BL1{
     background-image: url("../HTML/rsc/70s VHS poster.png");
