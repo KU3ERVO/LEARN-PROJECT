@@ -1,7 +1,43 @@
 package oop.modulodireccion;
 
+
+
 public class ModuloDeDirecciones {
-<<<<<<< HEAD
+	
+	
+	private String tipoVia;
+	private String nombreVia;
+	private int portal;
+	private int escalera;
+	private char puerta;
+	
+	private int codPostal;
+	
+	private String localidad;
+	private String provincia;
+	private String pais;
+	
+	ModuloDeDirecciones(String tipoVia,String nombreVia, int portal, int escalera, char puerta, int codPostal,String localidad, String provincia, String pais){
+	
+	
+	this.tipoVia = tipoVia;
+	this.nombreVia = nombreVia;
+	this.portal = portal;
+	this.escalera = escalera;
+	this.puerta = puerta;
+	this.codPostal = codPostal;
+	this.localidad = localidad;
+	this.provincia = provincia;
+	this.pais = pais;
+	
+	}
+	
+	 public void prt() {
+		
+		 System.out.println(tipoVia + " " + nombreVia + " " + portal + " " + escalera + "º" + puerta + "\nCP: " + codPostal + "\n" + localidad + " " + provincia + " " + pais);
+	}
+	 
+}
 	
 /*Ejercicio 1.
 
@@ -32,7 +68,6 @@ Se pide:
 
 - Crea un programa principal que tenga cinco objetos de tipo Dirección e imprime en pantalla todos sus datos.*/
 
-=======
-	//EJ 1
->>>>>>> 520345081db0c23bdf6902db01d86668f8076aec
-}
+
+
+
