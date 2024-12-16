@@ -1,6 +1,7 @@
 package oop.modulodireccion;
 
 public class ModuloDeDirecciones {
+<<<<<<< HEAD
 	
 /*Ejercicio 1.
 
@@ -31,4 +32,7 @@ Se pide:
 
 - Crea un programa principal que tenga cinco objetos de tipo Dirección e imprime en pantalla todos sus datos.*/
 
+=======
+	//EJ 1
+>>>>>>> 520345081db0c23bdf6902db01d86668f8076aec
 }

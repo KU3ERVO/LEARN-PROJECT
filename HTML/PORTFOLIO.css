@@ -26,6 +26,218 @@ body {
     flex-direction: column;
     height: 100vh;
 }
+#BACKGROUNDBH{
+    backdrop-filter: blur(2vb);
+-webkit-backdrop-filter: blur(1.3vb);
+}
+#BACKGROUND .moving-text {
+    visibility: visible;
+    opacity: 1;
+  }
+#BACKGROUND #MT2{
+    animation: moveDiagonal 20s linear reverse infinite;
+}
+#BACKGROUND #MT3{
+    animation: moveDiagonal 20s linear infinite;
+}
+
+.project-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1vb, 37vb)); /* Responsive */
+    gap: 10vb;
+    margin: 7vb;
+  
+}
+.block{
+    background-color: red;
+    background-size: auto;
+    padding-top: 25vb;
+    padding-bottom: 6vb;
+    border-radius: 1vb;
+    text-align: center;
+    font-size: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+    transition: ease-in-out 0.2s;
+}
+.block .content {
+    background-color: rgba(0, 0, 0, 0.7); /* Optional: dark background for text visibility */
+    color: white; /* Make text visible on dark background */
+    padding: 1vb;
+    width: 100%;
+    text-align: left;
+    visibility: visible;
+    font-size: 2vb;
+}
+.project-container > .block:nth-child(n):not(:nth-last-child(-n+1)) {
+    margin-right: 0;
+}
+
+/* Ensure the outermost elements respect the container margin */
+.project-container > .block:first-child {
+    margin-left: 0;
+}
+
+
+
+
+
+/* Expanded View */
+.expanded-view {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.164);
+    backdrop-filter: blur(5vb);
+    display: none; /* Initially hidden */
+    z-index: 1000;
+    padding: 3vb;
+}
+
+.expanded-view.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.expanded-content {
+    display: flex;
+    flex-direction: row;
+    background: rgba(0, 0, 0, 0.438);
+    border-radius: 2vb;
+    width: calc(100% - 6vb); /* Account for margins */
+    height: calc(100% - 6vb); /* Account for margins */
+    overflow: hidden;
+}
+
+.expanded-image {
+    background-size: contain;
+    background-position: left;
+    max-width: 50%;
+    height: auto;
+    flex: content;
+    background-repeat: no-repeat;
+}
+
+.expanded-text {
+    flex: 1; /* Allow text to take remaining space */
+    display: flex;
+    flex-direction: column; /* Align text vertically */
+    justify-content: center; /* Center text vertically */
+    padding: 2vb; /* Add spacing around the text */
+    overflow-y: auto; /* Scroll if the content overflows */
+    color: white;
+}
+
+.expanded-text h3 {
+    margin: 0;
+    font-size: 2rem;
+    color: white;
+}
+
+.expanded-text p {
+    color: white;
+    margin: 1vb 0 0;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* Close Button */
+.close-btn {
+    position: relative;
+    top: 1.5vb;
+    right: -90vb;
+    background: rgb(208, 255, 0);
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    border: none;
+    border-radius: 50%;
+    width: 3vb;
+    height: 3vb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.close-btn:hover{
+    transform: translateY(-5px);
+    transition: ease-in-out 0.1s;
+}
+
+
+
+
+
+
+
+
+
+
+.desc{
+    font-size: 1vb;
+    margin-top: auto;
+}
+#BL1{
+    background-image: url("../HTML/rsc/70s VHS poster.png");
+    background-size: cover;
+    background-position: center;
+}
+#BL2{
+    background-image: url("../HTML/rsc/VHS\ GLITCH\ POSTER.png");
+    background-size: cover;
+    background-position: center;
+}
+#BL3{
+    background-image: url("../HTML/rsc/vhs2\ mobile.png");
+    background-size: cover;
+}
+#BL4{
+    background-image: url("../HTML/rsc/VHS\ NIGMA\ POSTER.png");
+    background-size: cover;
+    background-position: bottom;
+}
+#BL5{
+    background-image: url("../HTML/rsc/WTF\ POSTER.png");
+    background-size: cover;
+    background-position: right;
+}
+#BL6{
+    background-image: url("../HTML/rsc/WRONG\ VHS.png");
+    background-size: cover;
+    background-position: bottom;
+}
+#BL7{
+    background-image: url("../HTML/rsc/VHS2\ P.png");
+    background-size: cover;
+    background-position: top;
+}
+#BL8{
+    background-image: url("../HTML/rsc/skull-and-flowers-poster.png");
+    background-size: cover;
+    background-position: center;
+}
+.block:hover{
+    transform: scale(1.05);
+    transform: translateY(-2vb);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    transition: ease-in-out 0.5s;
+    cursor: cell;
+}
+.block:hover + .background{
+    background-color: rgba(0, 0, 0, 0.205);
+    backdrop-filter: blur(2vb);
+-webkit-backdrop-filter: blur(1.3vb);
+}
+.block:hover .content{
+visibility: hidden;
+opacity: 0;
+transition: ease-in-out 0.5s;
+}
 .background {
     position: fixed;
     top: 0;
@@ -41,22 +253,16 @@ body {
     
 }
 
-.moving-text{
-    visibility: hidden;
-}
-
 /* Navbar styles */
 .navbar {
     background-color: rgba(0, 0, 0, );
     border-bottom: 0.01vb solid hsl(334, 14%, 90%,0);
     background-blend-mode: color luminosity 100% 0%;
     padding: 2.5vb;
-    position: sticky;
+    position: static;
     top: 0;
     width: 100%;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.151);
-backdrop-filter: blur(20px);
--webkit-backdrop-filter: blur(20px);
+
 
     
 }
@@ -65,10 +271,9 @@ backdrop-filter: blur(20px);
     list-style: none;
     display: flex;
     justify-content: center;
+    gap: 3vb;
 }
-#HOME{
-    margin-right: 60vb;
-}
+
 .navbar a {
     color: hsl(334, 14%, 90%);
     text-decoration: none;
@@ -84,15 +289,11 @@ backdrop-filter: blur(20px);
     padding-left: 3vb ;
     padding-right: 3vb;
     border-radius: 3vb;
-    margin-left: 60vb;
 }
 
 #CONT:hover{
     background-color: hsl(334, 14%, 90%);
     color: black;
-}
-.navbar li {
-    margin: 0 2%;
 }
 
 
@@ -109,7 +310,6 @@ backdrop-filter: blur(20px);
     margin-top: 5vb; /* Space below navbar */
     
 }
-
 /* Card-like button styling */
 .card-button {
     box-shadow: 0 1cap 10vb rgb(0, 0, 0,1);
@@ -152,7 +352,7 @@ border: 1px solid rgba(255, 255, 255, 1);
     color: rgb(0, 0, 0);
 }
 .card-button:hover + .background {
-    background-color: rgba(0, 0, 0, 0.205);
+    background-color: rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(2vb);
 -webkit-backdrop-filter: blur(1.3vb);
 } 
