@@ -10,7 +10,8 @@ public class MainCoche {
 	car1.acelerar(30);
 	car1.pintarCoche();
 	
-	car1.sysoDatos();
+	System.out.println(car1.toString());
+	System.out.println(car2.toString());
 	
 	}
 }
