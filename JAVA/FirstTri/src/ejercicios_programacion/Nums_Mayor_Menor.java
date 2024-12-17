@@ -11,31 +11,31 @@ public class Nums_Mayor_Menor {
 		int num2= sc.nextInt();
 		int num3= sc.nextInt();
 		int aux=0;
-	//COMPROBADOR MAYOR MENOR
-while ((num1>num2)||(num1>num3)){
+		//COMPROBADOR MAYOR MENOR
+		while ((num1>num2)||(num1>num3)){
 
-	aux=num1;
-	num1=num2;
-	num2=num3;
-	num3=aux;
-}
+			aux=num1;
+			num1=num2;
+			num2=num3;
+			num3=aux;
+		}
 
-if(num2<num3) {
-	
-	System.out.println(num1 + ", "+num2 + ", "+num3 + ", ");
-	
-	
-}
+		if(num2<num3) {
 
-else {
-	
-	aux=num2;
-	num2=num3;
-	num3=aux;
-	
-	System.out.println(num1 + ", "+num2 + ", "+num3 + ", ");
-}
-sc.close();
+			System.out.println(num1 + ", "+num2 + ", "+num3 + ", ");
+
+
+		}
+
+		else {
+
+			aux=num2;
+			num2=num3;
+			num3=aux;
+
+			System.out.println(num1 + ", "+num2 + ", "+num3 + ", ");
+		}
+		sc.close();
 	}
 
 }

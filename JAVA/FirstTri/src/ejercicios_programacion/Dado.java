@@ -4,70 +4,70 @@ public class Dado {
 
 	public static void main(String[] args) {
 
-			
-				Random rn = new Random();
-				
-				int [] dado = new int [7];
-				int i,num;
-				float percent;
-				
-//1000 TIRADAS
-				for(i=1;i<=1000;i++){
-//RANDOM ENTRE 1 Y 7
-				num = rn.nextInt(1,7);
-//AÑADIR NUMERO DE VECES QUE HA SALIDO EL NUM SEGUN EL NUM 
-				switch(num){
 
-				    case 1:
+		Random rn = new Random();
 
-				    dado[1]++;
+		int [] dado = new int [7];
+		int i,num;
+		float percent;
 
-				    break;
+		//1000 TIRADAS
+		for(i=1;i<=1000;i++){
+			//RANDOM ENTRE 1 Y 7
+			num = rn.nextInt(1,7);
+			//AÑADIR NUMERO DE VECES QUE HA SALIDO EL NUM SEGUN EL NUM 
+			switch(num){
 
-				    case 2:
+			case 1:
 
-				    dado[2]++;
+				dado[1]++;
 
-				    break;
+				break;
 
-				    case 3:
+			case 2:
 
-				    dado[3]++;
+				dado[2]++;
 
-				    break;
+				break;
 
-				    case 4:
+			case 3:
 
-				    dado[4]++;
+				dado[3]++;
 
-				    break;
+				break;
 
-				    case 5:
+			case 4:
 
-				    dado[5]++;
+				dado[4]++;
 
-				    break;
+				break;
 
-				    case 6:
+			case 5:
 
-				    dado[6]++;
+				dado[5]++;
 
-				    break;
-				}
+				break;
 
+			case 6:
 
-				}
-//ESTABLECER VALOR DE SUMA DE VECEES QUE ALGO HA SALIDO COMO FLOAT Y PRINT DE DATOS
-				for(i=1;i<7;i++) {
-					
-					percent = dado[i];
-					System.out.print("num "+i+ " salió " + dado[i] + " veces un " +  percent/10 + "% \n");
-				}
-				
+				dado[6]++;
+
+				break;
 			}
 
-		
+
+		}
+		//ESTABLECER VALOR DE SUMA DE VECEES QUE ALGO HA SALIDO COMO FLOAT Y PRINT DE DATOS
+		for(i=1;i<7;i++) {
+
+			percent = dado[i];
+			System.out.print("num "+i+ " salió " + dado[i] + " veces un " +  percent/10 + "% \n");
+		}
 
 	}
+
+
+
+}
 
 

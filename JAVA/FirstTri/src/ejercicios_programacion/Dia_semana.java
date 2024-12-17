@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Dia_semana {
 
 	public static void main(String[] args) {
-		
-Scanner sc = new Scanner(System.in);
-		
+
+		Scanner sc = new Scanner(System.in);
+
 		System.out.println("escribe el número del día");
 		//LEER
 		int dia = sc.nextInt();

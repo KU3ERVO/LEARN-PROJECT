@@ -6,22 +6,22 @@ public class DuplicarArray {
 
 		int i = 0;
 		int [] nums;
-		
+
 		nums = Array.scArr();
-		
+
 		System.out.println("Array duplicado: \n");
 		//SE MULTIPLICA EL ARRAY X 2
 		for (i = 0;i< nums.length;i++) {
-			
+
 			nums [i] *= 2;
-			
+
 		}
-		
+
 		Array.sysoArr(nums);
-		
-		
-		
-		
+
+
+
+
 
 	}
 

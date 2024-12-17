@@ -81,7 +81,7 @@ public class Coche {
 		setColor("ROJO");
 	}
 	public String toString() {
-		
+
 		String datos = marca + " " + modelo + " " + color + " " + potencia + " CABALLOS " + maletero + " " + puertas + " " + precio + "€ " + velocidad + "Km/h";
 
 		return datos;
