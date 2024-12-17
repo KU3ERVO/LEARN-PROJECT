@@ -3,6 +3,8 @@ import java.util.Scanner;
 
 public class Coche {
 	
+	Scanner sc = new Scanner(System.in);
+	
 	 private String marca, modelo, color;
 	 private int potencia, maletero, puertas, precio, velocidad;
 	 
@@ -70,28 +72,29 @@ public class Coche {
 		 }
 	 
 	 
-		 public void acelerar(int mas) {
-			 velocidad += mas;
+		 public void acelerar(int aceleracion) {
+			 velocidad += aceleracion;
 			 }
-			 public void desacelerar(int menos) {
-			 velocidad -= menos;
+			 public void desacelerar(int deceleracion) {
+			 velocidad -= deceleracion;
 			 }
 			 public void frenar() {
 			 velocidad = 0;
 			 }
 			 public void pintarCoche() {
-			 System.out.print("¿De qué color desea pintar el coche? ");
-			 setColor(teclado.nextLine());
+			 System.out.print("Elije el color de tu coche");
+			 setColor(sc.nextLine());
 			 }
-			 public void mostrarDatos() {
-			 System.out.println("****CARACTERÍSTICAS DEL COCHE****");
+			 public void sysoDatos() {
+				 
 			 System.out.println("MARCA: " + marca);
 			 System.out.println("MODELO: " + modelo);
 			 System.out.println("COLOR: " + color);
 			 System.out.println("POTENCIA: " + potencia + " CV.");
-			 System.out.println("MALETERO: " + maletero + " L.");
+			 System.out.println("MALETERO: " + maletero);
 			 System.out.println("NÚMERO DE PUERTAS: " + puertas);
 			 System.out.println("PRECIO: " + precio + " €");
+			 System.out.println("VELOCIDAD ACTUAL: " + velocidad + " Km/h");
 			}
 			}
 			
