@@ -6,8 +6,8 @@ public class Calculadora {
 //CONSTRUCTOR
 	Calculadora(int acumulador,int memory){
 
-		this.memory=0;
-		this.acumulador=0;
+		this.memory= memory;
+		this.acumulador=memory;
 
 	}
 	

@@ -14,6 +14,8 @@ public class TestCalculadora {
 		System.out.println("introduce el operando  + - : x  utiliza < para guardar y > para cargar, 0 para reiniciar, utiliza . para cerrar");
 		operando = sc.next().charAt(0);
 
+		
+		
 		switch(operando) {
 		
 		case '+':
