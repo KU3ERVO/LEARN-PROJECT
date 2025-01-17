@@ -1,8 +1,9 @@
 package oop.fecha;
-
+import java.time.LocalDate;
 public class Fecha {
 
 	private int dia,mes,anio;
+    LocalDate ld = new LocalDate();
 
 	Fecha(){		
 	}
@@ -122,6 +123,12 @@ public class Fecha {
 			igual = true;
 		}
 		return igual;
+	}
+	public void FechaActual() {
+		this.dia=ld.getDayOfYear();
+		this.mes=ld.getMonthValue();
+		this.anio=ld.getYear();
+		
 	}
 
 
