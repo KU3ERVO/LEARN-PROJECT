@@ -1,0 +1,5 @@
+CREATE DATABASE OnlineGames;
+SHOW DATABASES;
+CREATE TABLE USERS(
+id INT(8) primary key
+);

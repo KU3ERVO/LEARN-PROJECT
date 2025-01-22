@@ -3,7 +3,7 @@ import java.time.LocalDate;
 public class Fecha {
 
 	private int dia,mes,anio;
-    LocalDate ld = new LocalDate();
+    LocalDate ld = LocalDate.now();
 
 	Fecha(){		
 	}
@@ -130,6 +130,15 @@ public class Fecha {
 		this.anio=ld.getYear();
 		
 	}
+	public boolean equals(Fecha f1) {
+		if((this.dia==f1.dia)&&(this.mes==f1.mes)&&(this.anio==f1.anio)) {
+			return true;
+		}
+		else{
+			return false;
+			}
+		}
+	}
 
 
-}
+
