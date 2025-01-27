@@ -63,7 +63,7 @@ public class Tiempo {
 		while(this.stop==false) {
 			while(this.hora<24) {
 				while(this.min<60) {	
-					while(this.seg<60) {
+					while(this.seg<59) {
 						try {
 			                Thread.sleep(1000);
 			            } catch (InterruptedException e) {
@@ -72,7 +72,7 @@ public class Tiempo {
 						System.out.println(toString());
 					}
 					this.min++;
-					this.seg=0;
+					this.seg=-1;
 				}
 				this.hora++;
 				this.min=0;

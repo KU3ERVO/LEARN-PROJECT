@@ -5,10 +5,10 @@ public class Fecha {
 	private int dia,mes,anio;
     LocalDate ld = LocalDate.now();
 
-	Fecha(){		
+	public Fecha(){		
 	}
 
-	Fecha(int dia, int mes, int anio){
+	public Fecha(int dia, int mes, int anio){
 		if (Validez(dia, mes, anio)==true) {
 			this.dia=dia;
 			this.mes=mes;
