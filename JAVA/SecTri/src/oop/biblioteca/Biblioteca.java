@@ -24,7 +24,7 @@ public class Biblioteca {
 
 	public void deleteLibro(Libro libro) {
 		
-		Arrays.binarySearch(libros, libro);
+		j=Arrays.binarySearch(libros, libro);
 		this.libros[j]=null;
 		//Arrays.sort(libros,0,i);
 		i--;
