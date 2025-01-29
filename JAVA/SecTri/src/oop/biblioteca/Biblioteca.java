@@ -8,7 +8,7 @@ public class Biblioteca {
 
 	private static Libro [] libros;
 	private String nombre;
-	private static int i=0,j=0;
+	private int contadorLibros=0,j=0;
 
 	public Biblioteca(String nombre) {
 		this.nombre = nombre;
@@ -17,8 +17,8 @@ public class Biblioteca {
 
 	public void addLibro(Libro libro) {
 
-		this.libros[i]=libro;
-		i++;
+		this.libros[contadorLibros]=libro;
+		contadorLibros++;
 		//Arrays.sort(libros);
 	}
 
@@ -27,7 +27,7 @@ public class Biblioteca {
 		j=Arrays.binarySearch(libros, libro);
 		this.libros[j]=null;
 		//Arrays.sort(libros,0,i);
-		i--;
+		contadorLibros--;
 	}
 
 	public String listLibros() {
