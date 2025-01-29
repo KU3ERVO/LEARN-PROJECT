@@ -6,7 +6,7 @@ import oop.libro.Libro;
 
 public class Biblioteca {
 
-	private static Libro [] libros;
+	private Libro [] libros;
 	private String nombre;
 	private int contadorLibros=0,j=0;
 
@@ -19,14 +19,14 @@ public class Biblioteca {
 
 		this.libros[contadorLibros]=libro;
 		contadorLibros++;
-		//Arrays.sort(libros);
+		Arrays.sort(libros);
 	}
 
 	public void deleteLibro(Libro libro) {
 		
 		j=Arrays.binarySearch(libros, libro);
 		this.libros[j]=null;
-		//Arrays.sort(libros,0,i);
+		Arrays.sort(libros,0,i);
 		contadorLibros--;
 	}
 

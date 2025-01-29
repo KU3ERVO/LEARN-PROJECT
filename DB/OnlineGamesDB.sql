@@ -43,7 +43,7 @@ CREATE TABLE MATCH_PARTICIPANTS (
     FOREIGN KEY (match_id) REFERENCES MATCHES(match_id),
     FOREIGN KEY (avatar_id) REFERENCES AVATARS(avatar_id)
 );
-CREATE TABLE CONFRONTATIONS (
+CREATE TABLE CONFRONTATIONS (PRIMARY
     confrontation_id INT8 primary key,
     match_id INT8,
     avatar1_id INT8,
