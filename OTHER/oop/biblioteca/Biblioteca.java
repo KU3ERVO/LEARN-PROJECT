@@ -19,33 +19,14 @@ public class Biblioteca {
 
 		this.libros[contadorLibros]=libro;
 		contadorLibros++;
-
+		Arrays.sort(libros);
 	}
 
 	public void deleteLibro(Libro libro) {
-
-		boolean llave = false;
-		int i = 0;
-
-		for(i=0;i<libros.length&&libros[i]!=null;i++) {
-			if(libros[i]!=null) {
-				
-				llave=libros[i].getISBN().equalsIgnoreCase(libro.getISBN());
-				if(llave==true) {
-					
-					this.libros[i]=null;
-					llave=false;
-					}
-				}
-		}
 		
-		while(i+1<libros.length&&libros[i+1]!=null){
-			
-			libros[i+1]=libros[i];
-			i++;
-			
-		}
-		
+		j=Arrays.binarySearch(libros, libro);
+		this.libros[j]=null;
+		Arrays.sort(libros,0,i);
 		contadorLibros--;
 	}
 
@@ -53,9 +34,8 @@ public class Biblioteca {
 
 		String biblio = "";
 
-		while(j<libros.length){
-			if(libros[j]!=null) {
-			biblio += libros[j].toString()+"\n\n";}
+		while(libros[j]!=null){
+			biblio += libros[j].toString()+"\n\n";
 			j++;
 		}
 		j=0;
