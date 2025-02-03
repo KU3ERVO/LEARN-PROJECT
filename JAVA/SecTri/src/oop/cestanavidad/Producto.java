@@ -6,12 +6,15 @@ public class Producto {
 	private int precio;
 	private boolean gluten;
 	private String nombre;
+	private TipoProducto tp;
 	
-	public Producto(int codProducto, int precio, boolean gluten, String nombre) {
-		this.codProducto = codProducto;
+	public Producto( int precio, boolean gluten, String nombre, TipoProducto tp) {
+		this.codProducto = id +1;
 		this.precio = precio;
 		this.gluten = gluten;
 		this.nombre = nombre;
+		id++;
+		this.tp=tp;
 	}
 
 	public static int getId() {
@@ -38,7 +41,7 @@ public class Producto {
 		this.precio = precio;
 	}
 
-	public boolean isGluten() {
+	public boolean getGluten() {
 		return gluten;
 	}
 
@@ -52,6 +55,14 @@ public class Producto {
 
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
+	}
+	
+	public String toString() {
+		
+		return "CODE: "+ codProducto
+				+"\nTipo: "+ nombre
+				+" "+precio+"€"
+				+"\nTipo "+tp;
 	}
 	
 	
