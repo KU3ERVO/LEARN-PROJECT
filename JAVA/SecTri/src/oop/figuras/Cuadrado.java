@@ -15,7 +15,7 @@ public class Cuadrado extends Figura {
 	}
 	
 	public double Perimetro() {
-		
+		return lado*4;
 	}
 
 }

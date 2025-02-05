@@ -2,13 +2,11 @@ package oop.figuras;
 
 public class Circulo extends Figura{
 	
-	private double area;
 	private double radio;
 
 	public Circulo(double radio,String color) {
-		super(color, area);
+		super(color);
 		this.radio = radio;
-		area = Math.PI*Math.pow(radio, 2);
 	}
 
 	public double getRadio() {
@@ -21,6 +19,10 @@ public class Circulo extends Figura{
 	
 	public double Area() {
 		return Math.PI*(radio*radio);
+	}
+	
+	public double Perimetro() {
+		return 2*Math.PI*radio;
 	}
 	
 	

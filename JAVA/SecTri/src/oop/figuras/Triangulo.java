@@ -28,7 +28,7 @@ public class Triangulo extends Figura {
 	}
 	
 	public double Area() {
-		return super.Area();
+	return (base*altura)/2;
 	}
 
 }
