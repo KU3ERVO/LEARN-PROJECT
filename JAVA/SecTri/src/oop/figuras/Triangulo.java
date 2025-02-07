@@ -1,13 +1,13 @@
 package oop.figuras;
 
-import javax.management.remote.SubjectDelegationPermission;
-
 public class Triangulo extends Figura {
 	
 	private double base,altura;
 
-	public Triangulo(String color) {
+	public Triangulo(String color,double base, double altura) {
 		super(color);
+		this.altura = altura;
+		this.base = base;
 
 	}
 
@@ -30,5 +30,13 @@ public class Triangulo extends Figura {
 	public double Area() {
 	return (base*altura)/2;
 	}
+	
+	public double Perimetro() {
+		return base*3;
+	}
+	
+	public String toString() {
+		return super.toString()+"\nBase: "+base+" Altura: "+altura+"\nArea: "+Area()+"\nPerimetro: "+Perimetro();	
+		}
 
 }

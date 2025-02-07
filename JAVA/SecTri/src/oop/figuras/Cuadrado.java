@@ -9,6 +9,20 @@ public class Cuadrado extends Figura {
 		this.lado=lado;
 	}
 	
+	
+	
+	public double getLado() {
+		return lado;
+	}
+
+
+
+	public void setLado(double lado) {
+		this.lado = lado;
+	}
+
+
+
 	public double Area() {
 		return lado*lado;
 		
@@ -16,6 +30,10 @@ public class Cuadrado extends Figura {
 	
 	public double Perimetro() {
 		return lado*4;
+	}
+	
+	public String toString() {
+	return super.toString()+"\nLado: "+lado+"\nArea: "+Area()+"\nPerimetro: "+Perimetro();	
 	}
 
 }

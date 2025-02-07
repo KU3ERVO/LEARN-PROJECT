@@ -25,6 +25,10 @@ public class Circulo extends Figura{
 		return 2*Math.PI*radio;
 	}
 	
+	public String toString() {
+		return super.toString()+"\nRadio: "+radio+"\nArea: "+Area()+"\nPerimetro: "+Perimetro();	
+		}
+	
 	
 	
 	

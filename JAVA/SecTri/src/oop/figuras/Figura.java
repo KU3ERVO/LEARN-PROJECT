@@ -20,7 +20,7 @@ public class Figura {
 	
 	
 	public String toString() {
-		return "Color "+color;
+		return "\n\nColor "+color;
 	}
 	
 	public double Area() {
