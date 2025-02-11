@@ -1,0 +1,10 @@
+package oop.cuenta_banco;
+
+public class TestCuenta {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
