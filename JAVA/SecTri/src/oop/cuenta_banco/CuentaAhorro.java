@@ -1,9 +1,8 @@
 package oop.cuenta_banco;
 
-/*
- *  	La clase Cuenta tiene dos clases hijas: Cuenta de ahorros
+/* 	La clase Cuenta tiene dos clases hijas: Cuenta de ahorros
 
-		Posee un atributo para determinar si la cuenta de ahorros está
+		Posee un atributo para determinar si la cuenta de ahorros esta
 		activa (tipo boolean). Si el saldo es menor a $10 000, la cuenta está inactiva, en caso contrario
 		se considera activa. Los siguientes métodos se redefinen: Consignar: se puede consignar dinero
 		si la cuenta está activa. Debe invocar al método heredado.
@@ -41,8 +40,13 @@ public class CuentaAhorro extends Cuenta{
 	}
 
 	public void ExtractoMensual() {
+		super.ExtractoMensual();
 		if(super.retiros>4) {
-			super.comisionMensual+=1000;
+			super.saldo-=1000;
 		}
+	}
+	
+	public String toString() {
+		return super.toString()+"\nTransacciones llevadas a cabo: "+(super.consignaciones+super.retiros);
 	}
 }
