@@ -33,22 +33,23 @@ public class Cuenta {
 	public Cuenta(float saldo, float tasaAnual) {
 		super();
 		this.saldo = saldo;
-		this.tasaAnual = tasaAnual;
+		if(tasaAnual<=100&&tasaAnual>=0) {
+		this.tasaAnual = tasaAnual;}
 	}
 
 	public void Consignar(float eur) {
 		saldo+=eur;
+		consignaciones++;
 	}
 
 	public void Retirar(float eur) {
 		saldo-=eur;
+		retiros++;
 	}
 
 	public void Calcular() {
 		float interesMes=tasaAnual/12;
-		saldo*=interesMes;
-		
-
+		saldo+=(saldo/100)*interesMes;
 	}
 
 	public void ExtractoMensual() {
@@ -57,12 +58,56 @@ public class Cuenta {
 	}
 
 	public String toString() {
-		return"SALDO: "+saldo
-				+"\n\nTasa anual: "+ tasaAnual
-				+"\nComision mensual: "+comisionMensual
+		return"SALDO: "+saldo+"€"
+				+"\n\nTasa anual: "+ tasaAnual+"%"
+				+"\nTasa mensual: "+ tasaAnual/12+"%"
+				+"\nComision mensual: "+comisionMensual+"€"
 				+"\nRetiros: "+retiros
 				+"\nConsignaciones: "+consignaciones;
 	}
+
+	public float getSaldo() {
+		return saldo;
+	}
+
+	public void setSaldo(float saldo) {
+		this.saldo = saldo;
+	}
+
+	public float getTasaAnual() {
+		return tasaAnual;
+	}
+
+	public void setTasaAnual(float tasaAnual) {
+		if(tasaAnual<=100&&tasaAnual>=0) {
+		this.tasaAnual = tasaAnual;}
+	}
+
+	public float getComisionMensual() {
+		return comisionMensual;
+	}
+
+	public void setComisionMensual(float comisionMensual) {
+		this.comisionMensual = comisionMensual;
+	}
+
+	public int getConsignaciones() {
+		return consignaciones;
+	}
+
+	public void setConsignaciones(int consignaciones) {
+		this.consignaciones = consignaciones;
+	}
+
+	public int getRetiros() {
+		return retiros;
+	}
+
+	public void setRetiros(int retiros) {
+		this.retiros = retiros;
+	}
+	
+	
 
 
 }

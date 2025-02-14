@@ -68,14 +68,14 @@ public class Cesta {
 	
 	public String aptaCeliacos() {
 		
-		boolean apto=true;
+		boolean noapto=true;
 		for(int i = 0;i<productos.length&&productos[i]!=null;i++) {
 			
-			apto = productos[i].getGluten();
+			noapto = productos[i].getGluten();
 			
 		}
 		
-		if(apto!=true) {
+		if(noapto!=true) {
 			return"apto";
 		}
 		else {

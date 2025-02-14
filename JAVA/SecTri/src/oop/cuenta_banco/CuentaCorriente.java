@@ -18,6 +18,7 @@ el valor de sobregiro.
 Realizar un método main que implemente un objeto Cuenta de ahorros y llame a los
 métodos correspondientes.**/
 
+
 public class CuentaCorriente extends Cuenta {
 	
 	private float sobregiro=0;
@@ -25,5 +26,43 @@ public class CuentaCorriente extends Cuenta {
 	public CuentaCorriente(float saldo, float tasaAnual) {
 		super(saldo, tasaAnual);
 	}
+	
+	public void Retirar(float eur) {
+		
+		if(eur>saldo) {
+			
+			sobregiro+= -(saldo-eur);
+			saldo=0;
+			retiros++;
+		}
+		else {
+			super.Retirar(eur);
+		}
+	}
+	
+	public void Consignar(float eur) {
+		
+		if (sobregiro>0) {
+			consignaciones++;
+			if(eur<=sobregiro) {
+				sobregiro-=eur;
+			}
+			else {
+				saldo+=(eur-sobregiro);
+				sobregiro = 0;
+			}
+		}
+		else {
+			super.Consignar(eur);
+		}
+	}
+	
+	public void ExtractoMensual() {
+		super.ExtractoMensual();
+	}
 
+	public String toString() {
+		return "\n\nCUENTA CORRIENTE\n\n"+ super.toString()+"\nTransacciones llevadas a cabo: "+(consignaciones+retiros)
+				+"\nSobregiro: "+sobregiro;
+	}
 }

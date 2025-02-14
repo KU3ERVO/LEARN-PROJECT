@@ -32,21 +32,32 @@ public class CuentaAhorro extends Cuenta{
 			this.activa=true;
 		}
 	}
+	public void Consignar(float eur) {
+		super.Consignar(eur);
+		if(saldo>=10000) {
+			activa=true;
+		}
+		else {
+			activa=false;
+		}
+	}
 	
 	public void Retirar (float eur) {
+		
 		if(activa==true){
 			super.Retirar(eur);
 		}
+		else {System.out.println("cuenta ahorro NO activa su saldo debe ser mayor a 10000€");}
 	}
 
 	public void ExtractoMensual() {
 		super.ExtractoMensual();
-		if(super.retiros>4) {
-			super.saldo-=1000;
+		if(retiros>4) {
+			saldo-=1000;
 		}
 	}
 	
 	public String toString() {
-		return super.toString()+"\nTransacciones llevadas a cabo: "+(super.consignaciones+super.retiros);
+		return "\n\nCUENTA AHORRO\n\n"+ super.toString()+"\nTransacciones llevadas a cabo: "+(consignaciones+retiros);
 	}
 }
