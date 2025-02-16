@@ -6,7 +6,7 @@ package oop.almacen;
  * ARRAYLIST VENTA
  * Utilizar producto[i] instanceof Ropa          ((Ropa)producto[i].getMaterial())
  * */
-public class Producto {
+public class Producto { 
 	
 	
 
