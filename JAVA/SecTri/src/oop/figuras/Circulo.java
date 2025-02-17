@@ -29,6 +29,10 @@ public class Circulo extends Figura{
 		return super.toString()+"\nRadio: "+radio+"\nArea: "+Area()+"\nPerimetro: "+Perimetro();	
 		}
 	
+	public String C() {
+		return "CIRCULO";
+	}
+	
 	
 	
 	

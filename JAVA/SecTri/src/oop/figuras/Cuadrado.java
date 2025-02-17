@@ -35,5 +35,9 @@ public class Cuadrado extends Figura {
 	public String toString() {
 	return super.toString()+"\nLado: "+lado+"\nArea: "+Area()+"\nPerimetro: "+Perimetro();	
 	}
+	
+	public String I() {
+		return "CUADRADO";
+	}
 
 }

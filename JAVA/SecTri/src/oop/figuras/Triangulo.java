@@ -38,5 +38,8 @@ public class Triangulo extends Figura {
 	public String toString() {
 		return super.toString()+"\nBase: "+base+" Altura: "+altura+"\nArea: "+Area()+"\nPerimetro: "+Perimetro();	
 		}
+	public String T() {
+		return "TRIANGULO";
+	}
 
 }

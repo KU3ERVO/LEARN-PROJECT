@@ -12,12 +12,18 @@ public class TestFiguras {
 		
 		fa[0]=c1;
 		fa[1]=t1;
-		fa[2]=t1;
+		fa[2]=c2;
 		fa[3]=c2;
 		
 		
 		for (int i = 0;i<fa.length;i++) {
 		System.out.println(fa[i].toString());}
+		
+		for(Figura f : fa) {
+			if(f instanceof Cuadrado) {
+				System.out.println("\n\n"+((Cuadrado)f).I());
+			}
+		}
 	}
 
 }
