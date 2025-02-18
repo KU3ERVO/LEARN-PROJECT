@@ -30,8 +30,8 @@ public class Producto {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	public double getPrecio() {
-		return precio;
+	public double calcPrecio() {
+		return 0;
 	}
 	public void setPrecio(double precio) {
 		this.precio = precio;

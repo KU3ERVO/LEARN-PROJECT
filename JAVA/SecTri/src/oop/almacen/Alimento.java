@@ -12,5 +12,8 @@ public class Alimento extends Producto {
 			this.caducidad=caducidad;
 		}
 	}
+	public double calcPrecio() {
+		return precio;
+	}
 
 }

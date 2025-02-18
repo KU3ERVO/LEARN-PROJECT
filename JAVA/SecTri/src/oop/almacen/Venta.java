@@ -2,7 +2,7 @@ package oop.almacen;
 
 public class Venta {
 	
-	private int ventaId,i=0;
+	private int ventaId,contProducto=0;
 	private Producto [] productos;
 	
 	public Venta(int ventaId) {
@@ -11,23 +11,15 @@ public class Venta {
 	}
 	
 	public void addProducto (Producto p) {
-		if(i<productos.length) {
-		productos [i] = p;
-		i++;}
+		if(contProducto<productos.length) {
+		productos [contProducto] = p;
+		contProducto++;}
 	}
 	
 	public double suma() {
 		double suma = 0;
-		for(Producto p : productos) {
-			if(p instanceof Ropa) {
-				suma+=((Ropa)p).getPrecio();
-			}
-			if(p instanceof Alimento) {
-				suma+=((Alimento)p).getPrecio();
-			}
-			if(p instanceof Electronica) {
-				suma+=((Electronica)p).getPrecio();
-			}
+		for(int i = 0;i<this.contProducto;i++) {
+			suma+=productos[i].calcPrecio();
 		}
 		
 		return suma;

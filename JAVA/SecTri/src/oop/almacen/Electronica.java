@@ -17,5 +17,9 @@ public class Electronica extends Producto {
 		if(plus>=0&&plus<=1) {
 		this.plus = plus;}
 	}
+	
+	public double calcPrecio() {
+		return precio+=precio*plus;
+	}
 
 }

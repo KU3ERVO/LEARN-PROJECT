@@ -16,6 +16,9 @@ public class Ropa extends Producto {
 	public void setMaterial(String material) {
 		this.material = material;
 	}
+	public double calcPrecio() {
+		return precio;
+	}
 	
 	
 
