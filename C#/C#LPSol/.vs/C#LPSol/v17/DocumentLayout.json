@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|m:\\anhe\\dam\\primeros pasos\\learn-project\\c#\\c#lpsol\\c#lp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|solutionrelative:c#lp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Program.cs",
+              "RelativeDocumentMoniker": "C#LP\\Program.cs",
+              "ToolTip": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Program.cs",
+              "RelativeToolTip": "C#LP\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T16:48:13.196Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
