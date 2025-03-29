@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\mañana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\C#LP.csproj": {}
+    "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\C#LP.csproj": {}
   },
   "projects": {
-    "D:\\mañana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\C#LP.csproj": {
+    "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\C#LP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\mañana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\C#LP.csproj",
+        "projectUniqueName": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\C#LP.csproj",
         "projectName": "C#LP",
-        "projectPath": "D:\\mañana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\C#LP.csproj",
-        "packagesPath": "C:\\Users\\DAM2_Diurno\\.nuget\\packages\\",
-        "outputPath": "D:\\mañana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\obj\\",
+        "projectPath": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\C#LP.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DAM2_Diurno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
