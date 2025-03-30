@@ -1,5 +1,4 @@
-﻿using System;
-
+﻿/*using System;
 class Program
 {
 
@@ -9,7 +8,7 @@ class Program
         return a + b;
 
     }
-
+    
     int Add(int a, int b, int c)
     {
 
@@ -23,11 +22,6 @@ class Program
         return a * b;
 
     }
-
-
-
-    static void Main(string[] args)
-    {
         Console.WriteLine("Hello world");
      
         int a = int.Parse(Console.ReadLine());
@@ -61,6 +55,6 @@ class Program
         }
     
     
-    }
+    
       
-}
+}*/
