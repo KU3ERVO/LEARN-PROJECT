@@ -2,7 +2,7 @@
 
 namespace Excercises
 {
-    class Player
+    public class Player
     {
         public double health { get; private set; }
         public string name { get; set; }
@@ -15,6 +15,6 @@ namespace Excercises
             this.name = name;
         }
 
-        public string ToString() { return $"{name}\n\nPower: {power}\nHp: {health}"; }
+        public virtual string ToString() { return $"\n\n{name}\n\nPower: {power}\nHp: {health}"; }
     }
 }
