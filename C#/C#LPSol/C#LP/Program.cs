@@ -57,4 +57,48 @@ class Program
     
     
       
-}*/
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ✅ Exercise 10: "Delegates & Events (Like Unreal’s Events)"
+
+Create a delegate that represents a function: OnTakeDamage(int amount).
+
+Subscribe a method to this delegate and call it when a character takes damage.
+
+🔴 Level 3: C# Intermediate Concepts for Unity
+✅ Exercise 11: "Static vs Instance Members"
+
+Create a static GameManager class that tracks the number of players.
+
+Compare static members in C# vs Java.
+
+✅ Exercise 12: "LINQ (Advanced List Manipulation)"
+
+Given a list of numbers, use LINQ to:
+
+Find even numbers
+
+Sort them
+
+Return the highest value
+
+✅ Exercise 13: "File Handling (Save & Load)"
+
+Write a JSON save system that stores Player stats to a file and loads them back.
+
+✅ Exercise 14: "Multi-threading & Async/Await (Performance)"
+
+Write a function that simulates a long-running task using Task.Delay(2000).
+
+Run it asynchronously using async and await.*/

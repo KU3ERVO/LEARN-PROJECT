@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|m:\\anhe\\dam\\primeros pasos\\learn-project\\c#\\c#lpsol\\c#lp\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|solutionrelative:c#lp\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|m:\\anhe\\dam\\primeros pasos\\learn-project\\c#\\c#lpsol\\c#lp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|solutionrelative:c#lp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|m:\\anhe\\dam\\primeros pasos\\learn-project\\c#\\c#lpsol\\c#lp\\playermain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|solutionrelative:c#lp\\playermain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|m:\\anhe\\dam\\primeros pasos\\learn-project\\c#\\c#lpsol\\c#lp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|solutionrelative:c#lp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|m:\\anhe\\dam\\primeros pasos\\learn-project\\c#\\c#lpsol\\c#lp\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|solutionrelative:c#lp\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|m:\\anhe\\dam\\primeros pasos\\learn-project\\c#\\c#lpsol\\c#lp\\icharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|solutionrelative:c#lp\\icharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|m:\\anhe\\dam\\primeros pasos\\learn-project\\c#\\c#lpsol\\c#lp\\c#lp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICharacter.cs",
+              "DocumentMoniker": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\ICharacter.cs",
+              "RelativeDocumentMoniker": "C#LP\\ICharacter.cs",
+              "ToolTip": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\ICharacter.cs",
+              "RelativeToolTip": "C#LP\\ICharacter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T22:35:51.694Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -40,46 +57,45 @@
               "RelativeDocumentMoniker": "C#LP\\PlayerMain.cs",
               "ToolTip": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\PlayerMain.cs",
               "RelativeToolTip": "C#LP\\PlayerMain.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-30T14:37:52.55Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Player.cs",
               "DocumentMoniker": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Player.cs",
               "RelativeDocumentMoniker": "C#LP\\Player.cs",
               "ToolTip": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Player.cs",
               "RelativeToolTip": "C#LP\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-30T14:32:06.706Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "C#LP",
+              "DocumentIndex": 4,
+              "Title": "C#LP.csproj",
               "DocumentMoniker": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\C#LP.csproj",
               "RelativeDocumentMoniker": "C#LP\\C#LP.csproj",
               "ToolTip": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\C#LP.csproj",
               "RelativeToolTip": "C#LP\\C#LP.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-30T13:09:37.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-30T13:09:37.392Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Program.cs",
               "RelativeDocumentMoniker": "C#LP\\Program.cs",
               "ToolTip": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Program.cs",
               "RelativeToolTip": "C#LP\\Program.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAqwDkAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAwwGcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T16:48:13.196Z",
               "EditorCaption": ""

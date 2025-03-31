@@ -9,7 +9,6 @@ namespace Excercises
         {
             Player p1 = new Player(200,"Jhon");
             Console.WriteLine(p1.ToString());
-            
 
             Mage m1 = new Mage(300, "Baldur","Disgust");
             Warrior w1 = new Warrior(100, "Rien", "Sword");
@@ -25,7 +24,7 @@ namespace Excercises
 
             foreach (Player p in players)
             {
-                Console.WriteLine($"\n\n{p.name}");
+                Console.WriteLine($"\n\n{p.name}\n{p.Attack()} y {p.Move(1)}");
             }
             Console.ReadLine();
         }

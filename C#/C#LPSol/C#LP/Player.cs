@@ -2,7 +2,7 @@
 
 namespace Excercises
 {
-    public class Player
+    public class Player : ICharacter
     {
         public double health { get; private set; }
         public string name { get; set; }
@@ -16,5 +16,15 @@ namespace Excercises
         }
 
         public virtual string ToString() { return $"\n\n{name}\n\nPower: {power}\nHp: {health}"; }
+
+        public int Attack()
+        {
+            return power;
+        }
+
+        public int Move(int amount)
+        {
+            return amount;
+        }
     }
 }
