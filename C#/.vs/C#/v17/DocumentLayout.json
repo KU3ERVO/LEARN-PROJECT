@@ -1,117 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\PlayerMain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:C#LPSol\\C#LP\\PlayerMain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:C#LPSol\\C#LP\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:C#LPSol\\C#LP\\Warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:C#LPSol\\C#LP\\Mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:C#LPSol\\C#LP\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\C#LP.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:C#LPSol\\C#LP\\C#LP.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Program.cs",
-              "RelativeDocumentMoniker": "C#LPSol\\C#LP\\Program.cs",
-              "ToolTip": "D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Program.cs",
-              "RelativeToolTip": "C#LPSol\\C#LP\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T06:59:46.115Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Warrior.cs",
-              "DocumentMoniker": "D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Warrior.cs",
-              "RelativeDocumentMoniker": "C#LPSol\\C#LP\\Warrior.cs",
-              "ToolTip": "D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Warrior.cs",
-              "RelativeToolTip": "C#LPSol\\C#LP\\Warrior.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T06:53:12.497Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerMain.cs",
-              "DocumentMoniker": "D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\PlayerMain.cs",
-              "RelativeDocumentMoniker": "C#LPSol\\C#LP\\PlayerMain.cs",
-              "ToolTip": "D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\PlayerMain.cs",
-              "RelativeToolTip": "C#LPSol\\C#LP\\PlayerMain.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T06:52:42.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Mage.cs",
-              "DocumentMoniker": "D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Mage.cs",
-              "RelativeDocumentMoniker": "C#LPSol\\C#LP\\Mage.cs",
-              "ToolTip": "D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Mage.cs",
-              "RelativeToolTip": "C#LPSol\\C#LP\\Mage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T06:39:11.288Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Player.cs",
-              "DocumentMoniker": "D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Player.cs",
-              "RelativeDocumentMoniker": "C#LPSol\\C#LP\\Player.cs",
-              "ToolTip": "D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Player.cs",
-              "RelativeToolTip": "C#LPSol\\C#LP\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T06:38:18.891Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "C#LP.csproj",
-              "DocumentMoniker": "D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\C#LP.csproj",
-              "RelativeDocumentMoniker": "C#LPSol\\C#LP\\C#LP.csproj",
-              "ToolTip": "D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\C#LP.csproj",
-              "RelativeToolTip": "C#LPSol\\C#LP\\C#LP.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-28T10:38:16.515Z"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

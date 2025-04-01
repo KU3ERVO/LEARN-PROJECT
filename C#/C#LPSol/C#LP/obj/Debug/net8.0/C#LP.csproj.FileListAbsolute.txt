@@ -1,18 +1,3 @@
-M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\C#LPSol\C#LP\bin\Debug\net8.0\C#LP.exe
-M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\C#LPSol\C#LP\bin\Debug\net8.0\C#LP.deps.json
-M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\C#LPSol\C#LP\bin\Debug\net8.0\C#LP.runtimeconfig.json
-M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\C#LPSol\C#LP\bin\Debug\net8.0\C#LP.dll
-M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\C#LPSol\C#LP\bin\Debug\net8.0\C#LP.pdb
-M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\C#LPSol\C#LP\obj\Debug\net8.0\C#LP.GeneratedMSBuildEditorConfig.editorconfig
-M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\C#LPSol\C#LP\obj\Debug\net8.0\C#LP.AssemblyInfoInputs.cache
-M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\C#LPSol\C#LP\obj\Debug\net8.0\C#LP.AssemblyInfo.cs
-M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\C#LPSol\C#LP\obj\Debug\net8.0\C#LP.csproj.CoreCompileInputs.cache
-M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\C#LPSol\C#LP\obj\Debug\net8.0\C#LP.sourcelink.json
-M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\C#LPSol\C#LP\obj\Debug\net8.0\C#LP.dll
-M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\C#LPSol\C#LP\obj\Debug\net8.0\refint\C#LP.dll
-M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\C#LPSol\C#LP\obj\Debug\net8.0\C#LP.pdb
-M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\C#LPSol\C#LP\obj\Debug\net8.0\C#LP.genruntimeconfig.cache
-M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\C#LPSol\C#LP\obj\Debug\net8.0\ref\C#LP.dll
 D:\mañana no tocar\LEARN-PROJECT\C#\C#LPSol\C#LP\bin\Debug\net8.0\C#LP.exe
 D:\mañana no tocar\LEARN-PROJECT\C#\C#LPSol\C#LP\bin\Debug\net8.0\C#LP.deps.json
 D:\mañana no tocar\LEARN-PROJECT\C#\C#LPSol\C#LP\bin\Debug\net8.0\C#LP.runtimeconfig.json

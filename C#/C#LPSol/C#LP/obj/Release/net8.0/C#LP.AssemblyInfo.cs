@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("C#LP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ab2f9e17aff1d66374f298d350ffd8d09695603")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4340e9133c51787822a44520525f36322515b427")]
 [assembly: System.Reflection.AssemblyProductAttribute("C#LP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("C#LP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

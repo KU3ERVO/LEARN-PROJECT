@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace Excercises
 {
@@ -7,10 +6,10 @@ namespace Excercises
     {
         static void Main(string[] args)
         {
-            Player p1 = new Player(200,"Jhon");
+            Player p1 = new Player(200, "Jhon");
             Console.WriteLine(p1.ToString());
 
-            Mage m1 = new Mage(300, "Baldur","Disgust");
+            Mage m1 = new Mage(300, "Baldur", "Disgust");
             Warrior w1 = new Warrior(100, "Rien", "Sword");
             Console.WriteLine(m1.ToString());
             Console.WriteLine(w1.ToString());
@@ -26,7 +25,16 @@ namespace Excercises
             {
                 Console.WriteLine($"\n\n{p.name}\n{p.Attack()} y {p.Move(1)}");
             }
+
+            m1.Collision(w1);
+
+            Console.WriteLine(m1.health);
+
+            Console.WriteLine("\nNUMBER OF PLAYERS: "+GameManager.playerCount);
+
             Console.ReadLine();
+
+
         }
     }
 }
