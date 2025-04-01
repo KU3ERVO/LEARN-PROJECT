@@ -12,7 +12,7 @@ namespace Excercises
         }
         public static void RemovePlayer()
         {
-            playerCount--;
+            playerCount--; 
         }
     }
 }

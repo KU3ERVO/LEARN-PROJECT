@@ -1,76 +1,100 @@
-﻿/*using System;
-class Program
+﻿using System;
+using System.Collections.Generic;
+
+namespace Basic
 {
-
-    int Add(int a, int b)
+    class Program
     {
 
-        return a + b;
-
-    }
-    
-    int Add(int a, int b, int c)
-    {
-
-        return a + b + c;
-
-    }
-
-    double Add(double a, double b)
-    {
-
-        return a * b;
-
-    }
-        Console.WriteLine("Hello world");
-     
-        int a = int.Parse(Console.ReadLine());
-        double b = double.Parse(Console.ReadLine());  
-        string c = Console.ReadLine();
-        bool d = bool.Parse(Console.ReadLine());
-
-        Console.WriteLine(a + b + c + d);
-
-        Console.WriteLine($"wha ha hape {a} to lady jane {b} {c}");
-
-        while (a < 10)
+        public static void Main(string[] args)
         {
 
-            for (int i = 0; i < 10; i++)
+            int Add(int a, int b)
             {
-                Console.WriteLine(c);
+
+                return a + b;
+
             }
-            a++;
-        }
 
-        List<int> list = new List<int>();
-        
-        list.Add(a);
-        list.Add(5);
+            int Add1(int a, int b, int c)
+            {
 
-        foreach (int i in list) {
-            
-            Console.WriteLine("\n"+i);
+                return a + b + c;
+
+            }
+
+            double Add2(double a, double b)
+            {
+
+                return a * b;
+
+            }
+            Console.WriteLine("Hello world");
+
+            int a = int.Parse(Console.ReadLine());
+            double b = double.Parse(Console.ReadLine());
+            string c = Console.ReadLine();
+            bool d = bool.Parse(Console.ReadLine());
+
+            Console.WriteLine(a + b + c + d);
+
+            Console.WriteLine($"wha ha hape {a} to lady jane {b} {c}");
+
+            while (a < 10)
+            {
+
+                for (int i = 0; i < 10; i++)
+                {
+                    Console.WriteLine(c);
+                }
+                a++;
+            }
+
+            List<int> list = new List<int>();
+
+            list.Add(a);
+            list.Add(5);
+
+            foreach (int i in list)
+            {
+
+                Console.WriteLine("\n" + i);
+
+            }
+            //12
+            int[] nums = { 3, 7, 8, 9, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24 };
+
+            var numQ = (from x in nums
+                                where ((x % 2) == 0)
+                                orderby x descending
+                                select x ).Take(3);
+
+            foreach (int x in numQ)
+            {
+
+                Console.WriteLine(x);
+
+            }
+
         
+
         }
-    
-    
-    
-      
+    }
+
 }
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- ✅ Exercise 10: "Delegates & Events (Like Unreal’s Events)"
+
+
+
+
+
+
+
+
+
+
+
+/* ✅ Exercise 10: "Delegates & Events (Like Unreal’s Events)"
 
 Create a delegate that represents a function: OnTakeDamage(int amount).
 
