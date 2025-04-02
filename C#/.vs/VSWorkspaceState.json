@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\C#LPSol"
+    "\\C#LPSol",
+    "\\C#LPSol\\C#LP"
   ],
-  "SelectedNode": "\\C#LPSol\\C#LPSol.sln",
+  "SelectedNode": "\\C#LPSol\\C#LP\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

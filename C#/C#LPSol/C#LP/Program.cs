@@ -6,7 +6,7 @@ namespace Basic
     class Program
     {
 
-        public static void Main(string[] args)
+/*        public static void Main(string[] args)
         {
 
             int Add(int a, int b)
@@ -67,7 +67,7 @@ namespace Basic
             var numQ = (from x in nums
                                 where ((x % 2) == 0)
                                 orderby x descending
-                                select x ).Take(3);
+                                select x ).Take(5);
 
             foreach (int x in numQ)
             {
@@ -83,39 +83,6 @@ namespace Basic
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/* ✅ Exercise 10: "Delegates & Events (Like Unreal’s Events)"
-
-Create a delegate that represents a function: OnTakeDamage(int amount).
-
-Subscribe a method to this delegate and call it when a character takes damage.
-
-🔴 Level 3: C# Intermediate Concepts for Unity
-✅ Exercise 11: "Static vs Instance Members"
-
-Create a static GameManager class that tracks the number of players.
-
-Compare static members in C# vs Java.
-
-✅ Exercise 12: "LINQ (Advanced List Manipulation)"
-
-Given a list of numbers, use LINQ to:
-
-Find even numbers
-
-Sort them
-
-Return the highest value
 
 ✅ Exercise 13: "File Handling (Save & Load)"
 

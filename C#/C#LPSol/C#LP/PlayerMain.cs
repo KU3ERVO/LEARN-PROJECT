@@ -1,4 +1,4 @@
-﻿/*using System;
+﻿using System;
 
 namespace Excercises
 {
@@ -30,7 +30,7 @@ namespace Excercises
 
             Console.WriteLine(m1.health);
 
-            Console.WriteLine("\nNUMBER OF PLAYERS: "+GameManager.playerCount);
+            Console.WriteLine("\nNUMBER OF PLAYERS: " + GameManager.playerCount);
 
             Console.ReadLine();
 
@@ -38,4 +38,3 @@ namespace Excercises
         }
     }
 }
-*/
