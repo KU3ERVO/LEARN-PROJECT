@@ -32,6 +32,17 @@ namespace Excercises
 
             Console.WriteLine("\nNUMBER OF PLAYERS: " + GameManager.playerCount);
 
+            w1.Save();
+
+            w1.name = "ELDELGAS";
+            w1.power = 300000000;
+
+            Console.WriteLine(w1.ToString());
+
+            w1.Load();
+
+            Console.WriteLine(w1.ToString() );
+
             Console.ReadLine();
 
 

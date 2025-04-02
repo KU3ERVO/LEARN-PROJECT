@@ -4,7 +4,8 @@ using System.Collections.Generic;
 namespace Basic
 {
     class Program
-    {
+    { }
+}
 
 /*        public static void Main(string[] args)
         {

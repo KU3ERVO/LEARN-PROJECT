@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace Excercises
 {
@@ -27,6 +28,25 @@ namespace Excercises
         public int Move(int amount)
         {
             return amount;
+        }
+
+        public void Save() {
+
+            File.WriteAllText("M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\save.txt",(this.name + ","+ this.health + ","+ this.power) );
+        
+        }
+
+        public void Load()
+        {
+
+            string data = File.ReadAllText("M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\save.txt");
+
+            string[] datarray = data.Split(',');
+
+            name = datarray[0];
+            health = double.Parse(datarray[1]);
+            power = int.Parse(datarray[2]);
+
         }
 
         public delegate void TakeDamage(int amount);

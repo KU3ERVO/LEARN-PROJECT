@@ -13,7 +13,7 @@ namespace Excercises
 
         public override string ToString()
         {
-            return base.ToString() + $"\nSpell: {weapon}";
+            return base.ToString() + $"\nWeapon: {weapon}";
         }
     }
 }
