@@ -49,6 +49,14 @@ namespace Excercises
 
         }
 
+        public static async Task Rem() {
+
+            Console.WriteLine("START");
+            await Task.Delay(3000);
+            Console.WriteLine("FINISH");
+
+        }
+
         public delegate void TakeDamage(int amount);
 
         public event TakeDamage TakeDamageEvent;

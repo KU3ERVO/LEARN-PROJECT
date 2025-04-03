@@ -3,36 +3,16 @@
   "WorkspaceRootPath": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|m:\\anhe\\dam\\primeros pasos\\learn-project\\c#\\c#lpsol\\c#lp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|solutionrelative:c#lp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\AsyncMain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:C#LP\\AsyncMain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|m:\\anhe\\dam\\primeros pasos\\learn-project\\c#\\c#lpsol\\c#lp\\save.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|solutionrelative:c#lp\\save.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\C#LP.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:C#LP\\C#LP.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|m:\\anhe\\dam\\primeros pasos\\learn-project\\c#\\c#lpsol\\c#lp\\playermain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|solutionrelative:c#lp\\playermain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|m:\\anhe\\dam\\primeros pasos\\learn-project\\c#\\c#lpsol\\c#lp\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|solutionrelative:c#lp\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|m:\\anhe\\dam\\primeros pasos\\learn-project\\c#\\c#lpsol\\c#lp\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|solutionrelative:c#lp\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|m:\\anhe\\dam\\primeros pasos\\learn-project\\c#\\c#lpsol\\c#lp\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|solutionrelative:c#lp\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|m:\\anhe\\dam\\primeros pasos\\learn-project\\c#\\c#lpsol\\c#lp\\icharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|solutionrelative:c#lp\\icharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|m:\\anhe\\dam\\primeros pasos\\learn-project\\c#\\c#lpsol\\c#lp\\mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|solutionrelative:c#lp\\mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:C#LP\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\AppData\\Local\\SourceServer\\0309316ab90f07f335b00500f8dfc79acf19b3ad36b9c4e65207dd4d1aeaabfc\\C#\\C#LPSol\\C#LP\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -45,7 +25,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -53,83 +33,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "save.txt",
-              "DocumentMoniker": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\save.txt",
-              "RelativeDocumentMoniker": "C#LP\\save.txt",
-              "ToolTip": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\save.txt",
-              "RelativeToolTip": "C#LP\\save.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-02T23:07:10.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ICharacter.cs",
-              "DocumentMoniker": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\ICharacter.cs",
-              "RelativeDocumentMoniker": "C#LP\\ICharacter.cs",
-              "ToolTip": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\ICharacter.cs",
-              "RelativeToolTip": "C#LP\\ICharacter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T17:35:08.884Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Warrior.cs",
-              "DocumentMoniker": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Warrior.cs",
-              "RelativeDocumentMoniker": "C#LP\\Warrior.cs",
-              "ToolTip": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Warrior.cs",
-              "RelativeToolTip": "C#LP\\Warrior.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T17:24:16.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Player.cs",
-              "DocumentMoniker": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Player.cs",
-              "RelativeDocumentMoniker": "C#LP\\Player.cs",
-              "ToolTip": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Player.cs",
-              "RelativeToolTip": "C#LP\\Player.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T11:13:53.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "GameManager.cs",
               "DocumentMoniker": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\GameManager.cs",
               "RelativeDocumentMoniker": "C#LP\\GameManager.cs",
               "ToolTip": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\GameManager.cs",
               "RelativeToolTip": "C#LP\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T11:06:54.178Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerMain.cs",
-              "DocumentMoniker": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\PlayerMain.cs",
-              "RelativeDocumentMoniker": "C#LP\\PlayerMain.cs",
-              "ToolTip": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\PlayerMain.cs",
-              "RelativeToolTip": "C#LP\\PlayerMain.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwCUAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T10:53:39.404Z",
+              "WhenOpened": "2025-04-03T23:24:26.721Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
+              "Title": "AsyncMain.cs",
+              "DocumentMoniker": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\AsyncMain.cs",
+              "RelativeDocumentMoniker": "C#LP\\AsyncMain.cs",
+              "ToolTip": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\AsyncMain.cs",
+              "RelativeToolTip": "C#LP\\AsyncMain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T23:24:23.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "C#LP.csproj",
+              "DocumentMoniker": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\C#LP.csproj",
+              "RelativeDocumentMoniker": "C#LP\\C#LP.csproj",
+              "ToolTip": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\C#LP.csproj",
+              "RelativeToolTip": "C#LP\\C#LP.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-03T23:18:49.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\AppData\\Local\\SourceServer\\0309316ab90f07f335b00500f8dfc79acf19b3ad36b9c4e65207dd4d1aeaabfc\\C#\\C#LPSol\\C#LP\\Program.cs",
               "ToolTip": "C:\\Users\\Admin\\AppData\\Local\\SourceServer\\0309316ab90f07f335b00500f8dfc79acf19b3ad36b9c4e65207dd4d1aeaabfc\\C#\\C#LPSol\\C#LP\\Program.cs [Read Only]",
@@ -137,31 +80,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-01T23:45:40.712Z",
               "EditorCaption": " [Read Only]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Program.cs",
-              "RelativeDocumentMoniker": "C#LP\\Program.cs",
-              "ToolTip": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Program.cs",
-              "RelativeToolTip": "C#LP\\Program.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAQwAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T11:19:16.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Mage.cs",
-              "DocumentMoniker": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Mage.cs",
-              "RelativeDocumentMoniker": "C#LP\\Mage.cs",
-              "ToolTip": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Mage.cs",
-              "RelativeToolTip": "C#LP\\Mage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T10:54:17.934Z"
             }
           ]
         }

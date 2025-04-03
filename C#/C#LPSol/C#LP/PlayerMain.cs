@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography;
 
 namespace Excercises
 {
@@ -8,6 +9,8 @@ namespace Excercises
         {
             Player p1 = new Player(200, "Jhon");
             Console.WriteLine(p1.ToString());
+
+
 
             Mage m1 = new Mage(300, "Baldur", "Disgust");
             Warrior w1 = new Warrior(100, "Rien", "Sword");
