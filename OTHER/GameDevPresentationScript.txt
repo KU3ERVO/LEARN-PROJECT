@@ -1,0 +1,31 @@
+PORTADA
+Intro what are we going to talk about
+HYPE----->GDD (paperwork)
+
+WHAT IS CONSIDERED A GAME and VIDEOGAME 
+HOW (unity,unreal engine,godot,c#,c++,python)
+
+FUNDAMENTALS(with examples)
+
+GAME FEEL(user exp,communication,enhancements sounds slow motion etc)
+-mario(the golden standart)
+-dark souls(heavy feels hopeless)
+-hollow knight(satisfying combat, fast, dinamic)
+
+GAME MECHANICS----->GAMEPLAY
+-zelda(adventure and exploration)
+-minecraft(create anything you want)
+-metroid(metroidvania)
+
+ART DIRECTION (music,concept art,3d,script)
+-cuphead(1930s animation)
+-LoL(character design, narrative)
+-journey(visual magnificence)
+
+PROCESS---------->GDD
+market(who is this for)----->brainstorming----->design GDD-------->creation-------->publication
+
+
+CONCLUSION (very extensive topic, we will not talk about: monetization, multiplayer,new tech)
+
+QUESTIONS
