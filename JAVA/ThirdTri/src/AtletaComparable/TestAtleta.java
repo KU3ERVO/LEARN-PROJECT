@@ -14,9 +14,9 @@ public class TestAtleta {
 		Atleta a4 = new Atleta(15, "Luis");
 
 		Atleta [] atletas = new Atleta[]{a3,a2,a1,a4};
-		
+
 		System.out.println("\n\n\n ARRAY DESORDENADO");
-		
+
 		for(Atleta a : atletas) {
 
 			System.out.println(a.toString());
@@ -24,7 +24,7 @@ public class TestAtleta {
 		}
 
 		Arrays.sort(atletas);
-		
+
 		System.out.println("\n\n\n ARRAY ORDENADO");
 
 		for(Atleta a : atletas) {
@@ -32,26 +32,36 @@ public class TestAtleta {
 			System.out.println(a.toString());
 
 		}
-		
+
 		ArrayList<Atleta> atletas2 = new ArrayList<Atleta>();
-		
+
 		atletas2.add(a4);
 		atletas2.add(a1);
 		atletas2.add(a3);
 		atletas2.add(a2);
-		
+
 		System.out.println("\n\n\n ARRAYLIST DESORDENADO");
-		
+
 		for(Atleta a : atletas2) {
 
 			System.out.println(a.toString());
 
 		}
-		
+
 		Collections.sort(atletas2);
-		
-		System.out.println("\n\n\n ARRAYLIST ORDENADO");
-		
+
+		System.out.println("\n\n\n ARRAYLIST ORDENADO TIEMPOS");
+
+		for(Atleta a : atletas2) {
+
+			System.out.println(a.toString());
+
+		}
+
+		Collections.sort(atletas2, new ComparadorEdad());
+
+		System.out.println("\n\n\n ARRAYLIST ORDENADO NOMBRE");
+
 		for(Atleta a : atletas2) {
 
 			System.out.println(a.toString());

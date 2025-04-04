@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 
 namespace Basic
@@ -9,9 +10,20 @@ namespace Basic
 
         public static async Task Main()
         {
+            Async a1 = new Async();
+            Async a2 = new Async();
+            MyDelegate m1 = new MyDelegate();
+
+
+            var task1 = a1.Delay();
+            var task2 = a2.Delay();
+            var task3 = m1.printDelegate.GetInvocationList().Select(del=>((MyDelegate.PrintDelegate)del)("I CANT BELIEVE IT I DID IT")).ToArray();
+
+            ArrayList tasks = new ArrayList() {task1,task2,task3 };
 
             Console.WriteLine("XDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD");
 
+            await Task.WhenAll(task1,task2,Task.WhenAll(task3));
         }
     }
 }
@@ -93,30 +105,7 @@ namespace Basic
 
 }
 
-✅ Exercise 14: "Multi-threading & Async/Await (Performance)"
-
-Write a function that simulates a long-running task using Task.Delay(2000).
-
-Run it asynchronously using async and await.
- 
  🔥 Additional Exercises: Events & Delegates (Deep Dive!)
-✅ Exercise 15: "Basic Delegate Example"
-
-Define a delegate public delegate void MyDelegate(string message);.
-
-Create a method that prints "Hello, " + message.
-
-Assign it to a delegate variable and invoke it.
-
-✅ Exercise 16: "Multicast Delegates (Chaining Methods)"
-
-Create two methods:
-
-SayHello() → Prints "Hello!"
-
-SayGoodbye() → Prints "Goodbye!"
-
-Use a multicast delegate so both run when invoked.
 
 ✅ Exercise 17: "Events & Subscribers"
 

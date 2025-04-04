@@ -4,7 +4,6 @@ public class Circulo extends Figura implements Colorear {
 
 	public Circulo(int x, int y) {
 		super(x, y);
-		this.color="azul";
 	}
 
 	public double Area() {

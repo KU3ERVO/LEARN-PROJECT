@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Security.Cryptography;
 
-namespace Excercises
+/*namespace Excercises
 {
     class PlayerMain
     {
@@ -52,3 +52,4 @@ namespace Excercises
         }
     }
 }
+*/

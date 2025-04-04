@@ -8,6 +8,7 @@ public abstract class Figura {
 	public Figura(int x,int y) {
 		this.x=x;
 		this.y=y;
+		this.color="azur";
 	}
 
 	public String toString() {

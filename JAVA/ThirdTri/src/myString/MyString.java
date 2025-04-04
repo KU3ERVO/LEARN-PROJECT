@@ -1,47 +1,72 @@
 package myString;
 
+import java.util.ArrayList;
 public class MyString {
 
 	private char[] cadena;
 	private String mystring;
 
-	public MyString(String cadena)
+	public MyString()
 	{
-
+		for(char c : this.cadena)
+		{
+			this.mystring+=c;
+		}
+		
 	}
 
 	public MyString(char[] cadena)
 	{        
-
-		String mystring = "";
-
-		for(char c : cadena) {
-
-			mystring += c;
-
+		this.cadena=cadena;
+		for(char c : this.cadena)
+		{
+			this.mystring+=c;
 		}
-
 	}
 
 	public MyString(ArrayList<Character> cadena)
 	{
+		 this.cadena = new char[cadena.size()];
+		    for (Character c : cadena) {
+		        this.cadena[c] = cadena.get(c);
+		    }
+		    for(char c : this.cadena)
+			{
+				this.mystring+=c;
+			}
 	}
+	
+	
+	
+	
+	
 
 	public char[] getCadena()
 	{
+		
+		return this.cadena;
 
 	}
 
 	public char myCharAt(int i) throws Exception
 	{
+		
+		return this.mystring.charAt(i);
+		
 	}
 
 	public int myCompareTo(MyString cadena2)
 	{
+		
+		return this.mystring.compareTo(cadena2.mystring);
+		
 	}
 
 	public int myCompareToIgnoreCase(MyString cadena2)
 	{
+		
+		return this.mystring.compareToIgnoreCase(cadena2.mystring);
+		
 	}  
 
 	public void myConcat(MyString cadena2)
@@ -50,14 +75,22 @@ public class MyString {
 
 	public int myIndexOf(int caracter)
 	{
+		
+		return mystring.indexOf(caracter);
+		
 	}
 
 	public int myLastIndexOf(int caracter)
 	{
+		
+		return mystring.lastIndexOf(caracter);
+		
 	}
 
 	public int myLength()
 	{
+		
+		return mystring.length();
 
 	}
 
@@ -73,6 +106,9 @@ public class MyString {
 
 	public MyString[] mySplit(char expresion)
 	{
+		
+		return this.mystring.
+		
 	}
 
 

@@ -10,6 +10,22 @@ public class Atleta implements Comparable <Atleta>{
 		this.name = name;
 	}
 
+	public int getSeg() {
+		return seg;
+	}
+
+	public void setSeg(int seg) {
+		this.seg = seg;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
 	public int compareTo(Atleta a) {
 		
 		return seg-a.seg;
