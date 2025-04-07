@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\",
+  "WorkspaceRootPath": "D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|m:\\anhe\\dam\\primeros pasos\\learn-project\\c#\\c#lpsol\\c#lp\\playermain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|d:\\ma\u00F1ana no tocar\\learn-project\\c#\\c#lpsol\\c#lp\\playermain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|solutionrelative:c#lp\\playermain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|m:\\anhe\\dam\\primeros pasos\\learn-project\\c#\\c#lpsol\\c#lp\\asyncmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|d:\\ma\u00F1ana no tocar\\learn-project\\c#\\c#lpsol\\c#lp\\asyncmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|solutionrelative:c#lp\\asyncmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|m:\\anhe\\dam\\primeros pasos\\learn-project\\c#\\c#lpsol\\c#lp\\mydelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|d:\\ma\u00F1ana no tocar\\learn-project\\c#\\c#lpsol\\c#lp\\mydelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|solutionrelative:c#lp\\mydelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|m:\\anhe\\dam\\primeros pasos\\learn-project\\c#\\c#lpsol\\c#lp\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|d:\\ma\u00F1ana no tocar\\learn-project\\c#\\c#lpsol\\c#lp\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|solutionrelative:c#lp\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|m:\\anhe\\dam\\primeros pasos\\learn-project\\c#\\c#lpsol\\c#lp\\async.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|d:\\ma\u00F1ana no tocar\\learn-project\\c#\\c#lpsol\\c#lp\\async.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D07A0C59-41AE-46CB-8C0F-77F1940408B4}|C#LP\\C#LP.csproj|solutionrelative:c#lp\\async.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,19 +30,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PlayerMain.cs",
-              "DocumentMoniker": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\PlayerMain.cs",
+              "DocumentMoniker": "D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\PlayerMain.cs",
               "RelativeDocumentMoniker": "C#LP\\PlayerMain.cs",
-              "ToolTip": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\PlayerMain.cs",
+              "ToolTip": "D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\PlayerMain.cs",
               "RelativeToolTip": "C#LP\\PlayerMain.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -53,53 +49,49 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Class1.cs",
-              "DocumentMoniker": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Class1.cs",
+              "DocumentMoniker": "D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Class1.cs",
               "RelativeDocumentMoniker": "C#LP\\Class1.cs",
-              "ToolTip": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Class1.cs",
+              "ToolTip": "D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Class1.cs",
               "RelativeToolTip": "C#LP\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T10:00:38.175Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T10:00:38.175Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MyDelegate.cs",
-              "DocumentMoniker": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\MyDelegate.cs",
+              "DocumentMoniker": "D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\MyDelegate.cs",
               "RelativeDocumentMoniker": "C#LP\\MyDelegate.cs",
-              "ToolTip": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\MyDelegate.cs",
+              "ToolTip": "D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\MyDelegate.cs",
               "RelativeToolTip": "C#LP\\MyDelegate.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAqwCsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T07:07:50.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T07:07:50.615Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Async.cs",
-              "DocumentMoniker": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Async.cs",
+              "DocumentMoniker": "D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Async.cs",
               "RelativeDocumentMoniker": "C#LP\\Async.cs",
-              "ToolTip": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Async.cs",
+              "ToolTip": "D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\Async.cs",
               "RelativeToolTip": "C#LP\\Async.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T06:26:57.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T06:26:57.232Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "AsyncMain.cs",
-              "DocumentMoniker": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\AsyncMain.cs",
+              "DocumentMoniker": "D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\AsyncMain.cs",
               "RelativeDocumentMoniker": "C#LP\\AsyncMain.cs",
-              "ToolTip": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\AsyncMain.cs",
+              "ToolTip": "D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\AsyncMain.cs",
               "RelativeToolTip": "C#LP\\AsyncMain.cs",
               "ViewState": "AgIAAGcAAAAAAAAAAAAgwHkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T23:24:23.241Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T23:24:23.241Z"
             }
           ]
         }

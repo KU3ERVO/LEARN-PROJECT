@@ -67,6 +67,5 @@ public class TestAtleta {
 			System.out.println(a.toString());
 
 		}
-
 	}
 }

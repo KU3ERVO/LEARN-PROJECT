@@ -14,6 +14,7 @@ namespace TextRPG
         public double attack { get; set; }
         public double defense { get; set; }
 
+
         public Character(double maxHealth,double attack,double defense,string name)
         {
             this.maxHealth = maxHealth;

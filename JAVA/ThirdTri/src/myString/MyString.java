@@ -96,18 +96,14 @@ public class MyString {
 
 	public MyString myReplace(char antiguo, char nuevo)
 	{
+		MyString a = this.mystring.replace(antiguo, nuevo);
+		return a;
 	}
-
-	/*
-	 * public MyString[] mySplit(char expresion)
-	    {
-	    }
-	 */
 
 	public MyString[] mySplit(char expresion)
 	{
-		
-		return this.mystring.
+		MyString [] a = this.mystring.split(expresion);
+		return a;
 		
 	}
 
@@ -115,15 +111,17 @@ public class MyString {
 
 	public MyString mySubstring(int inicio, int fin) throws Exception
 	{
+		return this.mystring.substring(inicio, fin);
 	}
 
 	public MyString myToLowerCase()
 	{
+		this.mystring.toLowerCase();
 	}
 
 	public MyString myToLowerCase(char[] cadena)
 	{
-
+		
 	}
 
 	public MyString myToUpperCase()

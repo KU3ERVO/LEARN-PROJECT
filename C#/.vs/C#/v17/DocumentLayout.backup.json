@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\PlayerMain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:C#LPSol\\C#LP\\PlayerMain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerMain.cs",
+              "DocumentMoniker": "D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\PlayerMain.cs",
+              "RelativeDocumentMoniker": "C#LPSol\\C#LP\\PlayerMain.cs",
+              "ToolTip": "D:\\ma\u00F1ana no tocar\\LEARN-PROJECT\\C#\\C#LPSol\\C#LP\\PlayerMain.cs",
+              "RelativeToolTip": "C#LPSol\\C#LP\\PlayerMain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T11:32:08.147Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
