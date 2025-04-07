@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Basic
 {
-    class Program
+    class  Program
     {
 
 
@@ -14,6 +14,13 @@ namespace Basic
             Async a2 = new Async();
             MyDelegate m1 = new MyDelegate();
 
+            GameManager gm = new GameManager();
+
+            gm.OnStartEvent += m1.multiply;
+
+            await gm.num(3);
+
+            
 
             var task1 = a1.Delay();
             var task2 = a2.Delay();
@@ -24,6 +31,11 @@ namespace Basic
             Console.WriteLine("XDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD");
 
             await Task.WhenAll(task1,task2,Task.WhenAll(task3));
+        }
+
+        private static Task Gm_OnStartEvent(int i)
+        {
+            throw new NotImplementedException();
         }
     }
 }
@@ -106,22 +118,6 @@ namespace Basic
 }
 
  🔥 Additional Exercises: Events & Delegates (Deep Dive!)
-
-✅ Exercise 17: "Events & Subscribers"
-
-Create an EventHandler in a GameManager class.
-
-Subscribe a Player object to listen to "OnGameStart".
-
-Trigger the event in GameManager and see the Player's reaction.
-
-✅ Exercise 18: "Custom Event with Arguments"
-
-Define an event OnPlayerDamaged(int damageAmount).
-
-Trigger it when a player takes damage.
-
-Make multiple subscribers react differently (e.g., UI update, sound effect).
 
 ✅ Exercise 19: "Lambdas & Anonymous Methods"
 

@@ -35,5 +35,16 @@ namespace Basic
 
         }
 
+        public async Task multiply(int i) 
+        {
+            
+            i += 2 * 3 * 6 * 90;
+
+            await Task.Delay(0);
+            Console.WriteLine(i);
+        
+        }
+        
+
     }
 }
