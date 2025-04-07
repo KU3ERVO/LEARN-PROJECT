@@ -8,25 +8,23 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\DAM2_Diurno\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\mañana no tocar\\LEARN-PROJECT\\C#\\TextRPG\\TextRPG\\TextRPG.csproj",
+      "projectUniqueName": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\TextRPG\\TextRPG\\TextRPG.csproj",
       "projectName": "TextRPG",
-      "projectPath": "D:\\mañana no tocar\\LEARN-PROJECT\\C#\\TextRPG\\TextRPG\\TextRPG.csproj",
-      "packagesPath": "C:\\Users\\DAM2_Diurno\\.nuget\\packages\\",
-      "outputPath": "D:\\mañana no tocar\\LEARN-PROJECT\\C#\\TextRPG\\TextRPG\\obj\\",
+      "projectPath": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\TextRPG\\TextRPG\\TextRPG.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\C#\\TextRPG\\TextRPG\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\DAM2_Diurno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

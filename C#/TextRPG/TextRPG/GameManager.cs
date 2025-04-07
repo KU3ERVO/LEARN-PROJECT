@@ -15,9 +15,9 @@ namespace TextRPG
         {
             File.WriteAllLines("save.txt",data);
         }
-        public void Load() 
+        public string Load() 
         {
-            File.ReadAllText("save.txt");
+           return File.ReadAllText("save.txt");
         }
     }
 }
