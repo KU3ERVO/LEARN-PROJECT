@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TextRPG
 {
-    internal class Character
+    public abstract class Character
     {
         public double health { get; set; }
         public double maxHealth { get; set; }
@@ -23,15 +23,15 @@ namespace TextRPG
             this.name = name;
         }
 
-        public double Attack() {
-            return this.attack;
+        public void Attack(Character target) {
+            target.health -= (this.attack - target.defense);
         }
-        public double Defend() {
-            return this.defense; 
+        public void Defend() { 
         }
         public double Heal() {
             this.health += this.maxHealth attack;
             return health;
         }
+        public void 
     }
 }
