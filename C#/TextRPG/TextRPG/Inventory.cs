@@ -10,7 +10,6 @@ namespace TextRPG
     internal class Inventory
     {
 
-        ArrayList<Item>
 
     }
 }

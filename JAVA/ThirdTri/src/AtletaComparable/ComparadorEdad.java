@@ -9,7 +9,4 @@ public class ComparadorEdad implements Comparator<Atleta> {
 		
 		return o1.getName().compareTo(o2.getName());
 	}
-	
-	
-
 }

@@ -9,15 +9,28 @@ namespace TextRPG
 {
     internal class GameManager
     {
-        public GameManager() { }
+        private Player p1 = new Player(2000, 20, 50, "");
 
-        public void Save(string [] data) 
+        public void Start()
         {
-            File.WriteAllLines("save.txt",data);
+
+            Console.WriteLine("WELCOME TO TEXTPG\n\n[1] Start Game\n[2] Load Game");
+
+            var input = Console.ReadLine();
+
+            switch (input)
+            {
+
+                case "1":
+                    Console.WriteLine("THE GAME IS ON");
+                    break;
+
+                case "2":
+                    Console.WriteLine("YOU LOADED GAME X");
+                    break;
+            }
+
         }
-        public string Load() 
-        {
-           return File.ReadAllText("save.txt");
-        }
+
     }
 }

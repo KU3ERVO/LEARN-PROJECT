@@ -15,7 +15,7 @@ namespace TextRPG
         public double defense { get; set; }
 
 
-        public Character(double maxHealth,double attack,double defense,string name)
+        public Character(double maxHealth, double attack, double defense, string name)
         {
             this.maxHealth = maxHealth;
             this.attack = attack;
@@ -23,15 +23,21 @@ namespace TextRPG
             this.name = name;
         }
 
-        public void Attack(Character target) {
+        public void Attack(Character target)
+        {
             target.health -= (this.attack - target.defense);
         }
-        public void Defend() { 
+        public void Defend()
+        {
         }
-        public double Heal() {
-            this.health += this.maxHealth attack;
+        public double Heal()
+        {
+            this.health += attack;
+            if (this.health > maxHealth)
+            {
+                health = maxHealth;
+            }
             return health;
         }
-        public void 
     }
 }

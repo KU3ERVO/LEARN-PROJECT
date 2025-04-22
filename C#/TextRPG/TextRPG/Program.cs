@@ -2,9 +2,10 @@
 {
     public class Program {
 
-        public async Task Main() {
+        public static void Main() {
         
-        
+        GameManager gm = new GameManager();
+            gm.Start();
         
         }
     
