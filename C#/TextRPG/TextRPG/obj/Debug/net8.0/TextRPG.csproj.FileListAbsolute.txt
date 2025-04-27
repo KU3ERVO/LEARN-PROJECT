@@ -13,3 +13,18 @@ D:\mañana no tocar\LEARN-PROJECT\C#\TextRPG\TextRPG\obj\Debug\net8.0\refint\Tex
 D:\mañana no tocar\LEARN-PROJECT\C#\TextRPG\TextRPG\obj\Debug\net8.0\TextRPG.pdb
 D:\mañana no tocar\LEARN-PROJECT\C#\TextRPG\TextRPG\obj\Debug\net8.0\TextRPG.genruntimeconfig.cache
 D:\mañana no tocar\LEARN-PROJECT\C#\TextRPG\TextRPG\obj\Debug\net8.0\ref\TextRPG.dll
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\TextRPG\TextRPG\bin\Debug\net8.0\TextRPG.exe
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\TextRPG\TextRPG\bin\Debug\net8.0\TextRPG.deps.json
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\TextRPG\TextRPG\bin\Debug\net8.0\TextRPG.runtimeconfig.json
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\TextRPG\TextRPG\bin\Debug\net8.0\TextRPG.dll
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\TextRPG\TextRPG\bin\Debug\net8.0\TextRPG.pdb
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\TextRPG\TextRPG\obj\Debug\net8.0\TextRPG.GeneratedMSBuildEditorConfig.editorconfig
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\TextRPG\TextRPG\obj\Debug\net8.0\TextRPG.AssemblyInfoInputs.cache
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\TextRPG\TextRPG\obj\Debug\net8.0\TextRPG.AssemblyInfo.cs
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\TextRPG\TextRPG\obj\Debug\net8.0\TextRPG.csproj.CoreCompileInputs.cache
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\TextRPG\TextRPG\obj\Debug\net8.0\TextRPG.sourcelink.json
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\TextRPG\TextRPG\obj\Debug\net8.0\TextRPG.dll
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\TextRPG\TextRPG\obj\Debug\net8.0\refint\TextRPG.dll
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\TextRPG\TextRPG\obj\Debug\net8.0\TextRPG.pdb
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\TextRPG\TextRPG\obj\Debug\net8.0\TextRPG.genruntimeconfig.cache
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\C#\TextRPG\TextRPG\obj\Debug\net8.0\ref\TextRPG.dll
