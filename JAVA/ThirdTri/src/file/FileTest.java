@@ -2,7 +2,6 @@ package file;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -25,6 +24,7 @@ public class FileTest {
 			System.out.println(a);
 		}
 		
+		fr.close();
 		br.close();
 		
 		FileWriter fw = new FileWriter(path,true);
@@ -35,6 +35,7 @@ public class FileTest {
 		bw.write("TU MATASTE A MI PADRE!!!");
 		
 		bw.close();
+		fw.close();
 
 		fr = new FileReader(path);
         br = new BufferedReader(fr);
@@ -42,6 +43,9 @@ public class FileTest {
 		while((a=br.readLine()) != null) {
 			System.out.println(a);
 		}
+		
+		br.close();
+		fr.close();
 	}
 
 }

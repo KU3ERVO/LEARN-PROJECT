@@ -1,7 +1,6 @@
 package enemyArrayList;
 
 import java.util.ArrayList;
-import java.util.function.Consumer;
 
 public class EnemyTest {
 

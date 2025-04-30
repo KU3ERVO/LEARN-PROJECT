@@ -71,6 +71,7 @@ public class MyString {
 
 	public void myConcat(MyString cadena2)
 	{   
+		this.mystring.concat(cadena2.toString());
 	}
 
 	public int myIndexOf(int caracter)
@@ -96,14 +97,19 @@ public class MyString {
 
 	public MyString myReplace(char antiguo, char nuevo)
 	{
-		MyString a = this.mystring.replace(antiguo, nuevo);
-		return a;
+		return new MyString(this.mystring.replace(antiguo, nuevo).toCharArray());
 	}
 
 	public MyString[] mySplit(char expresion)
 	{
-		MyString [] a = this.mystring.split(expresion);
-		return a;
+		String [] a = this.mystring.split(String.valueOf(expresion));
+		MyString[] as = new MyString [a.length]; 
+		//Añadir los datos al array vacio
+		for (int i = 0; i < a.length; i++) {
+            as[i] = new MyString(a[i].toCharArray());
+        }
+		
+		return as;
 		
 	}
 
@@ -111,33 +117,40 @@ public class MyString {
 
 	public MyString mySubstring(int inicio, int fin) throws Exception
 	{
-		return this.mystring.substring(inicio, fin);
+		return new MyString(this.mystring.substring(inicio, fin).toCharArray());
 	}
 
 	public MyString myToLowerCase()
 	{
-		this.mystring.toLowerCase();
+		return new MyString(this.mystring.toLowerCase().toCharArray());
 	}
 
 	public MyString myToLowerCase(char[] cadena)
 	{
-		
+		return new MyString(cadena.toString().toLowerCase().toCharArray());
 	}
 
 	public MyString myToUpperCase()
 	{
+		return new MyString(this.mystring.toUpperCase().toCharArray());
 	}
 
 	public MyString myTrim()
 	{
+		return new MyString(this.mystring.trim().toCharArray());
 	}
 
 	public void imprimir()
 	{
+		
+		System.out.println(this.mystring);
+		
 	}
 
 	public String myToString()
 	{
+		
+		return this.mystring.toString();
 
 	}
 
