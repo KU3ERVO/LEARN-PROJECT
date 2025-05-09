@@ -58,7 +58,7 @@ namespace TextRPG
             {
                 Console.WriteLine("                                                                        \n\n\n\n\n\n\n\n\n\n\n" +
                                   $" ________________________¬                                        _________________________¬\n" +
-                                  $"| Player {name}          |                                       | ENEMY                   |\n" +
+                                  $"| Player {name,-10}      |                                       | ENEMY                   |\n" +
                                   $"|                        |                                       |                         |\n" +
                                   $"| HP:                    |                                       | HP:                     |\n" +
                                   $"| Attack:                |                                       |                         |\n" +
