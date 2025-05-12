@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -64,7 +65,8 @@ public class EnemyTest {
 
 		Set<Enemy> ts = new TreeSet<>();
 		Set<Enemy> hs = new HashSet<>();
-
+		Set<Enemy> lhs = new LinkedHashSet<>();
+		
 		//Añadir objetos
 		ts.add(demonio);
 		hs.add(goblin);

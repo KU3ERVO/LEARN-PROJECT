@@ -1,6 +1,6 @@
 package excepcion;
 
-public class Excepcion {
+public class Metodo {
 	
 	public void SuperadoEnNumeros (int n) throws SuperiorA1000 {
 		

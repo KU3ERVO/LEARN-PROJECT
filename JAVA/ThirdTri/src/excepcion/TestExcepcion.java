@@ -8,7 +8,7 @@ public static void main(String[]args){
 
 	try {
 
-		Excepcion e1 = new Excepcion();
+		Metodo e1 = new Metodo();
 		e1.SuperadoEnNumeros(1);
 
 	}
