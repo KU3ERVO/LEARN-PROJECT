@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.TreeSet;
@@ -62,7 +63,7 @@ public class EnemyTest {
 
 
 		//Creacion de un treeset y un hashset
-
+/*
 		Set<Enemy> ts = new TreeSet<>();
 		Set<Enemy> hs = new HashSet<>();
 		Set<Enemy> lhs = new LinkedHashSet<>();
@@ -89,7 +90,13 @@ public class EnemyTest {
 		//Cambia los objetos primeros por ultimo
 		Collections.asLifoQueue(null);
 		// Copia todos los elementos de la segunda lista a la primera
-		Collections.copy(wave,wave);
+		Collections.copy(wave,wave);*/
+		
+		Iterator<Enemy> it = wave.iterator();
+		
+		while (it.hasNext()) {			
+			System.out.println(it.next().name);
 	}
 
+	}
 }
