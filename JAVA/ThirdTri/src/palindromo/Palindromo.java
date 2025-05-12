@@ -22,7 +22,7 @@ public class Palindromo {
 		}
 		System.out.println();
 		return pal;
-		c 
+		 
 	}
 
 }

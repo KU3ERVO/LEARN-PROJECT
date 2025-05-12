@@ -1,9 +1,9 @@
 package mySQL;
-connection
+/*connection
 DriverManager
 resultset
 SQLexception
-sqlStatement
+sqlStatement*/
 
 public class Test {
 	
