@@ -76,6 +76,14 @@ namespace TextRPG
                 switch (input)
                 {
                     case "1":
+                        Console.BackgroundColor = ConsoleColor.Red;
+                        Console.Clear();
+                        Thread.Sleep(100);
+                        Console.BackgroundColor = ConsoleColor.White;
+                        Console.Clear();
+                        Thread.Sleep(50);
+                        Console.ResetColor();
+                        Console.Clear();
                         break;
                     case "2":
                         break;
