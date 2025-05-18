@@ -16,7 +16,7 @@ public class Boss extends Enemy {
 	 * @param rareza
 	 */
 	public Boss(String name, int hp, int attack, int defense, int rareza) {
-		super(name = "MALIGNA ESCOBAR", hp = 100, attack = 200, defense = 85, rareza = 5);
+		super(name = "MALIGNA ESCOBAR", hp = 1000, attack = 200, defense = 85, rareza = 5);
 		setRareza(5);
 	}
 

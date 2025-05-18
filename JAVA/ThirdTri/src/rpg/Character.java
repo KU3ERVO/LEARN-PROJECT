@@ -3,6 +3,8 @@
  */
 package rpg;
 
+import java.io.Serializable;
+
 /**
  * @author Angel Miguel Felipe
  * @version 1.0.0
@@ -13,7 +15,7 @@ package rpg;
  * 
  */
 
-public abstract class Character{
+public abstract class Character implements Serializable{
 	
 	private String name;
 	private int hp;
