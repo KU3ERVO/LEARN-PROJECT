@@ -1,26 +1,33 @@
 package rpg;
 
-import java.io.IOException;
 import java.util.Scanner;
-
+/**
+ * @author Angel Miguel Felipe
+ * @version 1.0.0
+ * 
+ * CLASE GAME MANAGER
+ * 
+ * Es la clase más importante con diferencia de un juego.
+ * Incorpora todos los métodos y menús para controlar el estado del juego de una manera ordenada mediante métodos.
+ * 
+ * En esta clase se agregan el jugador,la orda y el escaner que usaremos durante todas las partidas
+ * Se crea el boolean que usaremos como llave para salir al siguiente menu.
+ * 
+ */
 public class GameManager {
 
-	/**
-	 * 
-	 */
 	private Player p1 = new Player("", 2000, 100, 50);
 	private Wave w = new Wave(p1);
 	private boolean exit = false;
 	private Scanner s = new Scanner(System.in);
+	
 
+	/**
+	 * Al crearse el game manager se lanza el inicio del juego
+	 */
 	public GameManager() {
-
 		inicio();
-
 	}
-
-
-
 
 	/**
 	 * @return the p1
@@ -38,6 +45,9 @@ public class GameManager {
 
 
 
+	/**
+	 * Principio de una nueva partida (no sale al cargar partida) nombramos a nuestro personaje.
+	 */
 	public void startGame() {
 
 		p1 = new Player(null, 2000, 100, 50);
@@ -51,6 +61,10 @@ public class GameManager {
 
 		gameLoop();
 	}
+	/**
+	 * Este es el menú de inicio del juego
+	 * Elegimos si creamos una nueva partida o la cargamos o salimos.
+	 */
 	public void inicio(){
 
 		exit = false;
@@ -85,6 +99,11 @@ public class GameManager {
 			}
 		}
 	}
+	/**
+	 * Es el ciclo de juego principal.
+	 * 1.Crea una nueva orda
+	 * 2.Decidimos si combatimos la siguiente orda, hablamos o salimos y guardamos.
+	 */
 	public void gameLoop(){
 
 		exit = false;
@@ -95,7 +114,7 @@ public class GameManager {
 			if(w.getOrda().getLast().isMuerto()==true) {
 				w = new Wave(p1);}
 
-			System.out.println("\n\n[1] COMBATIR\n[2] HABLAR\n[3] SALIR\n");
+			System.out.println("\n\n[1] COMBATIR\n[2] HABLAR\n[3] SALIR Y GUARDAR\n");
 			String input = s.next();
 			switch (input)
 			{
@@ -105,10 +124,10 @@ public class GameManager {
 				break;
 
 			case "2":
-				System.out.println("BIENVENIDO VIAJERO, ESTOS SON LOS DATOS DE LOS ENEMIGOS QUE ENCONTRARÁS POR ORDEN DE ATAQUE:");
 				talk();
 				break;
 			case "3":
+				Serializador.serializar(p1);
 				exit = true;
 				break;
 			default:
@@ -117,6 +136,9 @@ public class GameManager {
 			}
 		}
 	}
+	/**
+	 * Menu principal del combate diseñado para que las cajas se adapten al tamaño de las variables
+	 */
 	public void combate() {
 
 		for(Enemy e : w.getOrda()) {
@@ -175,13 +197,21 @@ public class GameManager {
 
 		}
 	}
+ 	/**
+ 	 * Menu de datos de personajes (usa el NPC para ordenarlos)
+ 	 */
  	public void talk() {
 
 
 		System.out.println(new NPC(null, 0, 0, 0).talk(p1));
 
 	}
-
+ 	/**
+ 	 * @throws GameOverException
+ 	 * 
+ 	 * Determina cuando se ha ganado o perdido y termina el juego con una excepción.
+ 	 * Tambien elimina el archivo de datos guardados para obligar a crear una nueva partida.
+ 	 */
  	public void gameOver() throws GameOverException{
  		
  		if(p1.getLvl() >= 10) {

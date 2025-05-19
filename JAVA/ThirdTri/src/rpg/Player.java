@@ -6,10 +6,21 @@ package rpg;
 import java.io.Serializable;
 
 /**
+ * @author Angel Miguel Felipe
+ * @version 1.0.0
+ * 
+ * CLASE PLAYER
+ * 
+ * Es la clase hija de Character y representará a nuestro Jugador plantilla.
+ * 
+ * incorpora Nivel int que usaremos para mejorar el resto de estadísticas de nuestro jugador
+ * incorpora Experiencia int para determinar si subimos de nivel
+ * incorpora SaludMaxima int que utilizaremos como variable resguardo para determinar a cuanto se puede establecer la vida actual.
  * 
  */
 public class Player extends Character implements Daniable,Serializable {
 
+	private static final long serialVersionUID = 1L;
 	private int lvl;
 	private int exp;
 	private int maxHp;
@@ -31,18 +42,31 @@ public class Player extends Character implements Daniable,Serializable {
 
 
 
+	/**
+	 * @return lvl
+	 */
 	public int getLvl() {
 		return lvl;
 	}
 
+	/**
+	 * @param lvl
+	 */
 	public void setLvl(int lvl) {
-		this.lvl = lvl;
+		if (lvl>0) {
+		this.lvl = lvl;}
 	}
 
+	/**
+	 * @return exp
+	 */
 	public int getExp() {
 		return exp;
 	}
 
+	/**
+	 * @param exp
+	 */
 	public void setExp(int exp) {
 		this.exp = exp;
 	}
@@ -56,14 +80,20 @@ public class Player extends Character implements Daniable,Serializable {
 	 * @param maxHp the maxHp to set
 	 */
 	public void setMaxHp(int maxHp) {
-		this.maxHp = maxHp;
+		if(maxHp>0) {
+		this.maxHp = maxHp;}
 	}
 
 
 
 
 
-	@Override
+	/**
+	 *@Override daniado
+	 *
+	 *Determinará cuanto vida nos quitan los enemigos y si acabamos con salud negativa la establecerá en 0
+	 */
+	
 	public void daniado(int dmg) {
 
 		if(dmg-this.getDefense()<=0){
@@ -80,6 +110,12 @@ public class Player extends Character implements Daniable,Serializable {
 
 	}
 
+	/**
+	 * @param exp recibida por el enemigo
+	 * 
+	 * Este método determinará si subimos de nivel o no al recibir experiencia
+	 * Mejorará las estadisticas base si subimos de nivel.
+	 */
 	public void lvlUp(int exp) 
 	{
 		this.exp += exp;

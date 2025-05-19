@@ -11,21 +11,23 @@ import java.io.Serializable;
  * 
  * CLASE CHARACTER
  * 
- * Es la clase padre de la que heredarán todos nuestros personajes, ya sean jugables o no jugables
+ * Es la clase padre de la que heredarán todos nuestros personajes, ya sean jugables o no jugables.
  * 
  */
 
 public abstract class Character implements Serializable{
 	
+	private static final long serialVersionUID = 1L;
 	private String name;
 	private int hp;
 	private int attack;
 	private int defense;
+	
 	/**
-	 * @param name
-	 * @param hp
-	 * @param attack
-	 * @param defense
+	 * @param nombre
+	 * @param vida
+	 * @param ataque
+	 * @param defensa
 	 */
 	public Character(String name, int hp, int attack, int defense) {
 		
@@ -84,7 +86,11 @@ public abstract class Character implements Serializable{
 		this.defense = defense;
 	}
 
-	@Override
+	/**
+	 *@Override toString
+	 *@return String datos principales del personaje
+	 */
+	
 	public String toString() {
 		
 		return "Nombre: " + this.name + "\n\nVida: " + this.hp + "\nAtaque: " + this.attack;
