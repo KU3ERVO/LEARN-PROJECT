@@ -34,6 +34,8 @@ Partial Class Form1
         Me.RESULTADO = New System.Windows.Forms.Label()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.HScrollBar1 = New System.Windows.Forms.HScrollBar()
+        Me.HScrollBar2 = New System.Windows.Forms.HScrollBar()
         Me.SuspendLayout()
         '
         'NUM1
@@ -47,7 +49,7 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.BackColor = System.Drawing.Color.Salmon
+        Me.Button1.BackColor = System.Drawing.Color.White
         Me.Button1.Location = New System.Drawing.Point(67, 115)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
@@ -139,12 +141,28 @@ Partial Class Form1
         Me.TextBox3.Size = New System.Drawing.Size(100, 20)
         Me.TextBox3.TabIndex = 11
         '
+        'HScrollBar1
+        '
+        Me.HScrollBar1.Location = New System.Drawing.Point(465, 138)
+        Me.HScrollBar1.Name = "HScrollBar1"
+        Me.HScrollBar1.Size = New System.Drawing.Size(80, 17)
+        Me.HScrollBar1.TabIndex = 12
+        '
+        'HScrollBar2
+        '
+        Me.HScrollBar2.Location = New System.Drawing.Point(279, 138)
+        Me.HScrollBar2.Name = "HScrollBar2"
+        Me.HScrollBar2.Size = New System.Drawing.Size(80, 17)
+        Me.HScrollBar2.TabIndex = 13
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.BackColor = System.Drawing.Color.Thistle
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.HScrollBar2)
+        Me.Controls.Add(Me.HScrollBar1)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.RESULTADO)
@@ -176,4 +194,6 @@ Partial Class Form1
     Friend WithEvents RESULTADO As Label
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents HScrollBar1 As HScrollBar
+    Friend WithEvents HScrollBar2 As HScrollBar
 End Class
