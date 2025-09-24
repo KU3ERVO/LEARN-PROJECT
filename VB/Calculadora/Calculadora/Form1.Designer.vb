@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,140 +20,124 @@ Partial Class Form1
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.NUM1 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.NUM2 = New System.Windows.Forms.Label()
-        Me.RESULTADO = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.HScrollBar1 = New System.Windows.Forms.HScrollBar()
-        Me.HScrollBar2 = New System.Windows.Forms.HScrollBar()
+        Me.Num1 = New System.Windows.Forms.Label()
+        Me.SumaBtn = New System.Windows.Forms.Button()
+        Me.RestaBtn = New System.Windows.Forms.Button()
+        Me.ResulTxt = New System.Windows.Forms.TextBox()
+        Me.MultiBtn = New System.Windows.Forms.Button()
+        Me.DiviBtn = New System.Windows.Forms.Button()
+        Me.LimpiarBtn = New System.Windows.Forms.Button()
+        Me.ExitBtn = New System.Windows.Forms.Button()
+        Me.Num2 = New System.Windows.Forms.Label()
+        Me.Resultado = New System.Windows.Forms.Label()
+        Me.Num1Txt = New System.Windows.Forms.TextBox()
+        Me.Num2Txt = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
-        'NUM1
+        'Num1
         '
-        Me.NUM1.AutoSize = True
-        Me.NUM1.Location = New System.Drawing.Point(288, 99)
-        Me.NUM1.Name = "NUM1"
-        Me.NUM1.Size = New System.Drawing.Size(41, 13)
-        Me.NUM1.TabIndex = 0
-        Me.NUM1.Text = "NUM 1"
+        Me.Num1.AutoSize = True
+        Me.Num1.Location = New System.Drawing.Point(288, 99)
+        Me.Num1.Name = "Num1"
+        Me.Num1.Size = New System.Drawing.Size(41, 13)
+        Me.Num1.TabIndex = 0
+        Me.Num1.Text = "NUM 1"
         '
-        'Button1
+        'SumaBtn
         '
-        Me.Button1.BackColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(67, 115)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 1
-        Me.Button1.Text = "+"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.SumaBtn.BackColor = System.Drawing.Color.White
+        Me.SumaBtn.Location = New System.Drawing.Point(67, 115)
+        Me.SumaBtn.Name = "SumaBtn"
+        Me.SumaBtn.Size = New System.Drawing.Size(75, 23)
+        Me.SumaBtn.TabIndex = 1
+        Me.SumaBtn.Text = "+"
+        Me.SumaBtn.UseVisualStyleBackColor = False
         '
-        'Button2
+        'RestaBtn
         '
-        Me.Button2.Location = New System.Drawing.Point(67, 172)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 2
-        Me.Button2.Text = "-"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.RestaBtn.Location = New System.Drawing.Point(67, 172)
+        Me.RestaBtn.Name = "RestaBtn"
+        Me.RestaBtn.Size = New System.Drawing.Size(75, 23)
+        Me.RestaBtn.TabIndex = 2
+        Me.RestaBtn.Text = "-"
+        Me.RestaBtn.UseVisualStyleBackColor = True
         '
-        'TextBox1
+        'ResulTxt
         '
-        Me.TextBox1.Location = New System.Drawing.Point(368, 292)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 3
+        Me.ResulTxt.Location = New System.Drawing.Point(368, 292)
+        Me.ResulTxt.Name = "ResulTxt"
+        Me.ResulTxt.Size = New System.Drawing.Size(100, 20)
+        Me.ResulTxt.TabIndex = 3
         '
-        'Button3
+        'MultiBtn
         '
-        Me.Button3.Location = New System.Drawing.Point(67, 229)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 4
-        Me.Button3.Text = "x"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.MultiBtn.Location = New System.Drawing.Point(67, 229)
+        Me.MultiBtn.Name = "MultiBtn"
+        Me.MultiBtn.Size = New System.Drawing.Size(75, 23)
+        Me.MultiBtn.TabIndex = 4
+        Me.MultiBtn.Text = "x"
+        Me.MultiBtn.UseVisualStyleBackColor = True
         '
-        'Button4
+        'DiviBtn
         '
-        Me.Button4.Location = New System.Drawing.Point(67, 292)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 23)
-        Me.Button4.TabIndex = 5
-        Me.Button4.Text = "/"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.DiviBtn.Location = New System.Drawing.Point(67, 292)
+        Me.DiviBtn.Name = "DiviBtn"
+        Me.DiviBtn.Size = New System.Drawing.Size(75, 23)
+        Me.DiviBtn.TabIndex = 5
+        Me.DiviBtn.Text = "/"
+        Me.DiviBtn.UseVisualStyleBackColor = True
         '
-        'Button5
+        'LimpiarBtn
         '
-        Me.Button5.Location = New System.Drawing.Point(381, 200)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(75, 23)
-        Me.Button5.TabIndex = 6
-        Me.Button5.Text = "="
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.LimpiarBtn.Location = New System.Drawing.Point(381, 318)
+        Me.LimpiarBtn.Name = "LimpiarBtn"
+        Me.LimpiarBtn.Size = New System.Drawing.Size(75, 23)
+        Me.LimpiarBtn.TabIndex = 6
+        Me.LimpiarBtn.Text = "LIMPIAR"
+        Me.LimpiarBtn.UseVisualStyleBackColor = True
         '
-        'Button6
+        'ExitBtn
         '
-        Me.Button6.Location = New System.Drawing.Point(713, 415)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(75, 23)
-        Me.Button6.TabIndex = 7
-        Me.Button6.Text = "EXIT"
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.ExitBtn.Location = New System.Drawing.Point(713, 415)
+        Me.ExitBtn.Name = "ExitBtn"
+        Me.ExitBtn.Size = New System.Drawing.Size(75, 23)
+        Me.ExitBtn.TabIndex = 7
+        Me.ExitBtn.Text = "EXIT"
+        Me.ExitBtn.UseVisualStyleBackColor = True
         '
-        'NUM2
+        'Num2
         '
-        Me.NUM2.AutoSize = True
-        Me.NUM2.Location = New System.Drawing.Point(496, 99)
-        Me.NUM2.Name = "NUM2"
-        Me.NUM2.Size = New System.Drawing.Size(41, 13)
-        Me.NUM2.TabIndex = 8
-        Me.NUM2.Text = "NUM 2"
+        Me.Num2.AutoSize = True
+        Me.Num2.Location = New System.Drawing.Point(496, 99)
+        Me.Num2.Name = "Num2"
+        Me.Num2.Size = New System.Drawing.Size(41, 13)
+        Me.Num2.TabIndex = 8
+        Me.Num2.Text = "NUM 2"
         '
-        'RESULTADO
+        'Resultado
         '
-        Me.RESULTADO.AutoSize = True
-        Me.RESULTADO.Location = New System.Drawing.Point(383, 276)
-        Me.RESULTADO.Name = "RESULTADO"
-        Me.RESULTADO.Size = New System.Drawing.Size(73, 13)
-        Me.RESULTADO.TabIndex = 9
-        Me.RESULTADO.Text = "RESULTADO"
+        Me.Resultado.AutoSize = True
+        Me.Resultado.Location = New System.Drawing.Point(383, 276)
+        Me.Resultado.Name = "Resultado"
+        Me.Resultado.Size = New System.Drawing.Size(73, 13)
+        Me.Resultado.TabIndex = 9
+        Me.Resultado.Text = "RESULTADO"
         '
-        'TextBox2
+        'Num1Txt
         '
-        Me.TextBox2.Location = New System.Drawing.Point(259, 115)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 10
+        Me.Num1Txt.Location = New System.Drawing.Point(259, 115)
+        Me.Num1Txt.Name = "Num1Txt"
+        Me.Num1Txt.Size = New System.Drawing.Size(100, 20)
+        Me.Num1Txt.TabIndex = 10
         '
-        'TextBox3
+        'Num2Txt
         '
-        Me.TextBox3.Location = New System.Drawing.Point(465, 115)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox3.TabIndex = 11
-        '
-        'HScrollBar1
-        '
-        Me.HScrollBar1.Location = New System.Drawing.Point(465, 138)
-        Me.HScrollBar1.Name = "HScrollBar1"
-        Me.HScrollBar1.Size = New System.Drawing.Size(80, 17)
-        Me.HScrollBar1.TabIndex = 12
-        '
-        'HScrollBar2
-        '
-        Me.HScrollBar2.Location = New System.Drawing.Point(279, 138)
-        Me.HScrollBar2.Name = "HScrollBar2"
-        Me.HScrollBar2.Size = New System.Drawing.Size(80, 17)
-        Me.HScrollBar2.TabIndex = 13
+        Me.Num2Txt.Location = New System.Drawing.Point(465, 115)
+        Me.Num2Txt.Name = "Num2Txt"
+        Me.Num2Txt.Size = New System.Drawing.Size(100, 20)
+        Me.Num2Txt.TabIndex = 11
         '
         'Form1
         '
@@ -161,20 +145,18 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Thistle
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.HScrollBar2)
-        Me.Controls.Add(Me.HScrollBar1)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.RESULTADO)
-        Me.Controls.Add(Me.NUM2)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.NUM1)
+        Me.Controls.Add(Me.Num2Txt)
+        Me.Controls.Add(Me.Num1Txt)
+        Me.Controls.Add(Me.Resultado)
+        Me.Controls.Add(Me.Num2)
+        Me.Controls.Add(Me.ExitBtn)
+        Me.Controls.Add(Me.LimpiarBtn)
+        Me.Controls.Add(Me.DiviBtn)
+        Me.Controls.Add(Me.MultiBtn)
+        Me.Controls.Add(Me.ResulTxt)
+        Me.Controls.Add(Me.RestaBtn)
+        Me.Controls.Add(Me.SumaBtn)
+        Me.Controls.Add(Me.Num1)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
@@ -182,18 +164,16 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents NUM1 As Label
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents NUM2 As Label
-    Friend WithEvents RESULTADO As Label
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents HScrollBar1 As HScrollBar
-    Friend WithEvents HScrollBar2 As HScrollBar
+    Friend WithEvents Num1 As Label
+    Friend WithEvents SumaBtn As Button
+    Friend WithEvents RestaBtn As Button
+    Friend WithEvents ResulTxt As TextBox
+    Friend WithEvents MultiBtn As Button
+    Friend WithEvents DiviBtn As Button
+    Friend WithEvents LimpiarBtn As Button
+    Friend WithEvents ExitBtn As Button
+    Friend WithEvents Num2 As Label
+    Friend WithEvents Resultado As Label
+    Friend WithEvents Num1Txt As TextBox
+    Friend WithEvents Num2Txt As TextBox
 End Class
