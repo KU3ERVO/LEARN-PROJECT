@@ -22,7 +22,14 @@ public class ListadoDirectorio {
             //Recorremos el array y añadimos un prefijo para comprobar si es un fich o dir
             for (File f : ficheros) {
                 String textDescr = f.isDirectory() ? "d" : f.isFile() ? "f" : "?";
-                System.out.println("("+ textDescr +")" + f.getName());
+                //Creamos un string para los datos de lectura ejecucion y escritura
+                // y comprobamos cada uno solo si es un fichero
+                String datos =  f.isDirectory() ? (f.canExecute() ? "x" : "-") : f.isFile() ?
+                        (f.canRead() ? "r" : "-")
+                                +(f.canWrite() ? "w" : "-")
+                                +(f.canExecute() ? "x" : "-"): "?";
+
+                System.out.println("("+ textDescr +")" + f.getName() + " | " + datos);
             }
         }
 
