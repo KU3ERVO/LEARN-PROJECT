@@ -1,0 +1,13 @@
+D:\LEARN-PROJECT\.vs\Nominas\bin\Debug\Nominas.exe.config
+D:\LEARN-PROJECT\.vs\Nominas\bin\Debug\Nominas.exe
+D:\LEARN-PROJECT\.vs\Nominas\bin\Debug\Nominas.pdb
+D:\LEARN-PROJECT\.vs\Nominas\bin\Debug\Nominas.xml
+D:\LEARN-PROJECT\.vs\Nominas\obj\Debug\Nominas.vbproj.AssemblyReference.cache
+D:\LEARN-PROJECT\.vs\Nominas\obj\Debug\Nominas.Form1.resources
+D:\LEARN-PROJECT\.vs\Nominas\obj\Debug\Nominas.Resources.resources
+D:\LEARN-PROJECT\.vs\Nominas\obj\Debug\Nominas.vbproj.GenerateResource.cache
+D:\LEARN-PROJECT\.vs\Nominas\obj\Debug\Nominas.vbproj.CoreCompileInputs.cache
+D:\LEARN-PROJECT\.vs\Nominas\obj\Debug\Nominas.exe
+D:\LEARN-PROJECT\.vs\Nominas\obj\Debug\Nominas.xml
+D:\LEARN-PROJECT\.vs\Nominas\obj\Debug\Nominas.pdb
+D:\LEARN-PROJECT\.vs\Nominas\obj\Debug\Nominas.exe.config

@@ -1,0 +1,12 @@
+D:\LEARN-PROJECT\.vs\Ej2\Ej2\bin\Debug\Ej2.exe.config
+D:\LEARN-PROJECT\.vs\Ej2\Ej2\bin\Debug\Ej2.exe
+D:\LEARN-PROJECT\.vs\Ej2\Ej2\bin\Debug\Ej2.pdb
+D:\LEARN-PROJECT\.vs\Ej2\Ej2\bin\Debug\Ej2.xml
+D:\LEARN-PROJECT\.vs\Ej2\Ej2\obj\Debug\Ej2.vbproj.AssemblyReference.cache
+D:\LEARN-PROJECT\.vs\Ej2\Ej2\obj\Debug\Ej2.Form1.resources
+D:\LEARN-PROJECT\.vs\Ej2\Ej2\obj\Debug\Ej2.Resources.resources
+D:\LEARN-PROJECT\.vs\Ej2\Ej2\obj\Debug\Ej2.vbproj.GenerateResource.cache
+D:\LEARN-PROJECT\.vs\Ej2\Ej2\obj\Debug\Ej2.vbproj.CoreCompileInputs.cache
+D:\LEARN-PROJECT\.vs\Ej2\Ej2\obj\Debug\Ej2.exe
+D:\LEARN-PROJECT\.vs\Ej2\Ej2\obj\Debug\Ej2.xml
+D:\LEARN-PROJECT\.vs\Ej2\Ej2\obj\Debug\Ej2.pdb
