@@ -57,6 +57,7 @@ Partial Class Form1
         '
         'btnRestablecer
         '
+        Me.btnRestablecer.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnRestablecer.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnRestablecer.Location = New System.Drawing.Point(312, 418)
         Me.btnRestablecer.Name = "btnRestablecer"
@@ -67,6 +68,7 @@ Partial Class Form1
         '
         'btnSalir
         '
+        Me.btnSalir.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.btnSalir.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSalir.Location = New System.Drawing.Point(416, 418)
         Me.btnSalir.Name = "btnSalir"
