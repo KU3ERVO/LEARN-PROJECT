@@ -10,3 +10,17 @@ D:\LEARN-PROJECT\VB\03_05\obj\Debug\03_05.vbproj.CoreCompileInputs.cache
 D:\LEARN-PROJECT\VB\03_05\obj\Debug\03_05.exe
 D:\LEARN-PROJECT\VB\03_05\obj\Debug\03_05.xml
 D:\LEARN-PROJECT\VB\03_05\obj\Debug\03_05.pdb
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_05\bin\Debug\03_05.exe.config
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_05\bin\Debug\03_05.exe
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_05\bin\Debug\03_05.pdb
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_05\bin\Debug\03_05.xml
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_05\obj\Debug\03_05.vbproj.AssemblyReference.cache
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_05\obj\Debug\03_05.exe.config
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_05\obj\Debug\_03_05.Form1.resources
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_05\obj\Debug\_03_05.Resources.resources
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_05\obj\Debug\03_05.vbproj.GenerateResource.cache
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_05\obj\Debug\03_05.vbproj.CoreCompileInputs.cache
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_05\obj\Debug\03_05.exe
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_05\obj\Debug\03_05.xml
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_05\obj\Debug\03_05.pdb
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_05\obj\Debug\_03_05.Form2.resources
