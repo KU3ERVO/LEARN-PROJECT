@@ -22,168 +22,172 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
+        Me.btnGenerar = New System.Windows.Forms.Button()
+        Me.btnLimpiar = New System.Windows.Forms.Button()
+        Me.btnSalir = New System.Windows.Forms.Button()
+        Me.txtTotalPago = New System.Windows.Forms.TextBox()
+        Me.txtDescuento = New System.Windows.Forms.TextBox()
+        Me.txtPrecioConIVA = New System.Windows.Forms.TextBox()
+        Me.txtPrecioSinIVA = New System.Windows.Forms.TextBox()
+        Me.lbPrecioSinIVA = New System.Windows.Forms.Label()
+        Me.lbPrecioIVA = New System.Windows.Forms.Label()
+        Me.lbDescuento = New System.Windows.Forms.Label()
+        Me.lbTotalPago = New System.Windows.Forms.Label()
+        Me.chbIva = New System.Windows.Forms.CheckBox()
+        Me.chbDescuento = New System.Windows.Forms.CheckBox()
         Me.SuspendLayout()
         '
-        'Button1
+        'btnGenerar
         '
-        Me.Button1.Location = New System.Drawing.Point(354, 159)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnGenerar.Location = New System.Drawing.Point(210, 116)
+        Me.btnGenerar.Name = "btnGenerar"
+        Me.btnGenerar.Size = New System.Drawing.Size(75, 23)
+        Me.btnGenerar.TabIndex = 0
+        Me.btnGenerar.Text = "Generar"
+        Me.btnGenerar.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnLimpiar
         '
-        Me.Button2.Location = New System.Drawing.Point(354, 201)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnLimpiar.Location = New System.Drawing.Point(15, 213)
+        Me.btnLimpiar.Name = "btnLimpiar"
+        Me.btnLimpiar.Size = New System.Drawing.Size(75, 23)
+        Me.btnLimpiar.TabIndex = 1
+        Me.btnLimpiar.Text = " "
+        Me.btnLimpiar.UseVisualStyleBackColor = True
         '
-        'Button3
+        'btnSalir
         '
-        Me.Button3.Location = New System.Drawing.Point(354, 246)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Button3"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btnSalir.Location = New System.Drawing.Point(404, 213)
+        Me.btnSalir.Name = "btnSalir"
+        Me.btnSalir.Size = New System.Drawing.Size(75, 23)
+        Me.btnSalir.TabIndex = 2
+        Me.btnSalir.Text = "Salir"
+        Me.btnSalir.UseVisualStyleBackColor = True
         '
-        'TextBox1
+        'txtTotalPago
         '
-        Me.TextBox1.Location = New System.Drawing.Point(129, 278)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 3
+        Me.txtTotalPago.Location = New System.Drawing.Point(198, 185)
+        Me.txtTotalPago.Name = "txtTotalPago"
+        Me.txtTotalPago.Size = New System.Drawing.Size(100, 20)
+        Me.txtTotalPago.TabIndex = 3
+        Me.txtTotalPago.Text = "0"
         '
-        'TextBox2
+        'txtDescuento
         '
-        Me.TextBox2.Location = New System.Drawing.Point(129, 201)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 4
+        Me.txtDescuento.Location = New System.Drawing.Point(379, 31)
+        Me.txtDescuento.Name = "txtDescuento"
+        Me.txtDescuento.Size = New System.Drawing.Size(100, 20)
+        Me.txtDescuento.TabIndex = 4
+        Me.txtDescuento.Text = "0"
         '
-        'TextBox3
+        'txtPrecioConIVA
         '
-        Me.TextBox3.Location = New System.Drawing.Point(129, 159)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox3.TabIndex = 5
+        Me.txtPrecioConIVA.Location = New System.Drawing.Point(198, 31)
+        Me.txtPrecioConIVA.Name = "txtPrecioConIVA"
+        Me.txtPrecioConIVA.Size = New System.Drawing.Size(100, 20)
+        Me.txtPrecioConIVA.TabIndex = 5
+        Me.txtPrecioConIVA.Text = "0"
         '
-        'TextBox4
+        'txtPrecioSinIVA
         '
-        Me.TextBox4.Location = New System.Drawing.Point(129, 98)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox4.TabIndex = 6
+        Me.txtPrecioSinIVA.Location = New System.Drawing.Point(12, 31)
+        Me.txtPrecioSinIVA.Name = "txtPrecioSinIVA"
+        Me.txtPrecioSinIVA.Size = New System.Drawing.Size(100, 20)
+        Me.txtPrecioSinIVA.TabIndex = 6
+        Me.txtPrecioSinIVA.Text = "0"
         '
-        'Label1
+        'lbPrecioSinIVA
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(54, 104)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(39, 13)
-        Me.Label1.TabIndex = 7
-        Me.Label1.Text = "Label1"
+        Me.lbPrecioSinIVA.AutoSize = True
+        Me.lbPrecioSinIVA.Location = New System.Drawing.Point(12, 15)
+        Me.lbPrecioSinIVA.Name = "lbPrecioSinIVA"
+        Me.lbPrecioSinIVA.Size = New System.Drawing.Size(73, 13)
+        Me.lbPrecioSinIVA.TabIndex = 7
+        Me.lbPrecioSinIVA.Text = "Precio sin IVA"
         '
-        'Label2
+        'lbPrecioIVA
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(57, 168)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(39, 13)
-        Me.Label2.TabIndex = 8
-        Me.Label2.Text = "Label2"
+        Me.lbPrecioIVA.AutoSize = True
+        Me.lbPrecioIVA.Location = New System.Drawing.Point(195, 15)
+        Me.lbPrecioIVA.Name = "lbPrecioIVA"
+        Me.lbPrecioIVA.Size = New System.Drawing.Size(78, 13)
+        Me.lbPrecioIVA.TabIndex = 8
+        Me.lbPrecioIVA.Text = "Precio con IVA"
         '
-        'Label3
+        'lbDescuento
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(57, 210)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(39, 13)
-        Me.Label3.TabIndex = 9
-        Me.Label3.Text = "Label3"
+        Me.lbDescuento.AutoSize = True
+        Me.lbDescuento.Location = New System.Drawing.Point(376, 15)
+        Me.lbDescuento.Name = "lbDescuento"
+        Me.lbDescuento.Size = New System.Drawing.Size(59, 13)
+        Me.lbDescuento.TabIndex = 9
+        Me.lbDescuento.Text = "Descuento"
         '
-        'Label4
+        'lbTotalPago
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(57, 284)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(39, 13)
-        Me.Label4.TabIndex = 10
-        Me.Label4.Text = "Label4"
+        Me.lbTotalPago.AutoSize = True
+        Me.lbTotalPago.Location = New System.Drawing.Point(195, 169)
+        Me.lbTotalPago.Name = "lbTotalPago"
+        Me.lbTotalPago.Size = New System.Drawing.Size(71, 13)
+        Me.lbTotalPago.TabIndex = 10
+        Me.lbTotalPago.Text = "Total a Pagar"
         '
-        'CheckBox1
+        'chbIva
         '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(253, 186)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(81, 17)
-        Me.CheckBox1.TabIndex = 11
-        Me.CheckBox1.Text = "CheckBox1"
-        Me.CheckBox1.UseVisualStyleBackColor = True
+        Me.chbIva.AutoSize = True
+        Me.chbIva.Location = New System.Drawing.Point(198, 66)
+        Me.chbIva.Name = "chbIva"
+        Me.chbIva.Size = New System.Drawing.Size(97, 17)
+        Me.chbIva.TabIndex = 11
+        Me.chbIva.Text = "Precio con IVA"
+        Me.chbIva.UseVisualStyleBackColor = True
         '
-        'CheckBox2
+        'chbDescuento
         '
-        Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Location = New System.Drawing.Point(253, 233)
-        Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(81, 17)
-        Me.CheckBox2.TabIndex = 12
-        Me.CheckBox2.Text = "CheckBox2"
-        Me.CheckBox2.UseVisualStyleBackColor = True
+        Me.chbDescuento.AutoSize = True
+        Me.chbDescuento.Location = New System.Drawing.Point(379, 66)
+        Me.chbDescuento.Name = "chbDescuento"
+        Me.chbDescuento.Size = New System.Drawing.Size(78, 17)
+        Me.chbDescuento.TabIndex = 12
+        Me.chbDescuento.Text = "Descuento"
+        Me.chbDescuento.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(491, 450)
-        Me.Controls.Add(Me.CheckBox2)
-        Me.Controls.Add(Me.CheckBox1)
-        Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.ClientSize = New System.Drawing.Size(491, 255)
+        Me.Controls.Add(Me.chbDescuento)
+        Me.Controls.Add(Me.chbIva)
+        Me.Controls.Add(Me.lbTotalPago)
+        Me.Controls.Add(Me.lbDescuento)
+        Me.Controls.Add(Me.lbPrecioIVA)
+        Me.Controls.Add(Me.lbPrecioSinIVA)
+        Me.Controls.Add(Me.txtPrecioSinIVA)
+        Me.Controls.Add(Me.txtPrecioConIVA)
+        Me.Controls.Add(Me.txtDescuento)
+        Me.Controls.Add(Me.txtTotalPago)
+        Me.Controls.Add(Me.btnSalir)
+        Me.Controls.Add(Me.btnLimpiar)
+        Me.Controls.Add(Me.btnGenerar)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = " "
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents CheckBox1 As CheckBox
-    Friend WithEvents CheckBox2 As CheckBox
+    Friend WithEvents btnGenerar As Button
+    Friend WithEvents btnLimpiar As Button
+    Friend WithEvents btnSalir As Button
+    Friend WithEvents txtTotalPago As TextBox
+    Friend WithEvents txtDescuento As TextBox
+    Friend WithEvents txtPrecioConIVA As TextBox
+    Friend WithEvents txtPrecioSinIVA As TextBox
+    Friend WithEvents lbPrecioSinIVA As Label
+    Friend WithEvents lbPrecioIVA As Label
+    Friend WithEvents lbDescuento As Label
+    Friend WithEvents lbTotalPago As Label
+    Friend WithEvents chbIva As CheckBox
+    Friend WithEvents chbDescuento As CheckBox
 End Class

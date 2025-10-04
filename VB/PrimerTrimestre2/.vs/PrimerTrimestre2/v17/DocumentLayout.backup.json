@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\VB\\PrimerTrimestre2\\",
+  "WorkspaceRootPath": "D:\\LEARN-PROJECT\\.vs\\PrimerTrimestre2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{15D65F02-FF6F-4FAC-AFC9-868EAFD27633}|PrimerTrimestre2\\PrimerTrimestre2.vbproj|m:\\anhe\\dam\\primeros pasos\\learn-project\\vb\\primertrimestre2\\primertrimestre2\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{15D65F02-FF6F-4FAC-AFC9-868EAFD27633}|PrimerTrimestre2\\PrimerTrimestre2.vbproj|d:\\learn-project\\.vs\\primertrimestre2\\primertrimestre2\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{15D65F02-FF6F-4FAC-AFC9-868EAFD27633}|PrimerTrimestre2\\PrimerTrimestre2.vbproj|solutionrelative:primertrimestre2\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.vb [Design]",
-              "DocumentMoniker": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\VB\\PrimerTrimestre2\\PrimerTrimestre2\\Form1.vb",
+              "Title": "Form1.vb [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\LEARN-PROJECT\\.vs\\PrimerTrimestre2\\PrimerTrimestre2\\Form1.vb",
               "RelativeDocumentMoniker": "PrimerTrimestre2\\Form1.vb",
-              "ToolTip": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\VB\\PrimerTrimestre2\\PrimerTrimestre2\\Form1.vb [Design]*",
-              "RelativeToolTip": "PrimerTrimestre2\\Form1.vb [Design]*",
+              "ToolTip": "D:\\LEARN-PROJECT\\.vs\\PrimerTrimestre2\\PrimerTrimestre2\\Form1.vb [Dise\u00F1o]",
+              "RelativeToolTip": "PrimerTrimestre2\\Form1.vb [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-09-19T07:12:11.502Z",
-              "EditorCaption": " [Design]"
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
