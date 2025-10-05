@@ -39,76 +39,103 @@ Partial Class Form1
         '
         'btnGenerar
         '
+        Me.btnGenerar.BackColor = System.Drawing.Color.AntiqueWhite
+        Me.btnGenerar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnGenerar.Font = New System.Drawing.Font("Bahnschrift SemiBold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnGenerar.Location = New System.Drawing.Point(210, 116)
         Me.btnGenerar.Name = "btnGenerar"
         Me.btnGenerar.Size = New System.Drawing.Size(75, 23)
         Me.btnGenerar.TabIndex = 0
         Me.btnGenerar.Text = "Generar"
-        Me.btnGenerar.UseVisualStyleBackColor = True
+        Me.btnGenerar.UseVisualStyleBackColor = False
         '
         'btnLimpiar
         '
+        Me.btnLimpiar.BackColor = System.Drawing.Color.AntiqueWhite
+        Me.btnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnLimpiar.Font = New System.Drawing.Font("Bahnschrift SemiBold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLimpiar.Location = New System.Drawing.Point(15, 213)
         Me.btnLimpiar.Name = "btnLimpiar"
         Me.btnLimpiar.Size = New System.Drawing.Size(75, 23)
         Me.btnLimpiar.TabIndex = 1
-        Me.btnLimpiar.Text = " "
-        Me.btnLimpiar.UseVisualStyleBackColor = True
+        Me.btnLimpiar.Text = " Limpiar"
+        Me.btnLimpiar.UseVisualStyleBackColor = False
         '
         'btnSalir
         '
+        Me.btnSalir.BackColor = System.Drawing.Color.AntiqueWhite
+        Me.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnSalir.Font = New System.Drawing.Font("Bahnschrift SemiBold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSalir.Location = New System.Drawing.Point(404, 213)
         Me.btnSalir.Name = "btnSalir"
         Me.btnSalir.Size = New System.Drawing.Size(75, 23)
         Me.btnSalir.TabIndex = 2
         Me.btnSalir.Text = "Salir"
-        Me.btnSalir.UseVisualStyleBackColor = True
+        Me.btnSalir.UseVisualStyleBackColor = False
         '
         'txtTotalPago
         '
+        Me.txtTotalPago.BackColor = System.Drawing.Color.AntiqueWhite
+        Me.txtTotalPago.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtTotalPago.Font = New System.Drawing.Font("Bahnschrift SemiBold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTotalPago.Location = New System.Drawing.Point(198, 185)
         Me.txtTotalPago.Name = "txtTotalPago"
-        Me.txtTotalPago.Size = New System.Drawing.Size(100, 20)
+        Me.txtTotalPago.Size = New System.Drawing.Size(100, 21)
         Me.txtTotalPago.TabIndex = 3
         Me.txtTotalPago.Text = "0"
+        Me.txtTotalPago.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'txtDescuento
         '
+        Me.txtDescuento.BackColor = System.Drawing.Color.AntiqueWhite
+        Me.txtDescuento.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtDescuento.Font = New System.Drawing.Font("Bahnschrift SemiBold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtDescuento.Location = New System.Drawing.Point(379, 31)
         Me.txtDescuento.Name = "txtDescuento"
-        Me.txtDescuento.Size = New System.Drawing.Size(100, 20)
+        Me.txtDescuento.Size = New System.Drawing.Size(100, 21)
         Me.txtDescuento.TabIndex = 4
         Me.txtDescuento.Text = "0"
+        Me.txtDescuento.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'txtPrecioConIVA
         '
+        Me.txtPrecioConIVA.BackColor = System.Drawing.Color.AntiqueWhite
+        Me.txtPrecioConIVA.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPrecioConIVA.Font = New System.Drawing.Font("Bahnschrift SemiBold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPrecioConIVA.Location = New System.Drawing.Point(198, 31)
         Me.txtPrecioConIVA.Name = "txtPrecioConIVA"
-        Me.txtPrecioConIVA.Size = New System.Drawing.Size(100, 20)
+        Me.txtPrecioConIVA.Size = New System.Drawing.Size(100, 21)
         Me.txtPrecioConIVA.TabIndex = 5
         Me.txtPrecioConIVA.Text = "0"
+        Me.txtPrecioConIVA.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'txtPrecioSinIVA
         '
+        Me.txtPrecioSinIVA.BackColor = System.Drawing.Color.AntiqueWhite
+        Me.txtPrecioSinIVA.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPrecioSinIVA.Font = New System.Drawing.Font("Bahnschrift SemiBold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPrecioSinIVA.Location = New System.Drawing.Point(12, 31)
         Me.txtPrecioSinIVA.Name = "txtPrecioSinIVA"
-        Me.txtPrecioSinIVA.Size = New System.Drawing.Size(100, 20)
+        Me.txtPrecioSinIVA.Size = New System.Drawing.Size(100, 21)
         Me.txtPrecioSinIVA.TabIndex = 6
         Me.txtPrecioSinIVA.Text = "0"
+        Me.txtPrecioSinIVA.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'lbPrecioSinIVA
         '
         Me.lbPrecioSinIVA.AutoSize = True
-        Me.lbPrecioSinIVA.Location = New System.Drawing.Point(12, 15)
+        Me.lbPrecioSinIVA.Font = New System.Drawing.Font("Bahnschrift SemiBold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbPrecioSinIVA.Location = New System.Drawing.Point(23, 15)
         Me.lbPrecioSinIVA.Name = "lbPrecioSinIVA"
-        Me.lbPrecioSinIVA.Size = New System.Drawing.Size(73, 13)
+        Me.lbPrecioSinIVA.Size = New System.Drawing.Size(76, 13)
         Me.lbPrecioSinIVA.TabIndex = 7
         Me.lbPrecioSinIVA.Text = "Precio sin IVA"
         '
         'lbPrecioIVA
         '
         Me.lbPrecioIVA.AutoSize = True
-        Me.lbPrecioIVA.Location = New System.Drawing.Point(195, 15)
+        Me.lbPrecioIVA.Font = New System.Drawing.Font("Bahnschrift SemiBold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbPrecioIVA.Location = New System.Drawing.Point(207, 15)
         Me.lbPrecioIVA.Name = "lbPrecioIVA"
         Me.lbPrecioIVA.Size = New System.Drawing.Size(78, 13)
         Me.lbPrecioIVA.TabIndex = 8
@@ -117,7 +144,8 @@ Partial Class Form1
         'lbDescuento
         '
         Me.lbDescuento.AutoSize = True
-        Me.lbDescuento.Location = New System.Drawing.Point(376, 15)
+        Me.lbDescuento.Font = New System.Drawing.Font("Bahnschrift SemiBold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbDescuento.Location = New System.Drawing.Point(401, 15)
         Me.lbDescuento.Name = "lbDescuento"
         Me.lbDescuento.Size = New System.Drawing.Size(59, 13)
         Me.lbDescuento.TabIndex = 9
@@ -126,18 +154,21 @@ Partial Class Form1
         'lbTotalPago
         '
         Me.lbTotalPago.AutoSize = True
+        Me.lbTotalPago.Font = New System.Drawing.Font("Bahnschrift SemiBold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbTotalPago.Location = New System.Drawing.Point(195, 169)
         Me.lbTotalPago.Name = "lbTotalPago"
-        Me.lbTotalPago.Size = New System.Drawing.Size(71, 13)
+        Me.lbTotalPago.Size = New System.Drawing.Size(72, 13)
         Me.lbTotalPago.TabIndex = 10
         Me.lbTotalPago.Text = "Total a Pagar"
         '
         'chbIva
         '
         Me.chbIva.AutoSize = True
+        Me.chbIva.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.chbIva.Font = New System.Drawing.Font("Bahnschrift SemiBold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.chbIva.Location = New System.Drawing.Point(198, 66)
         Me.chbIva.Name = "chbIva"
-        Me.chbIva.Size = New System.Drawing.Size(97, 17)
+        Me.chbIva.Size = New System.Drawing.Size(94, 17)
         Me.chbIva.TabIndex = 11
         Me.chbIva.Text = "Precio con IVA"
         Me.chbIva.UseVisualStyleBackColor = True
@@ -145,9 +176,11 @@ Partial Class Form1
         'chbDescuento
         '
         Me.chbDescuento.AutoSize = True
+        Me.chbDescuento.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.chbDescuento.Font = New System.Drawing.Font("Bahnschrift SemiBold", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.chbDescuento.Location = New System.Drawing.Point(379, 66)
         Me.chbDescuento.Name = "chbDescuento"
-        Me.chbDescuento.Size = New System.Drawing.Size(78, 17)
+        Me.chbDescuento.Size = New System.Drawing.Size(75, 17)
         Me.chbDescuento.TabIndex = 12
         Me.chbDescuento.Text = "Descuento"
         Me.chbDescuento.UseVisualStyleBackColor = True
@@ -156,6 +189,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.Bisque
         Me.ClientSize = New System.Drawing.Size(491, 255)
         Me.Controls.Add(Me.chbDescuento)
         Me.Controls.Add(Me.chbIva)
