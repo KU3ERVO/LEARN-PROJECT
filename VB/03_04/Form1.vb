@@ -17,7 +17,11 @@
 
     Private Sub txtPrecioSinIVA_TextChanged(sender As Object, e As EventArgs) Handles txtPrecioSinIVA.TextChanged
 
-        Dim Precio As Decimal = txtPrecioSinIVA.Text
+        Dim Precio As Decimal
+
+        If Decimal.TryParse(txtPrecioSinIVA.Text, Precio) Then
+
+        End If
 
         txtPrecioConIVA.Text = Precio + (Precio * 0.21)
 
