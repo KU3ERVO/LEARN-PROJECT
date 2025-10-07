@@ -72,7 +72,7 @@ Partial Class Form1
         Me.btnPressKey.BackColor = System.Drawing.Color.Black
         Me.btnPressKey.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnPressKey.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnPressKey.Font = New System.Drawing.Font("Nikkyou Sans", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnPressKey.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnPressKey.ForeColor = System.Drawing.Color.White
         Me.btnPressKey.Location = New System.Drawing.Point(12, 349)
         Me.btnPressKey.Name = "btnPressKey"
@@ -106,7 +106,7 @@ Partial Class Form1
         Me.btnMouseEnter.BackColor = System.Drawing.Color.Black
         Me.btnMouseEnter.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnMouseEnter.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnMouseEnter.Font = New System.Drawing.Font("Nikkyou Sans", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnMouseEnter.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnMouseEnter.ForeColor = System.Drawing.Color.White
         Me.btnMouseEnter.Location = New System.Drawing.Point(12, 12)
         Me.btnMouseEnter.Name = "btnMouseEnter"
@@ -121,7 +121,7 @@ Partial Class Form1
         Me.btnMouseMove.BackColor = System.Drawing.Color.Black
         Me.btnMouseMove.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnMouseMove.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnMouseMove.Font = New System.Drawing.Font("Nikkyou Sans", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnMouseMove.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnMouseMove.ForeColor = System.Drawing.Color.White
         Me.btnMouseMove.Location = New System.Drawing.Point(372, 12)
         Me.btnMouseMove.Name = "btnMouseMove"
@@ -136,7 +136,7 @@ Partial Class Form1
         Me.btnInicio.BackColor = System.Drawing.Color.Black
         Me.btnInicio.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnInicio.Font = New System.Drawing.Font("Nikkyou Sans", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnInicio.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnInicio.ForeColor = System.Drawing.Color.White
         Me.btnInicio.Location = New System.Drawing.Point(372, 349)
         Me.btnInicio.Name = "btnInicio"
@@ -151,7 +151,7 @@ Partial Class Form1
         Me.btnHoverLeave.BackColor = System.Drawing.Color.Black
         Me.btnHoverLeave.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnHoverLeave.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnHoverLeave.Font = New System.Drawing.Font("Nikkyou Sans", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnHoverLeave.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnHoverLeave.ForeColor = System.Drawing.Color.White
         Me.btnHoverLeave.Location = New System.Drawing.Point(12, 237)
         Me.btnHoverLeave.Name = "btnHoverLeave"
@@ -166,7 +166,7 @@ Partial Class Form1
         Me.btnMouseDown.BackColor = System.Drawing.Color.Black
         Me.btnMouseDown.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnMouseDown.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnMouseDown.Font = New System.Drawing.Font("Nikkyou Sans", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnMouseDown.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnMouseDown.ForeColor = System.Drawing.Color.White
         Me.btnMouseDown.Location = New System.Drawing.Point(190, 349)
         Me.btnMouseDown.Name = "btnMouseDown"
@@ -181,7 +181,7 @@ Partial Class Form1
         Me.btnMouseUp.BackColor = System.Drawing.Color.Black
         Me.btnMouseUp.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnMouseUp.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnMouseUp.Font = New System.Drawing.Font("Nikkyou Sans", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnMouseUp.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnMouseUp.ForeColor = System.Drawing.Color.White
         Me.btnMouseUp.Location = New System.Drawing.Point(190, 12)
         Me.btnMouseUp.Name = "btnMouseUp"
@@ -196,7 +196,7 @@ Partial Class Form1
         Me.btnMouseWheel.BackColor = System.Drawing.Color.Black
         Me.btnMouseWheel.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnMouseWheel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnMouseWheel.Font = New System.Drawing.Font("Nikkyou Sans", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnMouseWheel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnMouseWheel.ForeColor = System.Drawing.Color.White
         Me.btnMouseWheel.Location = New System.Drawing.Point(12, 125)
         Me.btnMouseWheel.Name = "btnMouseWheel"

@@ -24,3 +24,5 @@ M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_05\obj\Debug\03_05.exe
 M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_05\obj\Debug\03_05.xml
 M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_05\obj\Debug\03_05.pdb
 M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_05\obj\Debug\_03_05.Form2.resources
+D:\LEARN-PROJECT\VB\03_05\obj\Debug\03_05.exe.config
+D:\LEARN-PROJECT\VB\03_05\obj\Debug\_03_05.Form2.resources

@@ -1,0 +1,15 @@
+D:\LEARN-PROJECT\VB\Miguel_03_06\obj\Debug\Miguel_03_06.vbproj.AssemblyReference.cache
+D:\LEARN-PROJECT\VB\Miguel_03_06\obj\Debug\Miguel_03_06.Resources.resources
+D:\LEARN-PROJECT\VB\Miguel_03_06\obj\Debug\Miguel_03_06.vbproj.GenerateResource.cache
+D:\LEARN-PROJECT\VB\Miguel_03_06\obj\Debug\Miguel_03_06.vbproj.CoreCompileInputs.cache
+D:\LEARN-PROJECT\VB\Miguel_03_06\bin\Debug\Miguel_03_06.exe.config
+D:\LEARN-PROJECT\VB\Miguel_03_06\bin\Debug\Miguel_03_06.exe
+D:\LEARN-PROJECT\VB\Miguel_03_06\bin\Debug\Miguel_03_06.pdb
+D:\LEARN-PROJECT\VB\Miguel_03_06\bin\Debug\Miguel_03_06.xml
+D:\LEARN-PROJECT\VB\Miguel_03_06\obj\Debug\Miguel_03_06.exe
+D:\LEARN-PROJECT\VB\Miguel_03_06\obj\Debug\Miguel_03_06.xml
+D:\LEARN-PROJECT\VB\Miguel_03_06\obj\Debug\Miguel_03_06.pdb
+D:\LEARN-PROJECT\VB\Miguel_03_06\obj\Debug\Miguel_03_06.exe.config
+D:\LEARN-PROJECT\VB\Miguel_03_06\obj\Debug\Miguel_03_06.FormInicio.resources
+D:\LEARN-PROJECT\VB\Miguel_03_06\obj\Debug\Miguel_03_06.FormPrestamo.resources
+D:\LEARN-PROJECT\VB\Miguel_03_06\obj\Debug\Miguel_03_06.FormSolucion.resources

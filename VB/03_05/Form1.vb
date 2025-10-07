@@ -42,5 +42,9 @@
         Form2.Show()
         Me.Hide()
     End Sub
+
+    Private Sub btnHoverLeave_Click(sender As Object, e As EventArgs) Handles btnHoverLeave.Click
+
+    End Sub
 End Class
 
