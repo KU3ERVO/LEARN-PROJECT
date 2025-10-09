@@ -126,7 +126,7 @@ public class SAXParserSample {
             // Crea una instancia del parser SAX (XMLReader) usando la factoría.
             XMLReader parserSAX = XMLReaderFactory.createXMLReader();
             // Crea una instancia de nuestro manejador de eventos personalizado.
-            dom_parser.GestorEventos gestorEventos = new dom_parser.GestorEventos(System.out);
+            domParser.GestorEventos gestorEventos = new domParser.GestorEventos(System.out);
             // Establece nuestro gestor como el manejador de contenido para el parser.
             // A partir de aquí, el parser notificará a 'gestorEventos' de todos los eventos de parsing.
             parserSAX.setContentHandler(gestorEventos);
