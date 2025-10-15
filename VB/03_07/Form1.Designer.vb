@@ -27,10 +27,10 @@ Partial Class Form1
         Me.lbTelefono = New System.Windows.Forms.Label()
         Me.lbDireccion = New System.Windows.Forms.Label()
         Me.lbPedido = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.txtNombre = New System.Windows.Forms.TextBox()
+        Me.txtTele = New System.Windows.Forms.TextBox()
+        Me.txtDireccion = New System.Windows.Forms.TextBox()
+        Me.txtPedido = New System.Windows.Forms.TextBox()
         Me.lbxLista = New System.Windows.Forms.ListBox()
         Me.btnLimpiar = New System.Windows.Forms.Button()
         Me.btnPedido = New System.Windows.Forms.Button()
@@ -88,45 +88,45 @@ Partial Class Form1
         Me.lbPedido.TabIndex = 4
         Me.lbPedido.Text = "Pedido:"
         '
-        'TextBox1
+        'txtNombre
         '
-        Me.TextBox1.BackColor = System.Drawing.Color.White
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox1.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(136, 162)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 21)
-        Me.TextBox1.TabIndex = 5
+        Me.txtNombre.BackColor = System.Drawing.Color.White
+        Me.txtNombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtNombre.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtNombre.Location = New System.Drawing.Point(136, 162)
+        Me.txtNombre.Name = "txtNombre"
+        Me.txtNombre.Size = New System.Drawing.Size(100, 21)
+        Me.txtNombre.TabIndex = 5
         '
-        'TextBox2
+        'txtTele
         '
-        Me.TextBox2.BackColor = System.Drawing.Color.White
-        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox2.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(136, 204)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 21)
-        Me.TextBox2.TabIndex = 6
+        Me.txtTele.BackColor = System.Drawing.Color.White
+        Me.txtTele.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtTele.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtTele.Location = New System.Drawing.Point(136, 204)
+        Me.txtTele.Name = "txtTele"
+        Me.txtTele.Size = New System.Drawing.Size(100, 21)
+        Me.txtTele.TabIndex = 6
         '
-        'TextBox3
+        'txtDireccion
         '
-        Me.TextBox3.BackColor = System.Drawing.Color.White
-        Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox3.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(136, 243)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 21)
-        Me.TextBox3.TabIndex = 7
+        Me.txtDireccion.BackColor = System.Drawing.Color.White
+        Me.txtDireccion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtDireccion.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDireccion.Location = New System.Drawing.Point(136, 243)
+        Me.txtDireccion.Name = "txtDireccion"
+        Me.txtDireccion.Size = New System.Drawing.Size(100, 21)
+        Me.txtDireccion.TabIndex = 7
         '
-        'TextBox4
+        'txtPedido
         '
-        Me.TextBox4.BackColor = System.Drawing.Color.White
-        Me.TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox4.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(136, 283)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(100, 21)
-        Me.TextBox4.TabIndex = 8
+        Me.txtPedido.BackColor = System.Drawing.Color.White
+        Me.txtPedido.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtPedido.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPedido.Location = New System.Drawing.Point(136, 283)
+        Me.txtPedido.Name = "txtPedido"
+        Me.txtPedido.Size = New System.Drawing.Size(100, 21)
+        Me.txtPedido.TabIndex = 8
         '
         'lbxLista
         '
@@ -178,10 +178,10 @@ Partial Class Form1
         Me.Controls.Add(Me.btnPedido)
         Me.Controls.Add(Me.btnLimpiar)
         Me.Controls.Add(Me.lbxLista)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtPedido)
+        Me.Controls.Add(Me.txtDireccion)
+        Me.Controls.Add(Me.txtTele)
+        Me.Controls.Add(Me.txtNombre)
         Me.Controls.Add(Me.lbPedido)
         Me.Controls.Add(Me.lbDireccion)
         Me.Controls.Add(Me.lbTelefono)
@@ -199,10 +199,10 @@ Partial Class Form1
     Friend WithEvents lbTelefono As Label
     Friend WithEvents lbDireccion As Label
     Friend WithEvents lbPedido As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents txtNombre As TextBox
+    Friend WithEvents txtTele As TextBox
+    Friend WithEvents txtDireccion As TextBox
+    Friend WithEvents txtPedido As TextBox
     Friend WithEvents lbxLista As ListBox
     Friend WithEvents btnLimpiar As Button
     Friend WithEvents btnPedido As Button
