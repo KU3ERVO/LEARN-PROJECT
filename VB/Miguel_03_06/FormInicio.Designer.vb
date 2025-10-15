@@ -22,53 +22,53 @@ Partial Class FormInicio
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.pbxLogo = New System.Windows.Forms.PictureBox()
+        Me.lbBanco2 = New System.Windows.Forms.Label()
+        Me.lbNombre = New System.Windows.Forms.Label()
         Me.btnSalir = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.txtNombre = New System.Windows.Forms.TextBox()
+        Me.lbBanco = New System.Windows.Forms.Label()
+        Me.btnSolicitar = New System.Windows.Forms.Button()
+        CType(Me.pbxLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'PictureBox1
+        'pbxLogo
         '
-        Me.PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.Image = Global.Miguel_03_06.My.Resources.Resources.Blason_de_Gringotts
-        Me.PictureBox1.Location = New System.Drawing.Point(331, 12)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(190, 248)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
+        Me.pbxLogo.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.pbxLogo.BackColor = System.Drawing.Color.Transparent
+        Me.pbxLogo.Image = Global.Miguel_03_06.My.Resources.Resources.Blason_de_Gringotts
+        Me.pbxLogo.Location = New System.Drawing.Point(331, 12)
+        Me.pbxLogo.Name = "pbxLogo"
+        Me.pbxLogo.Size = New System.Drawing.Size(190, 248)
+        Me.pbxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pbxLogo.TabIndex = 0
+        Me.pbxLogo.TabStop = False
         '
-        'Label1
+        'lbBanco2
         '
-        Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.Left
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Times New Roman", 27.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(204, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(-1, 113)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(344, 43)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "GRINGOTTS BANK"
+        Me.lbBanco2.Anchor = System.Windows.Forms.AnchorStyles.Left
+        Me.lbBanco2.AutoSize = True
+        Me.lbBanco2.BackColor = System.Drawing.Color.Transparent
+        Me.lbBanco2.Font = New System.Drawing.Font("Times New Roman", 27.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(204, Byte))
+        Me.lbBanco2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.lbBanco2.Location = New System.Drawing.Point(-1, 113)
+        Me.lbBanco2.Name = "lbBanco2"
+        Me.lbBanco2.Size = New System.Drawing.Size(344, 43)
+        Me.lbBanco2.TabIndex = 1
+        Me.lbBanco2.Text = "GRINGOTTS BANK"
         '
-        'Label2
+        'lbNombre
         '
-        Me.Label2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+        Me.lbNombre.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(215, 305)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(110, 19)
-        Me.Label2.TabIndex = 2
-        Me.Label2.Text = "YOUR NAME :"
+        Me.lbNombre.AutoSize = True
+        Me.lbNombre.BackColor = System.Drawing.Color.Transparent
+        Me.lbNombre.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbNombre.Location = New System.Drawing.Point(215, 305)
+        Me.lbNombre.Name = "lbNombre"
+        Me.lbNombre.Size = New System.Drawing.Size(110, 19)
+        Me.lbNombre.TabIndex = 2
+        Me.lbNombre.Text = "YOUR NAME :"
         '
         'btnSalir
         '
@@ -84,46 +84,46 @@ Partial Class FormInicio
         Me.btnSalir.Text = "EXIT"
         Me.btnSalir.UseVisualStyleBackColor = False
         '
-        'TextBox1
+        'txtNombre
         '
-        Me.TextBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
-        Me.TextBox1.BackColor = System.Drawing.Color.PeachPuff
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox1.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(331, 305)
-        Me.TextBox1.Multiline = True
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(190, 20)
-        Me.TextBox1.TabIndex = 4
-        Me.TextBox1.Text = "NAME"
-        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.txtNombre.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
+        Me.txtNombre.BackColor = System.Drawing.Color.PeachPuff
+        Me.txtNombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtNombre.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtNombre.Location = New System.Drawing.Point(331, 305)
+        Me.txtNombre.Multiline = True
+        Me.txtNombre.Name = "txtNombre"
+        Me.txtNombre.Size = New System.Drawing.Size(190, 20)
+        Me.txtNombre.TabIndex = 4
+        Me.txtNombre.Text = "NAME"
+        Me.txtNombre.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'Label3
+        'lbBanco
         '
-        Me.Label3.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Times New Roman", 27.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(204, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(499, 113)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(344, 43)
-        Me.Label3.TabIndex = 5
-        Me.Label3.Text = "GRINGOTTS BANK"
+        Me.lbBanco.Anchor = System.Windows.Forms.AnchorStyles.Right
+        Me.lbBanco.AutoSize = True
+        Me.lbBanco.BackColor = System.Drawing.Color.Transparent
+        Me.lbBanco.Font = New System.Drawing.Font("Times New Roman", 27.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(204, Byte))
+        Me.lbBanco.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.lbBanco.Location = New System.Drawing.Point(499, 113)
+        Me.lbBanco.Name = "lbBanco"
+        Me.lbBanco.Size = New System.Drawing.Size(344, 43)
+        Me.lbBanco.TabIndex = 5
+        Me.lbBanco.Text = "GRINGOTTS BANK"
         '
-        'Button2
+        'btnSolicitar
         '
-        Me.Button2.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Times New Roman", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button2.Location = New System.Drawing.Point(359, 331)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(134, 29)
-        Me.Button2.TabIndex = 6
-        Me.Button2.Text = "SOLICITAR"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.btnSolicitar.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnSolicitar.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btnSolicitar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnSolicitar.Font = New System.Drawing.Font("Times New Roman", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSolicitar.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.btnSolicitar.Location = New System.Drawing.Point(359, 331)
+        Me.btnSolicitar.Name = "btnSolicitar"
+        Me.btnSolicitar.Size = New System.Drawing.Size(134, 29)
+        Me.btnSolicitar.TabIndex = 6
+        Me.btnSolicitar.Text = "SOLICITAR"
+        Me.btnSolicitar.UseVisualStyleBackColor = False
         '
         'FormInicio
         '
@@ -133,26 +133,26 @@ Partial Class FormInicio
         Me.BackgroundImage = Global.Miguel_03_06.My.Resources.Resources.istockphoto_867940676_612x612
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(840, 450)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.btnSolicitar)
+        Me.Controls.Add(Me.lbBanco)
+        Me.Controls.Add(Me.txtNombre)
         Me.Controls.Add(Me.btnSalir)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.lbNombre)
+        Me.Controls.Add(Me.lbBanco2)
+        Me.Controls.Add(Me.pbxLogo)
         Me.Name = "FormInicio"
         Me.Text = "Form1"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbxLogo, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
+    Friend WithEvents pbxLogo As PictureBox
+    Friend WithEvents lbBanco2 As Label
+    Friend WithEvents lbNombre As Label
     Friend WithEvents btnSalir As Button
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Button2 As Button
+    Friend WithEvents txtNombre As TextBox
+    Friend WithEvents lbBanco As Label
+    Friend WithEvents btnSolicitar As Button
 End Class

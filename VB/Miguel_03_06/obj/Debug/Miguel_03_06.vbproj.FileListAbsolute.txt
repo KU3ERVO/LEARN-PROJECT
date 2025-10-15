@@ -13,3 +13,18 @@ D:\LEARN-PROJECT\VB\Miguel_03_06\obj\Debug\Miguel_03_06.exe.config
 D:\LEARN-PROJECT\VB\Miguel_03_06\obj\Debug\Miguel_03_06.FormInicio.resources
 D:\LEARN-PROJECT\VB\Miguel_03_06\obj\Debug\Miguel_03_06.FormPrestamo.resources
 D:\LEARN-PROJECT\VB\Miguel_03_06\obj\Debug\Miguel_03_06.FormSolucion.resources
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\Miguel_03_06\bin\Debug\Miguel_03_06.exe.config
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\Miguel_03_06\bin\Debug\Miguel_03_06.exe
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\Miguel_03_06\bin\Debug\Miguel_03_06.pdb
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\Miguel_03_06\bin\Debug\Miguel_03_06.xml
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\Miguel_03_06\obj\Debug\Miguel_03_06.vbproj.AssemblyReference.cache
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\Miguel_03_06\obj\Debug\Miguel_03_06.exe.config
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\Miguel_03_06\obj\Debug\Miguel_03_06.FormInicio.resources
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\Miguel_03_06\obj\Debug\Miguel_03_06.FormPrestamo.resources
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\Miguel_03_06\obj\Debug\Miguel_03_06.FormSolucion.resources
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\Miguel_03_06\obj\Debug\Miguel_03_06.Resources.resources
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\Miguel_03_06\obj\Debug\Miguel_03_06.vbproj.GenerateResource.cache
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\Miguel_03_06\obj\Debug\Miguel_03_06.vbproj.CoreCompileInputs.cache
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\Miguel_03_06\obj\Debug\Miguel_03_06.exe
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\Miguel_03_06\obj\Debug\Miguel_03_06.xml
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\Miguel_03_06\obj\Debug\Miguel_03_06.pdb
