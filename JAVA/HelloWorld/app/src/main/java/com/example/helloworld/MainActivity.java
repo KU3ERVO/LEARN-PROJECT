@@ -1,6 +1,7 @@
 package com.example.helloworld;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 
@@ -55,6 +56,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         Log.i("ANGEL", "Estoy onDestroy");
+
+        Intent ejemplo= new Intent(Intent.ACTION_VIEW);
+        ejemplo.setData(Uri.parse("http://www.google.es"));
+        startActivity(ejemplo);
 
         Intent ex = new Intent(this,MainActivity2.class);
         startActivity(ex);
