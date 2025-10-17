@@ -5,8 +5,5 @@ public class Main {
 
         Virus v = new Virus();
         v.Contagio();
-
-
-
     }
 }
