@@ -1,3 +1,4 @@
+package accesoaleatorio;
 // Almacenamiento de registros de longitud fija en fichero acceso aleatorio
 /*
 La clase desarrollada en el siguiente ejemplo permite almacenar registros con datos de clientes en un fichero de

@@ -4,8 +4,15 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+/*Crea un programa que busque un texto dado en un fichero de texto, y que muestre para cada
+aparición la línea y la columna. Se recomienda leer el fichero línea a línea y, dentro de cada línea,
+buscar las apariciones del texto utilizando un método apropiado de la clase String. Se puede
+consultar la documentación de dicha clase en la API de Java
+(http://docs.oracle.com/javase/8/docs/api/).
+Muestra el resultado de la ejecución del programa.
 
-public class Actividad3 {
+*/
+public class Ej3 {
 
     public static void main(String[] args) {
 

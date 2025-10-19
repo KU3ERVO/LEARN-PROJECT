@@ -1,6 +1,12 @@
 package excepciones;
+/*¿Cómo cambiaría la funcionalidad del programa anterior si, en lugar de haber un bloque try ... catch
+... para cada división, hubiera uno solo para las tres divisiones? Realiza el programa y justifica tu
+respuesta.
+Muestra el resultado de la ejecución del programa
 
-public class ExcepcionDivPorCeroGest {
+Lo que ocurre es que no saldrán todos los resultados si no ponemos la linea de código que genera
+el error la última en el try*/
+public class Ej2 {
     public int divide(int a, int b) {
         return a / b;
     }
