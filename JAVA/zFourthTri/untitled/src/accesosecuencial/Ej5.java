@@ -7,19 +7,16 @@ import java.io.InputStream;
 
     // Volcado hexadecimal de un fichero con FileInputStream
 /*
-Ahora un ejemplo con flujos binarios. El siguiente programa hace un volcado binario de un fichero indicado desde
-línea de comandos. Los contenidos del fichero se leen en bloques de 32 bytes, y el contenido de cada bloque se
-escribe en una línea de texto. Los bytes se escriben en hexadecimal (base 16) y, por tanto, cada byte se escribe
-utilizando dos caracteres1. El programa muestra como máximo los primeros 2 kilobytes (MAX_BYTES=2048). Por supuesto,
-este programa se puede utilizar tanto con ficheros binarios como con ficheros de texto. Hacer notar que esta clase
-permite hacer el volcado binario de un InputStream, y un FileInputStream es un caso particular. Siempre que sea posible,
-debemos hacer que las clases que desarrollemos funcionen con streams en general, y no solo con ficheros en particular.
+Modifica la clase VolcadoBinario para que pueda hacer el volcado a cualquier PrintStream,
+en lugar de siempre a System.out. Modifica el método main()
+para que realice el volcado hacia un fichero.
+Muestra el resultado de la ejecución del programa.
  */
 
     /**
      * Clase que permite realizar un volcado binario (en formato hexadecimal) de un fichero.
      */
-    public class Actividad5 {
+    public class Ej5 {
         // Define el número de bytes a leer y mostrar por fila en el volcado.
         static int TAM_FILA=32;
         // Define el número máximo de bytes a volcar.
@@ -31,7 +28,7 @@ debemos hacer que las clases que desarrollemos funcionen con streams en general,
          * Constructor de la clase.
          * @param is El InputStream desde el que se leerán los datos.
          */
-        public Actividad5(InputStream is) {
+        public Ej5(InputStream is) {
             this.is=is;
         }
 

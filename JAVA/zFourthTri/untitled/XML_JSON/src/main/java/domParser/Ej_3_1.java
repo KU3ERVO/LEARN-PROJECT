@@ -7,22 +7,26 @@ import java.io.FileNotFoundException;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.ParserConfigurationException;
+
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.w3c.dom.NamedNodeMap;
 import org.xml.sax.SAXException;
 
-public class DOMParser {
-
+public class Ej_3_1 {
+    /*Modifica el programa del ejemplo DOMParser.java para que escriba la salida a un fichero con nombre parsing_dom.txt.
+    Como mejora, puedes utilizar la clase SimpleDateFormat para hacer que en el nombre de fichero se incluyan la fecha y la hora,
+    de manera similar a como se hacía en un programa de ejemplo del capítulo anterior dedicado a ficheros.*/
     // Constante para definir la cadena que se usará para la indentación en la salida.
     private static final String INDENT_NIVEL = "  ";
 
     /**
      * Método recursivo que recorre el árbol DOM y muestra información de cada nodo.
-     * @param nodo El nodo actual a procesar.
+     *
+     * @param nodo  El nodo actual a procesar.
      * @param nivel La profundidad actual en el árbol, usada para la indentación.
-     * @param ps El stream de salida donde se imprimirá la información (ej. System.out).
+     * @param ps    El stream de salida donde se imprimirá la información (ej. System.out).
      */
     public static void muestraNodo(Node nodo, int nivel, PrintStream ps) {
         // --- FILTRO DE NODOS DE TEXTO VACÍOS ---
@@ -90,6 +94,7 @@ public class DOMParser {
 
     /**
      * Método principal que inicia el proceso de parseo del XML.
+     *
      * @param args Argumentos de línea de comandos. Se espera que args[0] sea la ruta al fichero XML.
      */
     public static void main(String[] args) {

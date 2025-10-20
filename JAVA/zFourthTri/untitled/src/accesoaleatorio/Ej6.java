@@ -1,28 +1,13 @@
 package accesoaleatorio;
+
 // Almacenamiento de registros de longitud fija en fichero acceso aleatorio
 /*
-La clase desarrollada en el siguiente ejemplo permite almacenar registros con datos de clientes en un fichero de
-acceso aleatorio. Los datos de cada cliente se almacenan en un registro, que es una estructura de longitud fija
-dividida en campos de longitud fija. En este caso, los campos son DNI, nombre y código postal. El constructor
-de la clase toma una lista con la definición del registro. Cada elemento de la lista contiene la definición
-de un campo en un par <nombre, longitud>. Los valores de los campos para un registro se almacenan en un HashMap,
-que contiene pares <nombre, valor>, cada uno de los cuales contiene el valor para un campo.
-Al constructor se le proporciona un nombre de fichero. Si el fichero no existe, se crea.
-Si el fichero existe, se calcula el número de registros que contiene, dividiendo la longitud del fichero
-en bytes por la longitud de cada registro.
-El método más interesante es insertar(). Tiene dos variantes. Si no se le indica la posición,
-añade el registro al final del fichero. Si no, en la posición que se le indique. La posición
-del primer registro es 0, no 1. Los textos se almacenan siempre codificados en UTF-8.
-Como es relativamente habitual en los métodos, no gestionan las excepciones que puede generar (throws IOException),
-y dejan esto para el programa principal.
+¿Qué crees que pasaría si se intenta usar la clase FicheroAccesoAleatorio para almacenar un registro en una posición mayor que el número de registros que contiene el fichero? Compruébalo modificando el método main() para hacer las pruebas oportunas.
+Muestra el resultado de la ejecución del programa.
+
+Lo que ocurre es que generamos nulls hasta la posición del objeto
  */
 
-/*
-Para añadir la librería siguiente:
-https://openjfx.io/openjfx-docs/#install-javafx
-https://gluonhq.com/products/javafx/
-La versión javafx-sdk-21.0.8 es suficiente
- */
 import javafx.util.Pair;
 
 import java.io.File;
@@ -33,7 +18,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class FicheroAccesoAleatorio {
+public class Ej6 {
 
     private File f;
     private List<Pair<String, Integer>> campos;
@@ -46,7 +31,7 @@ public class FicheroAccesoAleatorio {
      * @param campos  Una lista de pares (nombre del campo, longitud del campo)
      * @throws IOException Si ocurre un error al acceder al archivo.
      */
-    FicheroAccesoAleatorio(String nomFich, List<Pair<String, Integer>> campos)
+    Ej6(String nomFich, List<Pair<String, Integer>> campos)
             throws IOException {
         this.campos = campos;
         this.f = new File(nomFich);
@@ -124,7 +109,7 @@ public class FicheroAccesoAleatorio {
 
         try {
             // Instancia la clase para trabajar con el archivo "fic_acceso_aleat.dat".
-            FicheroAccesoAleatorio faa = new FicheroAccesoAleatorio("fic_acceso_ aleat.dat", campos);
+            Ej6 faa = new Ej6("fic_acceso_ aleat.dat", campos);
 
             // Crea e inserta el primer registro (SAMPER).
             Map reg = new HashMap();
@@ -147,12 +132,12 @@ public class FicheroAccesoAleatorio {
             reg.put("CP", "13700");
             faa.insertar(reg);
 
-            // Limpia el mapa y crea e inserta un registro en la posición 1, sobreescribiendo el registro de ROJAS.
+            // ESTA ES LA INSERCIÓN QUE GENERA NULLS HASTA SU MISMA POSICION.
             reg.clear();
             reg.put("DNI", "78901234X");
             reg.put("NOMBRE", "NADALES");
             reg.put("CP", "44126");
-            faa.insertar(reg, 1);
+            faa.insertar(reg, 70);
 
         } catch (IOException e) {
             // Maneja errores de entrada/salida.
