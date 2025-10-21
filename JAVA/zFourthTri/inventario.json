@@ -1,0 +1,19 @@
+{
+  "nombreTienda" : "PiliMili",
+  "productos" : [ {
+    "nombre" : "Falda",
+    "id" : "01",
+    "precio" : 10.0,
+    "cantidad" : 200
+  }, {
+    "nombre" : "Camiseta",
+    "id" : "02",
+    "precio" : 15.0,
+    "cantidad" : 100
+  }, {
+    "nombre" : "Tacones",
+    "id" : "03",
+    "precio" : 70.0,
+    "cantidad" : 80
+  } ]
+}
