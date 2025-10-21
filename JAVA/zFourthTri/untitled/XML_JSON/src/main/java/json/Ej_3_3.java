@@ -22,4 +22,27 @@ Deserialización: Lee el contenido del archivo inventario.json y conviértelo de
 o
 Verificación: Imprime en la consola el nombre de la tienda y los detalles de cada producto del objeto recién deserializado para verificar que el proceso tuvo éxito.*/
 public class Ej_3_3 {
+    public static void Main (String[] args){
+
+    }
+    public class inventario{}
+    public class Producto{
+
+        private String nombre;
+        private String id;
+        private double precio;
+        private int cantidad;
+
+        Producto(){}
+
+        public Producto(String nombre, String id, double precio, int cantidad) {
+            this.nombre = nombre;
+            this.id = id;
+            this.precio = precio;
+            this.cantidad = cantidad;
+        }
+
+
+    }
+
 }

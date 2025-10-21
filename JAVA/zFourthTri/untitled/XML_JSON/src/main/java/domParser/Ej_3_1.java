@@ -4,6 +4,8 @@ package domParser;
 import java.io.File;
 import java.io.PrintStream;
 import java.io.FileNotFoundException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.ParserConfigurationException;
@@ -107,6 +109,12 @@ public class Ej_3_1 {
             nomFich = args[0];
         }
 
+        String fecha = "dd_MM_yyyy__HH_mm_ss";
+        SimpleDateFormat sdf = new SimpleDateFormat(fecha);
+        fecha = sdf.format(new Date());
+
+        String fout = "Parsing_DOM" + fecha + ".txt";
+
         // --- CONFIGURACIÓN DEL PARSER DOM ---
         // 1. Obtenemos una instancia de la fábrica de constructores de documentos.
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
@@ -118,7 +126,7 @@ public class Ej_3_1 {
         //    Esto es muy útil para evitar nodos de texto vacíos.
         dbf.setIgnoringElementContentWhitespace(true);
 
-        try {
+        try (PrintStream ps = new PrintStream(fout)) {
             // 4. Creamos un DocumentBuilder a partir de la fábrica configurada.
             DocumentBuilder db = dbf.newDocumentBuilder();
 
@@ -127,7 +135,7 @@ public class Ej_3_1 {
             Document domDoc = db.parse(new File(nomFich));
 
             // 6. Iniciamos el recorrido y la visualización del árbol desde su raíz (el documento).
-            muestraNodo(domDoc, 0, System.out);
+            muestraNodo(domDoc, 0, ps);
 
             // Capturamos las excepciones más comunes durante el parseo.
         } catch (FileNotFoundException | ParserConfigurationException | SAXException e) {

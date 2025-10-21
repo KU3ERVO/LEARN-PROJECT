@@ -1,11 +1,8 @@
 package accesosecuencial;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 
-    // Volcado hexadecimal de un fichero con FileInputStream
+// Volcado hexadecimal de un fichero con FileInputStream
 /*
 Modifica la clase VolcadoBinario para que pueda hacer el volcado a cualquier PrintStream,
 en lugar de siempre a System.out. Modifica el método main()
@@ -23,13 +20,16 @@ Muestra el resultado de la ejecución del programa.
         static int MAX_BYTES=2048;
         // Referencia al stream de entrada de datos, puede ser de cualquier tipo que herede de InputStream.
         InputStream is=null;
+        //GENERAMOS UNA VARIABLE PRINTSTREAM PARA QUE NOS SIRVA COMO EL OUTPUT
+        PrintStream os=null;
 
         /**
          * Constructor de la clase.
          * @param is El InputStream desde el que se leerán los datos.
          */
-        public Ej5(InputStream is) {
+        public Ej5(InputStream is, PrintStream os){
             this.is=is;
+            this.os=os;
         }
 
         /**
@@ -48,16 +48,17 @@ Muestra el resultado de la ejecución del programa.
                 // Lee hasta 'TAM_FILA' bytes del stream y los almacena en el buffer.
                 bytesLeidos=is.read(buffer);
                 // Imprime el offset actual formateado a 5 dígitos.
-                System.out.format("[%5d] ", offset);
+                os.format("[%5d] ", offset);
                 // Itera sobre los bytes leídos en el buffer.
                 for(int i=0; i<bytesLeidos; i++) {
                     // Formatea y imprime cada byte en su representación hexadecimal de dos dígitos.
-                    System.out.format("%2x", buffer[i]);
+                    os.format("%2x", buffer[i]);
+
                 }
                 // Incrementa el offset con el número de bytes que se acaban de leer.
                 offset+=bytesLeidos;
                 // Salto de línea para la siguiente fila del volcado.
-                System.out.println();
+                os.println();
             } while (bytesLeidos==TAM_FILA && offset<MAX_BYTES); // Continúa el bucle mientras se lean 'TAM_FILA' bytes y no se haya superado el límite 'MAX_BYTES'.
         }
 
@@ -71,18 +72,24 @@ Muestra el resultado de la ejecución del programa.
                 System.out.println("No se ha indicado ningún fichero");
                 return;
             }
-            // Asigna el primer argumento a la variable 'nomFich'.
-            String nomFich=args[0];
-            // Usa un 'try-with-resources' para asegurar que el 'FileInputStream' se cierra automáticamente.
-            try (FileInputStream fis = new FileInputStream(nomFich)) {
-                // Crea una instancia de 'VolcadoBinario' pasando el 'FileInputStream'.
-                accesosecuencial.VolcadoBinario vb = new accesosecuencial.VolcadoBinario(fis);
-                // Llama al método 'volcar' para realizar el volcado del fichero.
-                vb.volcar();
+
+            String fin = args[0];
+            String fout = args[1];
+
+            try{
+            FileInputStream fis=new FileInputStream(fin);
+            PrintStream ps=new PrintStream(fout);
+
+
+            Ej5 ej5=new Ej5(fis,ps);
+
+            ej5.volcar();
+
+
             }
             // Captura la excepción si el fichero no se encuentra.
             catch (FileNotFoundException e) {
-                System.err.println("ERROR: no existe fichero "+nomFich);
+                System.err.println("ERROR: no existe fichero ");
             }
             // Captura la excepción si ocurre un error general de entrada/salida.
             catch (IOException e) {
