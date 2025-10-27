@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\LEARN-PROJECT\\VB\\03_08\\",
+  "WorkspaceRootPath": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\VB\\03_08\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6E1188A-E18A-452C-A65C-3F8297CB84BB}|03_08.vbproj|d:\\learn-project\\vb\\03_08\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{F6E1188A-E18A-452C-A65C-3F8297CB84BB}|03_08.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{78376170-6CD7-44A9-B871-DA5BEEB0B541}|03_08\\03_08.vbproj|m:\\anhe\\dam\\primeros pasos\\learn-project\\vb\\03_08\\03_08\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{78376170-6CD7-44A9-B871-DA5BEEB0B541}|03_08\\03_08.vbproj|solutionrelative:03_08\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6E1188A-E18A-452C-A65C-3F8297CB84BB}|03_08.vbproj|d:\\learn-project\\vb\\03_08\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{F6E1188A-E18A-452C-A65C-3F8297CB84BB}|03_08.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{78376170-6CD7-44A9-B871-DA5BEEB0B541}|03_08\\03_08.vbproj|m:\\anhe\\dam\\primeros pasos\\learn-project\\vb\\03_08\\03_08\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{78376170-6CD7-44A9-B871-DA5BEEB0B541}|03_08\\03_08.vbproj|solutionrelative:03_08\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,26 +24,26 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.vb",
-              "DocumentMoniker": "D:\\LEARN-PROJECT\\VB\\03_08\\Form1.vb",
-              "RelativeDocumentMoniker": "Form1.vb",
-              "ToolTip": "D:\\LEARN-PROJECT\\VB\\03_08\\Form1.vb",
-              "RelativeToolTip": "Form1.vb",
+              "DocumentMoniker": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\VB\\03_08\\03_08\\Form1.vb",
+              "RelativeDocumentMoniker": "03_08\\Form1.vb",
+              "ToolTip": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\VB\\03_08\\03_08\\Form1.vb",
+              "RelativeToolTip": "03_08\\Form1.vb",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-10-21T09:42:49.588Z",
+              "WhenOpened": "2025-10-26T16:02:09.42Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.vb [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\LEARN-PROJECT\\VB\\03_08\\Form1.vb",
-              "RelativeDocumentMoniker": "Form1.vb",
-              "ToolTip": "D:\\LEARN-PROJECT\\VB\\03_08\\Form1.vb [Dise\u00F1o]",
-              "RelativeToolTip": "Form1.vb [Dise\u00F1o]",
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\VB\\03_08\\03_08\\Form1.vb",
+              "RelativeDocumentMoniker": "03_08\\Form1.vb",
+              "ToolTip": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\VB\\03_08\\03_08\\Form1.vb [Design]",
+              "RelativeToolTip": "03_08\\Form1.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-10-20T11:36:13.55Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-10-26T15:46:28.161Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
