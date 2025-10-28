@@ -22,317 +22,366 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
-        Me.Button13 = New System.Windows.Forms.Button()
-        Me.Button14 = New System.Windows.Forms.Button()
-        Me.Button15 = New System.Windows.Forms.Button()
-        Me.Button16 = New System.Windows.Forms.Button()
-        Me.Button17 = New System.Windows.Forms.Button()
-        Me.Button18 = New System.Windows.Forms.Button()
-        Me.Button19 = New System.Windows.Forms.Button()
-        Me.Button20 = New System.Windows.Forms.Button()
-        Me.Button21 = New System.Windows.Forms.Button()
-        Me.Button22 = New System.Windows.Forms.Button()
-        Me.Button23 = New System.Windows.Forms.Button()
-        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
+        Me.btnBorrarDerecha = New System.Windows.Forms.Button()
+        Me.btn0 = New System.Windows.Forms.Button()
+        Me.btnMasMenos = New System.Windows.Forms.Button()
+        Me.btnIgual = New System.Windows.Forms.Button()
+        Me.btnMulti = New System.Windows.Forms.Button()
+        Me.btn1 = New System.Windows.Forms.Button()
+        Me.btn2 = New System.Windows.Forms.Button()
+        Me.btn3 = New System.Windows.Forms.Button()
+        Me.btnSuma = New System.Windows.Forms.Button()
+        Me.btnPotencia = New System.Windows.Forms.Button()
+        Me.btn4 = New System.Windows.Forms.Button()
+        Me.btn5 = New System.Windows.Forms.Button()
+        Me.btn6 = New System.Windows.Forms.Button()
+        Me.btnResta = New System.Windows.Forms.Button()
+        Me.btnPorcentaje = New System.Windows.Forms.Button()
+        Me.btn7 = New System.Windows.Forms.Button()
+        Me.btn8 = New System.Windows.Forms.Button()
+        Me.btn9 = New System.Windows.Forms.Button()
+        Me.btnDivision = New System.Windows.Forms.Button()
+        Me.btnInversa = New System.Windows.Forms.Button()
+        Me.btnBorrarTodo = New System.Windows.Forms.Button()
+        Me.btnPunto = New System.Windows.Forms.Button()
+        Me.btnRaiz = New System.Windows.Forms.Button()
+        Me.txtResultado = New System.Windows.Forms.RichTextBox()
         Me.SuspendLayout()
         '
-        'Button1
+        'btnBorrarDerecha
         '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
-        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Location = New System.Drawing.Point(22, 125)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 75)
-        Me.Button1.TabIndex = 1
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.btnBorrarDerecha.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.btnBorrarDerecha.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnBorrarDerecha.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnBorrarDerecha.Font = New System.Drawing.Font("Bahnschrift SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnBorrarDerecha.ForeColor = System.Drawing.Color.White
+        Me.btnBorrarDerecha.Location = New System.Drawing.Point(22, 125)
+        Me.btnBorrarDerecha.Name = "btnBorrarDerecha"
+        Me.btnBorrarDerecha.Size = New System.Drawing.Size(75, 75)
+        Me.btnBorrarDerecha.TabIndex = 1
+        Me.btnBorrarDerecha.Text = "BC"
+        Me.btnBorrarDerecha.UseVisualStyleBackColor = False
         '
-        'Button2
+        'btn0
         '
-        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
-        Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Location = New System.Drawing.Point(103, 125)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 75)
-        Me.Button2.TabIndex = 2
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.btn0.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.btn0.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btn0.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btn0.Font = New System.Drawing.Font("Bahnschrift SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn0.ForeColor = System.Drawing.Color.White
+        Me.btn0.Location = New System.Drawing.Point(103, 125)
+        Me.btn0.Name = "btn0"
+        Me.btn0.Size = New System.Drawing.Size(75, 75)
+        Me.btn0.TabIndex = 2
+        Me.btn0.Text = "0"
+        Me.btn0.UseVisualStyleBackColor = False
         '
-        'Button3
+        'btnMasMenos
         '
-        Me.Button3.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
-        Me.Button3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Location = New System.Drawing.Point(184, 125)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 75)
-        Me.Button3.TabIndex = 3
-        Me.Button3.Text = "Button3"
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.btnMasMenos.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.btnMasMenos.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnMasMenos.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnMasMenos.Font = New System.Drawing.Font("Bahnschrift SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnMasMenos.ForeColor = System.Drawing.Color.White
+        Me.btnMasMenos.Location = New System.Drawing.Point(184, 125)
+        Me.btnMasMenos.Name = "btnMasMenos"
+        Me.btnMasMenos.Size = New System.Drawing.Size(75, 75)
+        Me.btnMasMenos.TabIndex = 3
+        Me.btnMasMenos.Text = "+/-"
+        Me.btnMasMenos.UseVisualStyleBackColor = False
         '
-        'Button4
+        'btnIgual
         '
-        Me.Button4.BackColor = System.Drawing.Color.Maroon
-        Me.Button4.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Location = New System.Drawing.Point(265, 125)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(155, 75)
-        Me.Button4.TabIndex = 4
-        Me.Button4.Text = "Button4"
-        Me.Button4.UseVisualStyleBackColor = False
+        Me.btnIgual.BackColor = System.Drawing.Color.Maroon
+        Me.btnIgual.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnIgual.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnIgual.Font = New System.Drawing.Font("Bahnschrift SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnIgual.ForeColor = System.Drawing.Color.White
+        Me.btnIgual.Location = New System.Drawing.Point(265, 125)
+        Me.btnIgual.Name = "btnIgual"
+        Me.btnIgual.Size = New System.Drawing.Size(155, 75)
+        Me.btnIgual.TabIndex = 4
+        Me.btnIgual.Text = "="
+        Me.btnIgual.UseVisualStyleBackColor = False
         '
-        'Button5
+        'btnMulti
         '
-        Me.Button5.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
-        Me.Button5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Location = New System.Drawing.Point(265, 449)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(75, 75)
-        Me.Button5.TabIndex = 5
-        Me.Button5.Text = "Button5"
-        Me.Button5.UseVisualStyleBackColor = False
+        Me.btnMulti.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.btnMulti.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnMulti.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnMulti.Font = New System.Drawing.Font("Bahnschrift SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnMulti.ForeColor = System.Drawing.Color.White
+        Me.btnMulti.Location = New System.Drawing.Point(265, 449)
+        Me.btnMulti.Name = "btnMulti"
+        Me.btnMulti.Size = New System.Drawing.Size(75, 75)
+        Me.btnMulti.TabIndex = 5
+        Me.btnMulti.Text = "*"
+        Me.btnMulti.UseVisualStyleBackColor = False
         '
-        'Button6
+        'btn1
         '
-        Me.Button6.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
-        Me.Button6.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.Location = New System.Drawing.Point(22, 206)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(75, 75)
-        Me.Button6.TabIndex = 6
-        Me.Button6.Text = "Button6"
-        Me.Button6.UseVisualStyleBackColor = False
+        Me.btn1.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.btn1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btn1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btn1.Font = New System.Drawing.Font("Bahnschrift SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn1.ForeColor = System.Drawing.Color.White
+        Me.btn1.Location = New System.Drawing.Point(22, 206)
+        Me.btn1.Name = "btn1"
+        Me.btn1.Size = New System.Drawing.Size(75, 75)
+        Me.btn1.TabIndex = 6
+        Me.btn1.Text = "1"
+        Me.btn1.UseVisualStyleBackColor = False
         '
-        'Button7
+        'btn2
         '
-        Me.Button7.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
-        Me.Button7.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button7.Location = New System.Drawing.Point(103, 206)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(75, 75)
-        Me.Button7.TabIndex = 7
-        Me.Button7.Text = "Button7"
-        Me.Button7.UseVisualStyleBackColor = False
+        Me.btn2.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.btn2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btn2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btn2.Font = New System.Drawing.Font("Bahnschrift SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn2.ForeColor = System.Drawing.Color.White
+        Me.btn2.Location = New System.Drawing.Point(103, 206)
+        Me.btn2.Name = "btn2"
+        Me.btn2.Size = New System.Drawing.Size(75, 75)
+        Me.btn2.TabIndex = 7
+        Me.btn2.Text = "2"
+        Me.btn2.UseVisualStyleBackColor = False
         '
-        'Button8
+        'btn3
         '
-        Me.Button8.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
-        Me.Button8.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button8.Location = New System.Drawing.Point(184, 206)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(75, 75)
-        Me.Button8.TabIndex = 8
-        Me.Button8.Text = "Button8"
-        Me.Button8.UseVisualStyleBackColor = False
+        Me.btn3.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.btn3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btn3.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btn3.Font = New System.Drawing.Font("Bahnschrift SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn3.ForeColor = System.Drawing.Color.White
+        Me.btn3.Location = New System.Drawing.Point(184, 206)
+        Me.btn3.Name = "btn3"
+        Me.btn3.Size = New System.Drawing.Size(75, 75)
+        Me.btn3.TabIndex = 8
+        Me.btn3.Text = "3"
+        Me.btn3.UseVisualStyleBackColor = False
         '
-        'Button9
+        'btnSuma
         '
-        Me.Button9.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
-        Me.Button9.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button9.Location = New System.Drawing.Point(265, 206)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(75, 75)
-        Me.Button9.TabIndex = 9
-        Me.Button9.Text = "Button9"
-        Me.Button9.UseVisualStyleBackColor = False
+        Me.btnSuma.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.btnSuma.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnSuma.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnSuma.Font = New System.Drawing.Font("Bahnschrift SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSuma.ForeColor = System.Drawing.Color.White
+        Me.btnSuma.Location = New System.Drawing.Point(265, 206)
+        Me.btnSuma.Name = "btnSuma"
+        Me.btnSuma.Size = New System.Drawing.Size(75, 75)
+        Me.btnSuma.TabIndex = 9
+        Me.btnSuma.Text = "+"
+        Me.btnSuma.UseVisualStyleBackColor = False
         '
-        'Button10
+        'btnPotencia
         '
-        Me.Button10.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
-        Me.Button10.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button10.Location = New System.Drawing.Point(346, 206)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(75, 75)
-        Me.Button10.TabIndex = 10
-        Me.Button10.Text = "Button10"
-        Me.Button10.UseVisualStyleBackColor = False
+        Me.btnPotencia.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.btnPotencia.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnPotencia.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnPotencia.Font = New System.Drawing.Font("Bahnschrift SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnPotencia.ForeColor = System.Drawing.Color.White
+        Me.btnPotencia.Location = New System.Drawing.Point(346, 206)
+        Me.btnPotencia.Name = "btnPotencia"
+        Me.btnPotencia.Size = New System.Drawing.Size(75, 75)
+        Me.btnPotencia.TabIndex = 10
+        Me.btnPotencia.Text = "^"
+        Me.btnPotencia.UseVisualStyleBackColor = False
         '
-        'Button11
+        'btn4
         '
-        Me.Button11.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
-        Me.Button11.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button11.Location = New System.Drawing.Point(22, 287)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(75, 75)
-        Me.Button11.TabIndex = 11
-        Me.Button11.Text = "Button11"
-        Me.Button11.UseVisualStyleBackColor = False
+        Me.btn4.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.btn4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btn4.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btn4.Font = New System.Drawing.Font("Bahnschrift SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn4.ForeColor = System.Drawing.Color.White
+        Me.btn4.Location = New System.Drawing.Point(22, 287)
+        Me.btn4.Name = "btn4"
+        Me.btn4.Size = New System.Drawing.Size(75, 75)
+        Me.btn4.TabIndex = 11
+        Me.btn4.Text = "4"
+        Me.btn4.UseVisualStyleBackColor = False
         '
-        'Button12
+        'btn5
         '
-        Me.Button12.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
-        Me.Button12.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button12.Location = New System.Drawing.Point(103, 287)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(75, 75)
-        Me.Button12.TabIndex = 12
-        Me.Button12.Text = "Button12"
-        Me.Button12.UseVisualStyleBackColor = False
+        Me.btn5.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.btn5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btn5.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btn5.Font = New System.Drawing.Font("Bahnschrift SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn5.ForeColor = System.Drawing.Color.White
+        Me.btn5.Location = New System.Drawing.Point(103, 287)
+        Me.btn5.Name = "btn5"
+        Me.btn5.Size = New System.Drawing.Size(75, 75)
+        Me.btn5.TabIndex = 12
+        Me.btn5.Text = "5"
+        Me.btn5.UseVisualStyleBackColor = False
         '
-        'Button13
+        'btn6
         '
-        Me.Button13.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
-        Me.Button13.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button13.Location = New System.Drawing.Point(184, 287)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(75, 75)
-        Me.Button13.TabIndex = 13
-        Me.Button13.Text = "Button13"
-        Me.Button13.UseVisualStyleBackColor = False
+        Me.btn6.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.btn6.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btn6.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btn6.Font = New System.Drawing.Font("Bahnschrift SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn6.ForeColor = System.Drawing.Color.White
+        Me.btn6.Location = New System.Drawing.Point(184, 287)
+        Me.btn6.Name = "btn6"
+        Me.btn6.Size = New System.Drawing.Size(75, 75)
+        Me.btn6.TabIndex = 13
+        Me.btn6.Text = "6"
+        Me.btn6.UseVisualStyleBackColor = False
         '
-        'Button14
+        'btnResta
         '
-        Me.Button14.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
-        Me.Button14.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button14.Location = New System.Drawing.Point(265, 287)
-        Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(75, 75)
-        Me.Button14.TabIndex = 14
-        Me.Button14.Text = "Button14"
-        Me.Button14.UseVisualStyleBackColor = False
+        Me.btnResta.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.btnResta.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnResta.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnResta.Font = New System.Drawing.Font("Bahnschrift SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnResta.ForeColor = System.Drawing.Color.White
+        Me.btnResta.Location = New System.Drawing.Point(265, 287)
+        Me.btnResta.Name = "btnResta"
+        Me.btnResta.Size = New System.Drawing.Size(75, 75)
+        Me.btnResta.TabIndex = 14
+        Me.btnResta.Text = "-"
+        Me.btnResta.UseVisualStyleBackColor = False
         '
-        'Button15
+        'btnPorcentaje
         '
-        Me.Button15.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
-        Me.Button15.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button15.Location = New System.Drawing.Point(346, 287)
-        Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(75, 75)
-        Me.Button15.TabIndex = 15
-        Me.Button15.Text = "Button15"
-        Me.Button15.UseVisualStyleBackColor = False
+        Me.btnPorcentaje.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.btnPorcentaje.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnPorcentaje.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnPorcentaje.Font = New System.Drawing.Font("Bahnschrift SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnPorcentaje.ForeColor = System.Drawing.Color.White
+        Me.btnPorcentaje.Location = New System.Drawing.Point(346, 287)
+        Me.btnPorcentaje.Name = "btnPorcentaje"
+        Me.btnPorcentaje.Size = New System.Drawing.Size(75, 75)
+        Me.btnPorcentaje.TabIndex = 15
+        Me.btnPorcentaje.Text = "%"
+        Me.btnPorcentaje.UseVisualStyleBackColor = False
         '
-        'Button16
+        'btn7
         '
-        Me.Button16.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
-        Me.Button16.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button16.Location = New System.Drawing.Point(22, 368)
-        Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(75, 75)
-        Me.Button16.TabIndex = 16
-        Me.Button16.Text = "Button16"
-        Me.Button16.UseVisualStyleBackColor = False
+        Me.btn7.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.btn7.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btn7.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btn7.Font = New System.Drawing.Font("Bahnschrift SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn7.ForeColor = System.Drawing.Color.White
+        Me.btn7.Location = New System.Drawing.Point(22, 368)
+        Me.btn7.Name = "btn7"
+        Me.btn7.Size = New System.Drawing.Size(75, 75)
+        Me.btn7.TabIndex = 16
+        Me.btn7.Text = "7"
+        Me.btn7.UseVisualStyleBackColor = False
         '
-        'Button17
+        'btn8
         '
-        Me.Button17.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
-        Me.Button17.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button17.Location = New System.Drawing.Point(103, 368)
-        Me.Button17.Name = "Button17"
-        Me.Button17.Size = New System.Drawing.Size(75, 75)
-        Me.Button17.TabIndex = 17
-        Me.Button17.Text = "Button17"
-        Me.Button17.UseVisualStyleBackColor = False
+        Me.btn8.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.btn8.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btn8.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btn8.Font = New System.Drawing.Font("Bahnschrift SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn8.ForeColor = System.Drawing.Color.White
+        Me.btn8.Location = New System.Drawing.Point(103, 368)
+        Me.btn8.Name = "btn8"
+        Me.btn8.Size = New System.Drawing.Size(75, 75)
+        Me.btn8.TabIndex = 17
+        Me.btn8.Text = "8"
+        Me.btn8.UseVisualStyleBackColor = False
         '
-        'Button18
+        'btn9
         '
-        Me.Button18.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
-        Me.Button18.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button18.Location = New System.Drawing.Point(184, 368)
-        Me.Button18.Name = "Button18"
-        Me.Button18.Size = New System.Drawing.Size(75, 75)
-        Me.Button18.TabIndex = 18
-        Me.Button18.Text = "Button18"
-        Me.Button18.UseVisualStyleBackColor = False
+        Me.btn9.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.btn9.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btn9.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btn9.Font = New System.Drawing.Font("Bahnschrift SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn9.ForeColor = System.Drawing.Color.White
+        Me.btn9.Location = New System.Drawing.Point(184, 368)
+        Me.btn9.Name = "btn9"
+        Me.btn9.Size = New System.Drawing.Size(75, 75)
+        Me.btn9.TabIndex = 18
+        Me.btn9.Text = "9"
+        Me.btn9.UseVisualStyleBackColor = False
         '
-        'Button19
+        'btnDivision
         '
-        Me.Button19.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
-        Me.Button19.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button19.Location = New System.Drawing.Point(265, 368)
-        Me.Button19.Name = "Button19"
-        Me.Button19.Size = New System.Drawing.Size(75, 75)
-        Me.Button19.TabIndex = 19
-        Me.Button19.Text = "Button19"
-        Me.Button19.UseVisualStyleBackColor = False
+        Me.btnDivision.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.btnDivision.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnDivision.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnDivision.Font = New System.Drawing.Font("Bahnschrift SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnDivision.ForeColor = System.Drawing.Color.White
+        Me.btnDivision.Location = New System.Drawing.Point(265, 368)
+        Me.btnDivision.Name = "btnDivision"
+        Me.btnDivision.Size = New System.Drawing.Size(75, 75)
+        Me.btnDivision.TabIndex = 19
+        Me.btnDivision.Text = "/"
+        Me.btnDivision.UseVisualStyleBackColor = False
         '
-        'Button20
+        'btnInversa
         '
-        Me.Button20.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
-        Me.Button20.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button20.Location = New System.Drawing.Point(346, 449)
-        Me.Button20.Name = "Button20"
-        Me.Button20.Size = New System.Drawing.Size(75, 75)
-        Me.Button20.TabIndex = 20
-        Me.Button20.Text = "Button20"
-        Me.Button20.UseVisualStyleBackColor = False
+        Me.btnInversa.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.btnInversa.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnInversa.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnInversa.Font = New System.Drawing.Font("Bahnschrift SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnInversa.ForeColor = System.Drawing.Color.White
+        Me.btnInversa.Location = New System.Drawing.Point(346, 449)
+        Me.btnInversa.Name = "btnInversa"
+        Me.btnInversa.Size = New System.Drawing.Size(75, 75)
+        Me.btnInversa.TabIndex = 20
+        Me.btnInversa.Text = "1/x"
+        Me.btnInversa.UseVisualStyleBackColor = False
         '
-        'Button21
+        'btnBorrarTodo
         '
-        Me.Button21.BackColor = System.Drawing.Color.Maroon
-        Me.Button21.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button21.Location = New System.Drawing.Point(22, 449)
-        Me.Button21.Name = "Button21"
-        Me.Button21.Size = New System.Drawing.Size(156, 75)
-        Me.Button21.TabIndex = 21
-        Me.Button21.Text = "Button21"
-        Me.Button21.UseVisualStyleBackColor = False
+        Me.btnBorrarTodo.BackColor = System.Drawing.Color.Maroon
+        Me.btnBorrarTodo.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnBorrarTodo.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnBorrarTodo.Font = New System.Drawing.Font("Bahnschrift SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnBorrarTodo.ForeColor = System.Drawing.Color.White
+        Me.btnBorrarTodo.Location = New System.Drawing.Point(22, 449)
+        Me.btnBorrarTodo.Name = "btnBorrarTodo"
+        Me.btnBorrarTodo.Size = New System.Drawing.Size(156, 75)
+        Me.btnBorrarTodo.TabIndex = 21
+        Me.btnBorrarTodo.Text = "CE"
+        Me.btnBorrarTodo.UseVisualStyleBackColor = False
         '
-        'Button22
+        'btnPunto
         '
-        Me.Button22.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
-        Me.Button22.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button22.Location = New System.Drawing.Point(184, 449)
-        Me.Button22.Name = "Button22"
-        Me.Button22.Size = New System.Drawing.Size(75, 75)
-        Me.Button22.TabIndex = 22
-        Me.Button22.Text = "Button22"
-        Me.Button22.UseVisualStyleBackColor = False
+        Me.btnPunto.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.btnPunto.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnPunto.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnPunto.Font = New System.Drawing.Font("Bahnschrift SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnPunto.ForeColor = System.Drawing.Color.White
+        Me.btnPunto.Location = New System.Drawing.Point(184, 449)
+        Me.btnPunto.Name = "btnPunto"
+        Me.btnPunto.Size = New System.Drawing.Size(75, 75)
+        Me.btnPunto.TabIndex = 22
+        Me.btnPunto.Text = "."
+        Me.btnPunto.UseVisualStyleBackColor = False
         '
-        'Button23
+        'btnRaiz
         '
-        Me.Button23.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
-        Me.Button23.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button23.Location = New System.Drawing.Point(346, 368)
-        Me.Button23.Name = "Button23"
-        Me.Button23.Size = New System.Drawing.Size(75, 75)
-        Me.Button23.TabIndex = 23
-        Me.Button23.Text = "Button23"
-        Me.Button23.UseVisualStyleBackColor = False
+        Me.btnRaiz.BackColor = System.Drawing.Color.FromArgb(CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer), CType(CType(76, Byte), Integer))
+        Me.btnRaiz.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnRaiz.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnRaiz.Font = New System.Drawing.Font("Bahnschrift SemiBold", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnRaiz.ForeColor = System.Drawing.Color.White
+        Me.btnRaiz.Location = New System.Drawing.Point(346, 368)
+        Me.btnRaiz.Name = "btnRaiz"
+        Me.btnRaiz.Size = New System.Drawing.Size(75, 75)
+        Me.btnRaiz.TabIndex = 23
+        Me.btnRaiz.Text = "√"
+        Me.btnRaiz.UseVisualStyleBackColor = False
         '
-        'RichTextBox1
+        'txtResultado
         '
-        Me.RichTextBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(108, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(108, Byte), Integer))
-        Me.RichTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.RichTextBox1.Location = New System.Drawing.Point(21, 12)
-        Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(399, 75)
-        Me.RichTextBox1.TabIndex = 24
-        Me.RichTextBox1.Text = ""
+        Me.txtResultado.BackColor = System.Drawing.Color.FromArgb(CType(CType(108, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(108, Byte), Integer))
+        Me.txtResultado.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtResultado.Font = New System.Drawing.Font("Microsoft Sans Serif", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtResultado.ForeColor = System.Drawing.Color.White
+        Me.txtResultado.Location = New System.Drawing.Point(21, 12)
+        Me.txtResultado.Name = "txtResultado"
+        Me.txtResultado.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.txtResultado.Size = New System.Drawing.Size(399, 75)
+        Me.txtResultado.TabIndex = 24
+        Me.txtResultado.Text = " 0"
         '
         'Form1
         '
@@ -340,57 +389,60 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(57, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(57, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(437, 566)
-        Me.Controls.Add(Me.RichTextBox1)
-        Me.Controls.Add(Me.Button23)
-        Me.Controls.Add(Me.Button22)
-        Me.Controls.Add(Me.Button21)
-        Me.Controls.Add(Me.Button20)
-        Me.Controls.Add(Me.Button19)
-        Me.Controls.Add(Me.Button18)
-        Me.Controls.Add(Me.Button17)
-        Me.Controls.Add(Me.Button16)
-        Me.Controls.Add(Me.Button15)
-        Me.Controls.Add(Me.Button14)
-        Me.Controls.Add(Me.Button13)
-        Me.Controls.Add(Me.Button12)
-        Me.Controls.Add(Me.Button11)
-        Me.Controls.Add(Me.Button10)
-        Me.Controls.Add(Me.Button9)
-        Me.Controls.Add(Me.Button8)
-        Me.Controls.Add(Me.Button7)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.txtResultado)
+        Me.Controls.Add(Me.btnRaiz)
+        Me.Controls.Add(Me.btnPunto)
+        Me.Controls.Add(Me.btnBorrarTodo)
+        Me.Controls.Add(Me.btnInversa)
+        Me.Controls.Add(Me.btnDivision)
+        Me.Controls.Add(Me.btn9)
+        Me.Controls.Add(Me.btn8)
+        Me.Controls.Add(Me.btn7)
+        Me.Controls.Add(Me.btnPorcentaje)
+        Me.Controls.Add(Me.btnResta)
+        Me.Controls.Add(Me.btn6)
+        Me.Controls.Add(Me.btn5)
+        Me.Controls.Add(Me.btn4)
+        Me.Controls.Add(Me.btnPotencia)
+        Me.Controls.Add(Me.btnSuma)
+        Me.Controls.Add(Me.btn3)
+        Me.Controls.Add(Me.btn2)
+        Me.Controls.Add(Me.btn1)
+        Me.Controls.Add(Me.btnMulti)
+        Me.Controls.Add(Me.btnIgual)
+        Me.Controls.Add(Me.btnMasMenos)
+        Me.Controls.Add(Me.btn0)
+        Me.Controls.Add(Me.btnBorrarDerecha)
+        Me.MaximumSize = New System.Drawing.Size(453, 605)
+        Me.MinimumSize = New System.Drawing.Size(453, 605)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "CALCULADORA"
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button7 As Button
-    Friend WithEvents Button8 As Button
-    Friend WithEvents Button9 As Button
-    Friend WithEvents Button10 As Button
-    Friend WithEvents Button11 As Button
-    Friend WithEvents Button12 As Button
-    Friend WithEvents Button13 As Button
-    Friend WithEvents Button14 As Button
-    Friend WithEvents Button15 As Button
-    Friend WithEvents Button16 As Button
-    Friend WithEvents Button17 As Button
-    Friend WithEvents Button18 As Button
-    Friend WithEvents Button19 As Button
-    Friend WithEvents Button20 As Button
-    Friend WithEvents Button21 As Button
-    Friend WithEvents Button22 As Button
-    Friend WithEvents Button23 As Button
-    Friend WithEvents RichTextBox1 As RichTextBox
+    Friend WithEvents btnBorrarDerecha As Button
+    Friend WithEvents btn0 As Button
+    Friend WithEvents btnMasMenos As Button
+    Friend WithEvents btnIgual As Button
+    Friend WithEvents btnMulti As Button
+    Friend WithEvents btn1 As Button
+    Friend WithEvents btn2 As Button
+    Friend WithEvents btn3 As Button
+    Friend WithEvents btnSuma As Button
+    Friend WithEvents btnPotencia As Button
+    Friend WithEvents btn4 As Button
+    Friend WithEvents btn5 As Button
+    Friend WithEvents btn6 As Button
+    Friend WithEvents btnResta As Button
+    Friend WithEvents btnPorcentaje As Button
+    Friend WithEvents btn7 As Button
+    Friend WithEvents btn8 As Button
+    Friend WithEvents btn9 As Button
+    Friend WithEvents btnDivision As Button
+    Friend WithEvents btnInversa As Button
+    Friend WithEvents btnBorrarTodo As Button
+    Friend WithEvents btnPunto As Button
+    Friend WithEvents btnRaiz As Button
+    Friend WithEvents txtResultado As RichTextBox
 End Class
