@@ -11,5 +11,14 @@ public class Main {
         });
 
         hilo2.start();
+
+        Thread hilo3 = new Thread() {
+            public void run(){
+                 System.out.println("HIIIIII 3");
+             }
+        };
+        hilo3.start();
+
+        Generico <String,Double> g = (s,d) -> System.out.println();
     }
 }
