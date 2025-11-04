@@ -7,8 +7,13 @@
       "RelativeMoniker": "D:0:0:{78376170-6CD7-44A9-B871-DA5BEEB0B541}|03_08\\03_08.vbproj|solutionrelative:03_08\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{F6E1188A-E18A-452C-A65C-3F8297CB84BB}|03_08.vbproj|D:\\LEARN-PROJECT\\VB\\03_08\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{F6E1188A-E18A-452C-A65C-3F8297CB84BB}|03_08.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+=======
       "AbsoluteMoniker": "D:0:0:{78376170-6CD7-44A9-B871-DA5BEEB0B541}|03_08\\03_08.vbproj|m:\\anhe\\dam\\primeros pasos\\learn-project\\vb\\03_08\\03_08\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{78376170-6CD7-44A9-B871-DA5BEEB0B541}|03_08\\03_08.vbproj|solutionrelative:03_08\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+>>>>>>> 5a6fbbc011bb43251216590f50f0d771a59efdb1
     }
   ],
   "DocumentGroupContainers": [

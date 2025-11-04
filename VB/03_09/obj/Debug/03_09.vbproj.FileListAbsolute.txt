@@ -1,0 +1,13 @@
+D:\LEARN-PROJECT\VB\03_09\obj\Debug\03_09.vbproj.AssemblyReference.cache
+D:\LEARN-PROJECT\VB\03_09\obj\Debug\_03_09.Form1.resources
+D:\LEARN-PROJECT\VB\03_09\obj\Debug\_03_09.Resources.resources
+D:\LEARN-PROJECT\VB\03_09\obj\Debug\03_09.vbproj.GenerateResource.cache
+D:\LEARN-PROJECT\VB\03_09\obj\Debug\03_09.vbproj.CoreCompileInputs.cache
+D:\LEARN-PROJECT\VB\03_09\bin\Debug\03_09.exe.config
+D:\LEARN-PROJECT\VB\03_09\bin\Debug\03_09.exe
+D:\LEARN-PROJECT\VB\03_09\bin\Debug\03_09.pdb
+D:\LEARN-PROJECT\VB\03_09\bin\Debug\03_09.xml
+D:\LEARN-PROJECT\VB\03_09\obj\Debug\03_09.exe
+D:\LEARN-PROJECT\VB\03_09\obj\Debug\03_09.xml
+D:\LEARN-PROJECT\VB\03_09\obj\Debug\03_09.pdb
+D:\LEARN-PROJECT\VB\03_09\obj\Debug\03_09.exe.config
