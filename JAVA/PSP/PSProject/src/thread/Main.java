@@ -19,6 +19,8 @@ public class Main {
         };
         hilo3.start();
 
-        Generico <String,Double> g = (s,d) -> System.out.println();
+        Generico <String,Double> g = (s,d) -> System.out.println("\nPALABRA | " + s + "\nNUMERO | " + d);
+
+        g.funcion1("NOOOO", 0.5);
     }
 }
