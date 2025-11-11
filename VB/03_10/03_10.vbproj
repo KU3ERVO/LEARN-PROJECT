@@ -73,17 +73,36 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="FormInicio.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="FormInicio.Designer.vb">
+      <DependentUpon>FormInicio.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBuscar.Designer.vb">
+      <DependentUpon>FormBuscar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormBuscar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGuardar.Designer.vb">
+      <DependentUpon>FormGuardar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormGuardar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormImportar.Designer.vb">
+      <DependentUpon>FormImportar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormImportar.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -97,8 +116,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="FormInicio.resx">
+      <DependentUpon>FormInicio.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

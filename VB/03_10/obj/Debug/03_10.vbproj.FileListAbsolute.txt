@@ -15,3 +15,21 @@ D:\LEARN-PROJECT\VB\03_10\obj\Debug\03_10.vbproj.CoreCompileInputs.cache
 D:\LEARN-PROJECT\VB\03_10\obj\Debug\03_10.exe
 D:\LEARN-PROJECT\VB\03_10\obj\Debug\03_10.xml
 D:\LEARN-PROJECT\VB\03_10\obj\Debug\03_10.pdb
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_10\bin\Debug\03_10.exe.config
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_10\bin\Debug\03_10.exe
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_10\bin\Debug\03_10.pdb
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_10\bin\Debug\03_10.xml
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_10\bin\Debug\Interop.WMPLib.dll
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_10\bin\Debug\AxInterop.WMPLib.dll
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_10\obj\Debug\03_10.vbproj.AssemblyReference.cache
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_10\obj\Debug\03_10.exe.config
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_10\obj\Debug\Interop.WMPLib.dll
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_10\obj\Debug\AxInterop.WMPLib.dll
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_10\obj\Debug\03_10.vbproj.ResolveComReference.cache
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_10\obj\Debug\_03_10.Resources.resources
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_10\obj\Debug\03_10.vbproj.GenerateResource.cache
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_10\obj\Debug\03_10.vbproj.CoreCompileInputs.cache
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_10\obj\Debug\03_10.exe
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_10\obj\Debug\03_10.xml
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_10\obj\Debug\03_10.pdb
+M:\anhe\dam\PRIMEROS PASOS\LEARN-PROJECT\VB\03_10\obj\Debug\_03_10.FormInicio.resources
