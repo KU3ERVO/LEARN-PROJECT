@@ -89,7 +89,7 @@ Partial Class Form1
         ' 
         ' pbxGalaxia2
         ' 
-        pbxGalaxia2.Image = My.Resources.Resources.galaxy1
+        pbxGalaxia2.Image = My.Resources.Resources.plan2
         pbxGalaxia2.Location = New Point(196, 351)
         pbxGalaxia2.Name = "pbxGalaxia2"
         pbxGalaxia2.Size = New Size(100, 98)
@@ -98,7 +98,7 @@ Partial Class Form1
         ' 
         ' pbxGalaxia1
         ' 
-        pbxGalaxia1.Image = My.Resources.Resources.galaxy
+        pbxGalaxia1.Image = My.Resources.Resources.plan31
         pbxGalaxia1.Location = New Point(12, 12)
         pbxGalaxia1.Name = "pbxGalaxia1"
         pbxGalaxia1.Size = New Size(100, 98)
@@ -117,7 +117,7 @@ Partial Class Form1
         ' 
         ' pbxLuna2
         ' 
-        pbxLuna2.Image = My.Resources.Resources.plan31
+        pbxLuna2.Image = My.Resources.Resources.plan1
         pbxLuna2.Location = New Point(12, 351)
         pbxLuna2.Name = "pbxLuna2"
         pbxLuna2.Size = New Size(100, 98)

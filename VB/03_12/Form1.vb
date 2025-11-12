@@ -42,12 +42,12 @@
         angulo += 0.1
 
         If cambio = True Then
-            radioOrbita -= 1
+            radioOrbita -= 3
             If radioOrbita <= 150 Then
                 cambio = False
             End If
         Else
-            radioOrbita += 1
+            radioOrbita += 3
             If radioOrbita >= 200 Then
                 cambio = True
             End If
