@@ -1,6 +1,7 @@
 package ejercicios;
 
 import android.os.Bundle;
+import android.text.InputType;
 import android.widget.EditText;
 
 import androidx.annotation.Nullable;
@@ -18,9 +19,12 @@ public class Ej54 extends AppCompatActivity {
         EditText edtxtTelefono = findViewById(R.id.editTextPhone);
         EditText edtxtCorreo = findViewById(R.id.editTextEmail);
         EditText edtxtNumero = findViewById(R.id.editTextNumber);
-        EditText edtxtContraseña = findViewById(R.id.editTextNumberPassword);
+        EditText edtxtContrasena = findViewById(R.id.editTextNumberPassword);
 
-edtxtTelefono.setInputType();
+        edtxtTelefono.setInputType( InputType.TYPE_CLASS_PHONE);
+        edtxtContrasena.setInputType(InputType.TYPE_CLASS_NUMBER | InputType.TYPE_NUMBER_VARIATION_PASSWORD);
+        edtxtCorreo.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_EMAIL_ADDRESS);
+        edtxtNumero.setInputType(InputType.TYPE_CLASS_NUMBER);
 
     }
 }
