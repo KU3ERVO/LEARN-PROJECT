@@ -31,13 +31,14 @@ public class Ej51 extends AppCompatActivity {
         ttle.setText("Angel Miguel Felipe");
 
         TextView content = findViewById(R.id.tvContenido);
-        content.setTypeface(Typeface.DEFAULT_BOLD);
+        //content.setTypeface(Typeface.DEFAULT_BOLD);
         //content.setTypeface(Typeface.defaultFromStyle(Typeface.ITALIC));
+        content.setTypeface(getResources().getFont(R.font.jacquard12_regular));
         content.setTextSize(20);
-        content.setTextColor(ContextCompat.getColor(this,R.color.custom_red));
+        content.setTextColor(ContextCompat.getColor(this, com.google.android.material.R.color.design_default_color_error));
         //content.setTextColor(ContextCompat.getColor(this,R.color.custom_blue));
         //content.setText("Texto construido desde XML Tamaño 20sp, Italic color Blue");
-        content.setText("Texto construido desde Java");
-        content.append(" Texto añadido con append");
+        content.setText("Jaquard Regular");
+        //content.append(" Texto añadido con append");
     }
 }
