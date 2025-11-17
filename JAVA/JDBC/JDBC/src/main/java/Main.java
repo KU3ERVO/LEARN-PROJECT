@@ -5,10 +5,7 @@ import print.*;
 
 import java.sql.Connection;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 
 public class Main {
@@ -25,6 +22,8 @@ public class Main {
 
 
     public static void main(String[] args) {
+
+
         // Ejemplo de uso
         try {
             DatabaseConnector connector = new DatabaseConnector();
@@ -33,8 +32,8 @@ public class Main {
             if (connection == null) {
                 throw new Exception("Error al obtener la conexión a la base de datos.");
             }
+            System.out.println(connection.getMetaData().getURL());
 
-            System.out.println("Hemos obtenido la conexión a la base de datos");
             Dao dao = new Dao(connection);
             ImprimirResultados print = new ImprimirResultados();
 //            /**
@@ -44,11 +43,11 @@ public class Main {
 //            // Imprimimos los resultados
 //            print.imprimirTablas(connection, CATALOGO);
             List<String[]> datosFinales = Arrays.asList(
-                    new String[]{"33333333E","MARIA","28910"},
-                    new String[]{"99999999Q","MIGUEL",null},
-                    new String[]{"66666666G","CAREY","28914"}
+                    new String[]{"33333333E", "MARIA", "28910"},
+                    new String[]{"99999999Q", "MIGUEL", null},
+                    new String[]{"66666666G", "CAREY", "28914"}
             );
-              dao.delete(connection,datosFinales);
+            dao.delete(connection, datosFinales);
 //            // Insertamos registros en la tabla clientes
 //            dao.insertarDatosConStatement(connection, INSERT_CLIENTES);
 //            // Sacamos por consola los registros insertados
@@ -115,7 +114,7 @@ public class Main {
 ////                System.out.println(" [" + (++nCli) + "] " + cliente.toString());
 ////            }
 //
-////            dao.obtenerYMostrarApellidosAlternativo("78901234X", connection);
+            //          dao.obtenerYMostrarApellidosAlternativo("78901234X", connection);
 //
 ////// == INICIO DE LA TRANSACCIÓN ==
 ////            // La responsabilidad de la transacción se queda en el método principal.
@@ -167,37 +166,39 @@ public class Main {
 //            connection.setAutoCommit(true);
 //
 //            print.imprimirRegistros(connection, CATALOGO, NOMBRE_TABLA);
+            try (Scanner sc = new Scanner(System.in)) {
+                // Cerramos la conexion
 
-            // Cerramos la conexion
+                Ej41 ej41 = new Ej41();
 
-            Ej41 ej41 = new Ej41();
+                Ej42 ej42 = new Ej42();
 
-            Ej42 ej42 = new Ej42();
+                Ej43 ej43 = new Ej43();
 
-            Ej43 ej43 = new Ej43();
+                Ej44 ej44 = new Ej44();
 
-            Ej44 ej44 = new Ej44();
+                Ej45 ej45 = new Ej45();
+                String[] dnis = {"66666666G", "33333333E"};
+                ej45.printClientesDni(connection, dnis);
 
-            Ej45 ej45 = new Ej45();
-            String[] dnis = {"66666666G","33333333E"};
-            ej45.printClientesDni(connection,dnis);
+                Ej46 ej46 = new Ej46();
+                List<Company> companies = new ArrayList<>(Arrays.asList(
+                        new Company("26331733A", "INDRA", "DEFENSA"),
+                        new Company("66666666E", "EA", "VIDEOJUEGOS"),
+                        new Company("23523454B", "ACCENTURE", "INFORMATICA")
+                ));
+                ej46.rollback(connection, companies);
 
-            Ej46 ej46 = new Ej46();
-            List<Company> companies = new ArrayList<>(Arrays.asList(
-                    new Company("26331733A", "INDRA", "DEFENSA"),
-                    new Company("66666666E", "EA", "VIDEOJUEGOS"),
-                    new Company("23523454B", "ACCENTURE", "INFORMATICA")
-            ));
-            ej46.rollback(connection,companies);
+                Ej47 ej47 = new Ej47();
+                System.out.println("Introduce el DNI del que quieres el apellido");
+                ej47.getApellidosFromDni(connection, sc.next());
 
-            Ej47 ej47 = new Ej47();
+                Ej48 ej48 = new Ej48();
 
-            Ej48 ej48 = new Ej48();
-
-            Ej49 ej49 = new Ej49();
+                Ej49 ej49 = new Ej49();
 
 
-
+            }
             connection.close();
         } catch (Exception e) {
             System.err.println("Fallo al intentar obtener la conexion a la base de datos.");

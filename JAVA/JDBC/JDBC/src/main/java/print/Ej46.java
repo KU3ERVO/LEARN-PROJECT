@@ -14,7 +14,8 @@ public class Ej46 {
 
         try(PreparedStatement pscreate = conn.prepareStatement("CREATE TABLE IF NOT EXISTS COMPANIES " +
                 "( CIF VARCHAR (9) PRIMARY KEY, NOMBRE VARCHAR (100) NOT NULL, SECTOR VARCHAR (100) NOT NULL)");
-        PreparedStatement psinsert = conn.prepareStatement("INSERT INTO COMPANIES (CIF,NOMBRE,SECTOR) VALUES (?, ?, ?)");){
+        PreparedStatement psinsert = conn.prepareStatement("INSERT INTO COMPANIES (CIF, NOMBRE, SECTOR) VALUES (?, ?, ?) ON DUPLICATE KEY UPDATE NOMBRE = VALUES(NOMBRE), SECTOR = VALUES(SECTOR)"
+                );){
 
             conn.setAutoCommit(false);
 
