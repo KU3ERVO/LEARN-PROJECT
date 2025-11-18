@@ -79,8 +79,8 @@ Public Class Form1
             filaActual = e.RowIndex
             txtNombre.Text = Convert.ToString(dgvDatos.Rows(filaActual).Cells("ColumnNombre").Value)
             txtDni.Text = Convert.ToString(dgvDatos.Rows(filaActual).Cells("ColumnDni").Value)
-            txtTelefono.Text = Convert.ToString(dgvDatos.Rows(filaActual).Cells("ColumnTelefono").Value)
-            txtDireccion.Text = Convert.ToString(dgvDatos.Rows(filaActual).Cells("ColumnDireccion").Value)
+        txtTelefono.Text = Convert.ToString(dgvDatos.Rows(filaActual).Cells("ColumnTfn").Value)
+        txtDireccion.Text = Convert.ToString(dgvDatos.Rows(filaActual).Cells("ColumnDireccion").Value)
         cbxSexo.Text = Convert.ToString(dgvDatos.Rows(filaActual).Cells("ColumnSexo").Value)
         DesactivarBotones()
         End Sub
@@ -111,11 +111,12 @@ Public Class Form1
                 If dniValidado Then
                     dgvDatos.Rows(filaActual).Cells("ColumnNombre").Value = nombre
                     dgvDatos.Rows(filaActual).Cells("ColumnDni").Value = dni
-                    dgvDatos.Rows(filaActual).Cells("ColumnTelefono").Value = telefono
-                    dgvDatos.Rows(filaActual).Cells("ColumnDireccion").Value = direccion
+                dgvDatos.Rows(filaActual).Cells("ColumnTfn").Value = telefono
+                dgvDatos.Rows(filaActual).Cells("ColumnDireccion").Value = direccion
                     dgvDatos.Rows(filaActual).Cells("ColumnSexo").Value = sexo
-                    MessageBox.Show("El contacto se ha modificado", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information)
-                    ActivarBotones()
+                MessageBox.Show("El contacto se ha modificado", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                GuardarDatos()
+                ActivarBotones()
                     limpiar()
                 End If
             End If
@@ -131,8 +132,9 @@ Public Class Form1
             If respuesta = DialogResult.Yes Then
                 filaActual = dgvDatos.CurrentRow.Index
                 dgvDatos.Rows.RemoveAt(filaActual)
-                MessageBox.Show("El contacto se ha eliminado", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information)
-                ActivarBotones()
+            MessageBox.Show("El contacto se ha eliminado", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            GuardarDatos()
+            ActivarBotones()
                 limpiar()
             End If
         End Sub
@@ -229,13 +231,13 @@ Public Class Form1
                     For Each row As DataGridViewRow In dgvDatos.Rows
                         ' Omitir filas nuevas/vacías
                         If row.IsNewRow Then Continue For
-                        Dim linea As String = String.Format("{0};{1};{2};{3};{4};",
+                    Dim linea As String = String.Format("{0};{1};{2};{3};{4};",
                                                       Convert.ToString(row.Cells("ColumnNombre").Value),
                                                       Convert.ToString(row.Cells("ColumnDni").Value),
-                                                      Convert.ToString(row.Cells("ColumnTelefono").Value),
+                                                      Convert.ToString(row.Cells("ColumnTfn").Value),
                                                       Convert.ToString(row.Cells("ColumnDireccion").Value),
                                                       Convert.ToString(row.Cells("ColumnSexo").Value))
-                        sw.WriteLine(linea)
+                    sw.WriteLine(linea)
                     Next
                 End Using
                 MessageBox.Show("Los datos se han guardado correctamente", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information)
