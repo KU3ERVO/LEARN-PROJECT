@@ -1,0 +1,17 @@
+D:\LEARN-PROJECT\VB\03_11\bin\Debug\net8.0-windows\03_11.exe
+D:\LEARN-PROJECT\VB\03_11\bin\Debug\net8.0-windows\03_11.deps.json
+D:\LEARN-PROJECT\VB\03_11\bin\Debug\net8.0-windows\03_11.runtimeconfig.json
+D:\LEARN-PROJECT\VB\03_11\bin\Debug\net8.0-windows\03_11.dll
+D:\LEARN-PROJECT\VB\03_11\bin\Debug\net8.0-windows\03_11.pdb
+D:\LEARN-PROJECT\VB\03_11\obj\Debug\net8.0-windows\_03_11.Form1.resources
+D:\LEARN-PROJECT\VB\03_11\obj\Debug\net8.0-windows\03_11.vbproj.GenerateResource.cache
+D:\LEARN-PROJECT\VB\03_11\obj\Debug\net8.0-windows\03_11.GeneratedMSBuildEditorConfig.editorconfig
+D:\LEARN-PROJECT\VB\03_11\obj\Debug\net8.0-windows\03_11.AssemblyInfoInputs.cache
+D:\LEARN-PROJECT\VB\03_11\obj\Debug\net8.0-windows\03_11.AssemblyInfo.vb
+D:\LEARN-PROJECT\VB\03_11\obj\Debug\net8.0-windows\03_11.vbproj.CoreCompileInputs.cache
+D:\LEARN-PROJECT\VB\03_11\obj\Debug\net8.0-windows\03_11.sourcelink.json
+D:\LEARN-PROJECT\VB\03_11\obj\Debug\net8.0-windows\03_11.dll
+D:\LEARN-PROJECT\VB\03_11\obj\Debug\net8.0-windows\refint\03_11.dll
+D:\LEARN-PROJECT\VB\03_11\obj\Debug\net8.0-windows\03_11.pdb
+D:\LEARN-PROJECT\VB\03_11\obj\Debug\net8.0-windows\03_11.genruntimeconfig.cache
+D:\LEARN-PROJECT\VB\03_11\obj\Debug\net8.0-windows\ref\03_11.dll
