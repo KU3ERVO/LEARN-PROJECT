@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:padding="0dp"
+        android:layout_centerInParent="true"
+        android:stretchColumns="*"
+        android:background="@color/white">
+<TableRow>
+    <androidx.appcompat.widget.AppCompatButton android:backgroundTint="@color/design_default_color_primary_dark" style="@style/LadrilloButton" android:layout_span="1"/>
+    <Button style="@style/LadrilloButton" android:layout_span="1"/>
+    <Button style="@style/LadrilloButton" android:layout_span="1"/>
+    <Button style="@style/LadrilloButton" android:layout_span="1"/>
+</TableRow>
+        <TableRow>
+
+            <Button style="@style/LadrilloButton" android:layout_span="4" android:textColor="@color/white" android:text="ANGEL MIGUEL FELIPE"/>
+
+        </TableRow>
+        <TableRow>
+            <Button style="@style/LadrilloButton" android:layout_span="2"/>
+            <Button style="@style/LadrilloButton" android:layout_span="2"/>
+        </TableRow>
+        <TableRow>
+            <Button style="@style/LadrilloButton" android:layout_span="1"/>
+            <Button style="@style/LadrilloButton" android:layout_span="1"/>
+            <Button style="@style/LadrilloButton" android:layout_span="1"/>
+            <Button style="@style/LadrilloButton" android:layout_span="1"/>
+
+        </TableRow>
+
+
+
+    </TableLayout>
+</RelativeLayout>

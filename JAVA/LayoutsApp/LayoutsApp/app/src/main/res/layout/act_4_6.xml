@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:columnCount="5"
+    >
+
+    <Button style="@style/LadrilloButton"
+        android:textColor="@color/white"
+        android:text="1" />
+    <Button style="@style/LadrilloButton"
+        android:textColor="@color/white"
+        android:text="2" />
+    <Button style="@style/LadrilloButton"
+        android:textColor="@color/white"
+        android:text="3" />
+
+    <Button style="@style/LadrilloButton"
+        android:textColor="@color/white"
+        android:text="/"
+        android:layout_column="3"/>
+
+    <Button style="@style/LadrilloButton"
+        android:textColor="@color/white"
+        android:text="4"
+        android:layout_column="0"/>
+
+    <Button style="@style/LadrilloButton"
+        android:textColor="@color/white"
+        android:text="5" />
+    <Button style="@style/LadrilloButton"
+        android:textColor="@color/white"
+        android:text="6" />
+    <Button style="@style/LadrilloButton"
+        android:textColor="@color/white"
+        android:text="+" />
+    <Button style="@style/LadrilloButton"
+        android:textColor="@color/white"
+        android:layout_column="0"
+        android:text="7" />
+
+    <Button style="@style/LadrilloButton"
+        android:textColor="@color/white"
+        android:text="8" />
+    <Button style="@style/LadrilloButton"
+        android:textColor="@color/white"
+        android:text="9" />
+    <Button style="@style/LadrilloButton"
+        android:textColor="@color/white"
+        android:text="*" />
+
+    <Button style="@style/LadrilloButton"
+        android:textColor="@color/white"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:gravity="fill"
+        android:text="CD"
+        android:layout_gravity="fill"/>
+    <Button style="@style/LadrilloButton"
+        android:textColor="@color/white"
+        android:text="0" />
+
+    <Button style="@style/LadrilloButton"
+        android:textColor="@color/white"
+        android:text="-"
+        android:layout_column="3"/>
+    <Button style="@style/LadrilloButton"
+        android:textColor="@color/white"
+        android:text="="
+        android:layout_column="0"
+        android:layout_gravity="fill"
+        android:layout_columnSpan="4"/>
+
+
+</GridLayout>
