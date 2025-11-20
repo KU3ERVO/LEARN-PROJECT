@@ -47,7 +47,7 @@ public class Main {
                     new String[]{"99999999Q", "MIGUEL", null},
                     new String[]{"66666666G", "CAREY", "28914"}
             );
-            dao.delete(connection, datosFinales);
+//            dao.delete(connection, datosFinales);
 //            // Insertamos registros en la tabla clientes
 //            dao.insertarDatosConStatement(connection, INSERT_CLIENTES);
 //            // Sacamos por consola los registros insertados
@@ -170,6 +170,7 @@ public class Main {
                 // Cerramos la conexion
 
                 Ej41 ej41 = new Ej41();
+                ej41.reescribirTabla(connection, datosFinales);
 
                 Ej42 ej42 = new Ej42();
 
@@ -190,12 +191,10 @@ public class Main {
                 ej46.rollback(connection, companies);
 
                 Ej47 ej47 = new Ej47();
-                System.out.println("Introduce el DNI del que quieres el apellido");
+                System.out.println("Introduce el DNI del que te gustaría saber el apellido");
                 ej47.getApellidosFromDni(connection, sc.next());
 
                 Ej48 ej48 = new Ej48();
-
-                Ej49 ej49 = new Ej49();
 
 
             }

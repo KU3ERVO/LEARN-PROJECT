@@ -12,7 +12,8 @@ public class Ej41 {
 
         try (PreparedStatement pstmtdel = conn.prepareStatement("DELETE FROM CLIENTES ");
              PreparedStatement pstmt = conn.prepareStatement("INSERT INTO CLIENTES (DNI,APELLIDOS,CP) VALUES (?,?,?)");) {
-            int filasAfectadas = pstmtdel.executeUpdate();
+
+            pstmtdel.executeUpdate();
 
             for (String[] cliente : datosFinales){
                 String dni = cliente[0];
