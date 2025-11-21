@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LEARN-PROJECT\\VB\\Miguel_Examen_1_Evaluacion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A47725A4-B8A8-4485-B84D-0AFBAA60ABD9}|Miguel_Examen_1_Evaluacion.vbproj|d:\\learn-project\\vb\\miguel_examen_1_evaluacion\\congresoform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{A47725A4-B8A8-4485-B84D-0AFBAA60ABD9}|Miguel_Examen_1_Evaluacion.vbproj|solutionrelative:congresoform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47725A4-B8A8-4485-B84D-0AFBAA60ABD9}|Miguel_Examen_1_Evaluacion.vbproj|d:\\learn-project\\vb\\miguel_examen_1_evaluacion\\banqueteform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A47725A4-B8A8-4485-B84D-0AFBAA60ABD9}|Miguel_Examen_1_Evaluacion.vbproj|solutionrelative:banqueteform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47725A4-B8A8-4485-B84D-0AFBAA60ABD9}|Miguel_Examen_1_Evaluacion.vbproj|d:\\learn-project\\vb\\miguel_examen_1_evaluacion\\congresoform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A47725A4-B8A8-4485-B84D-0AFBAA60ABD9}|Miguel_Examen_1_Evaluacion.vbproj|solutionrelative:congresoform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47725A4-B8A8-4485-B84D-0AFBAA60ABD9}|Miguel_Examen_1_Evaluacion.vbproj|d:\\learn-project\\vb\\miguel_examen_1_evaluacion\\banqueteform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{A47725A4-B8A8-4485-B84D-0AFBAA60ABD9}|Miguel_Examen_1_Evaluacion.vbproj|solutionrelative:banqueteform.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47725A4-B8A8-4485-B84D-0AFBAA60ABD9}|Miguel_Examen_1_Evaluacion.vbproj|d:\\learn-project\\vb\\miguel_examen_1_evaluacion\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{A47725A4-B8A8-4485-B84D-0AFBAA60ABD9}|Miguel_Examen_1_Evaluacion.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47725A4-B8A8-4485-B84D-0AFBAA60ABD9}|Miguel_Examen_1_Evaluacion.vbproj|d:\\learn-project\\vb\\miguel_examen_1_evaluacion\\formevento.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{A47725A4-B8A8-4485-B84D-0AFBAA60ABD9}|Miguel_Examen_1_Evaluacion.vbproj|solutionrelative:formevento.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47725A4-B8A8-4485-B84D-0AFBAA60ABD9}|Miguel_Examen_1_Evaluacion.vbproj|d:\\learn-project\\vb\\miguel_examen_1_evaluacion\\formevento.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A47725A4-B8A8-4485-B84D-0AFBAA60ABD9}|Miguel_Examen_1_Evaluacion.vbproj|solutionrelative:formevento.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47725A4-B8A8-4485-B84D-0AFBAA60ABD9}|Miguel_Examen_1_Evaluacion.vbproj|d:\\learn-project\\vb\\miguel_examen_1_evaluacion\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A47725A4-B8A8-4485-B84D-0AFBAA60ABD9}|Miguel_Examen_1_Evaluacion.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CongresoForm.vb",
+              "DocumentMoniker": "D:\\LEARN-PROJECT\\VB\\Miguel_Examen_1_Evaluacion\\CongresoForm.vb",
+              "RelativeDocumentMoniker": "CongresoForm.vb",
+              "ToolTip": "D:\\LEARN-PROJECT\\VB\\Miguel_Examen_1_Evaluacion\\CongresoForm.vb",
+              "RelativeToolTip": "CongresoForm.vb",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA5wDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-21T08:46:41.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BanqueteForm.vb",
+              "DocumentMoniker": "D:\\LEARN-PROJECT\\VB\\Miguel_Examen_1_Evaluacion\\BanqueteForm.vb",
+              "RelativeDocumentMoniker": "BanqueteForm.vb",
+              "ToolTip": "D:\\LEARN-PROJECT\\VB\\Miguel_Examen_1_Evaluacion\\BanqueteForm.vb",
+              "RelativeToolTip": "BanqueteForm.vb",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-21T08:33:14.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CongresoForm.vb [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\LEARN-PROJECT\\VB\\Miguel_Examen_1_Evaluacion\\CongresoForm.vb",
+              "RelativeDocumentMoniker": "CongresoForm.vb",
+              "ToolTip": "D:\\LEARN-PROJECT\\VB\\Miguel_Examen_1_Evaluacion\\CongresoForm.vb [Dise\u00F1o]",
+              "RelativeToolTip": "CongresoForm.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-21T08:28:13.489Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.vb [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\LEARN-PROJECT\\VB\\Miguel_Examen_1_Evaluacion\\Form1.vb",
+              "RelativeDocumentMoniker": "Form1.vb",
+              "ToolTip": "D:\\LEARN-PROJECT\\VB\\Miguel_Examen_1_Evaluacion\\Form1.vb [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-21T07:04:58.41Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BanqueteForm.vb [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\LEARN-PROJECT\\VB\\Miguel_Examen_1_Evaluacion\\BanqueteForm.vb",
+              "RelativeDocumentMoniker": "BanqueteForm.vb",
+              "ToolTip": "D:\\LEARN-PROJECT\\VB\\Miguel_Examen_1_Evaluacion\\BanqueteForm.vb [Dise\u00F1o]",
+              "RelativeToolTip": "BanqueteForm.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-21T08:27:56.444Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormEvento.vb",
+              "DocumentMoniker": "D:\\LEARN-PROJECT\\VB\\Miguel_Examen_1_Evaluacion\\FormEvento.vb",
+              "RelativeDocumentMoniker": "FormEvento.vb",
+              "ToolTip": "D:\\LEARN-PROJECT\\VB\\Miguel_Examen_1_Evaluacion\\FormEvento.vb",
+              "RelativeToolTip": "FormEvento.vb",
+              "ViewState": "AgIAABcAAAAAAAAAAAAUwCkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-21T07:51:00.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormEvento.vb [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\LEARN-PROJECT\\VB\\Miguel_Examen_1_Evaluacion\\FormEvento.vb",
+              "RelativeDocumentMoniker": "FormEvento.vb",
+              "ToolTip": "D:\\LEARN-PROJECT\\VB\\Miguel_Examen_1_Evaluacion\\FormEvento.vb [Dise\u00F1o]",
+              "RelativeToolTip": "FormEvento.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-21T07:48:19.207Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "D:\\LEARN-PROJECT\\VB\\Miguel_Examen_1_Evaluacion\\Form1.vb",
+              "RelativeDocumentMoniker": "Form1.vb",
+              "ToolTip": "D:\\LEARN-PROJECT\\VB\\Miguel_Examen_1_Evaluacion\\Form1.vb",
+              "RelativeToolTip": "Form1.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-21T07:06:18.009Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

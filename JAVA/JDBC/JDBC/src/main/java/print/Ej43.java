@@ -2,14 +2,6 @@ package print;
 
 import java.sql.*;
 
-/**
- * Actividad 4.3
- * Ejecutar la consulta SQL EXACTA: "SELECT CONCAT(first_name, ' ', last_name) AS name FROM employees;"
- * pero mostrar los resultados del último al primero.
- *
- * La consulta no debe cambiar; por eso pedimos un ResultSet scrollable y luego
- * recorremos hacia atrás con rs.afterLast()/rs.previous().
- */
 public class Ej43 {
 
     public void nombresInvertidos(Connection conn) {

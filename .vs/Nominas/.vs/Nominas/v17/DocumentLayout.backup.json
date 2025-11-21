@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\LEARN-PROJECT\\.vs\\Nominas\\",
+  "WorkspaceRootPath": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\.vs\\Nominas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A9E63D6-230C-4E7E-9B32-8832A8393FDC}|Nominas.vbproj|d:\\learn-project\\.vs\\nominas\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{6A9E63D6-230C-4E7E-9B32-8832A8393FDC}|Nominas.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{6A9E63D6-230C-4E7E-9B32-8832A8393FDC}|Nominas.vbproj|M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\.vs\\Nominas\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{6A9E63D6-230C-4E7E-9B32-8832A8393FDC}|Nominas.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A9E63D6-230C-4E7E-9B32-8832A8393FDC}|Nominas.vbproj|D:\\LEARN-PROJECT\\.vs\\Nominas\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{6A9E63D6-230C-4E7E-9B32-8832A8393FDC}|Nominas.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{6A9E63D6-230C-4E7E-9B32-8832A8393FDC}|Nominas.vbproj|m:\\anhe\\dam\\primeros pasos\\learn-project\\.vs\\nominas\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{6A9E63D6-230C-4E7E-9B32-8832A8393FDC}|Nominas.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,29 +18,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.vb [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\LEARN-PROJECT\\.vs\\Nominas\\Form1.vb",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\.vs\\Nominas\\Form1.vb",
               "RelativeDocumentMoniker": "Form1.vb",
-              "ToolTip": "D:\\LEARN-PROJECT\\.vs\\Nominas\\Form1.vb [Dise\u00F1o]",
-              "RelativeToolTip": "Form1.vb [Dise\u00F1o]",
+              "ToolTip": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\.vs\\Nominas\\Form1.vb [Design]",
+              "RelativeToolTip": "Form1.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-09-26T07:12:07.878Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.vb",
-              "DocumentMoniker": "D:\\LEARN-PROJECT\\.vs\\Nominas\\Form1.vb",
+              "DocumentMoniker": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\.vs\\Nominas\\Form1.vb",
               "RelativeDocumentMoniker": "Form1.vb",
-              "ToolTip": "D:\\LEARN-PROJECT\\.vs\\Nominas\\Form1.vb",
+              "ToolTip": "M:\\anhe\\dam\\PRIMEROS PASOS\\LEARN-PROJECT\\.vs\\Nominas\\Form1.vb",
               "RelativeToolTip": "Form1.vb",
-              "ViewState": "AgIAABcAAAAAAAAAAAAIwEEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-09-26T07:13:31.329Z",
               "EditorCaption": ""

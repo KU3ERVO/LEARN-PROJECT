@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\LEARN-PROJECT\\VB\\03_05\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4BE4A37F-FB8B-4131-BBDD-8E9DA40F925F}|03_05.vbproj|d:\\learn-project\\vb\\03_05\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{4BE4A37F-FB8B-4131-BBDD-8E9DA40F925F}|03_05.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BE4A37F-FB8B-4131-BBDD-8E9DA40F925F}|03_05.vbproj|D:\\LEARN-PROJECT\\VB\\03_05\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{4BE4A37F-FB8B-4131-BBDD-8E9DA40F925F}|03_05.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{4BE4A37F-FB8B-4131-BBDD-8E9DA40F925F}|03_05.vbproj|D:\\LEARN-PROJECT\\VB\\03_05\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{4BE4A37F-FB8B-4131-BBDD-8E9DA40F925F}|03_05.vbproj|solutionrelative:form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4BE4A37F-FB8B-4131-BBDD-8E9DA40F925F}|03_05.vbproj|D:\\LEARN-PROJECT\\VB\\03_05\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{4BE4A37F-FB8B-4131-BBDD-8E9DA40F925F}|03_05.vbproj|solutionrelative:form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BE4A37F-FB8B-4131-BBDD-8E9DA40F925F}|03_05.vbproj|D:\\LEARN-PROJECT\\VB\\03_05\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{4BE4A37F-FB8B-4131-BBDD-8E9DA40F925F}|03_05.vbproj|solutionrelative:form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{4BE4A37F-FB8B-4131-BBDD-8E9DA40F925F}|03_05.vbproj|d:\\learn-project\\vb\\03_05\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{4BE4A37F-FB8B-4131-BBDD-8E9DA40F925F}|03_05.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BE4A37F-FB8B-4131-BBDD-8E9DA40F925F}|03_05.vbproj|D:\\LEARN-PROJECT\\VB\\03_05\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{4BE4A37F-FB8B-4131-BBDD-8E9DA40F925F}|03_05.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,52 +26,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Form2.vb",
               "DocumentMoniker": "D:\\LEARN-PROJECT\\VB\\03_05\\Form2.vb",
               "RelativeDocumentMoniker": "Form2.vb",
               "ToolTip": "D:\\LEARN-PROJECT\\VB\\03_05\\Form2.vb",
               "RelativeToolTip": "Form2.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-10-04T19:27:49.368Z"
+              "WhenOpened": "2025-10-04T19:27:49.368Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form2.vb [Dise\u00F1o]",
               "DocumentMoniker": "D:\\LEARN-PROJECT\\VB\\03_05\\Form2.vb",
               "RelativeDocumentMoniker": "Form2.vb",
               "ToolTip": "D:\\LEARN-PROJECT\\VB\\03_05\\Form2.vb [Dise\u00F1o]",
               "RelativeToolTip": "Form2.vb [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-10-04T19:19:27.696Z"
+              "WhenOpened": "2025-10-04T19:19:27.696Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.vb",
               "DocumentMoniker": "D:\\LEARN-PROJECT\\VB\\03_05\\Form1.vb",
               "RelativeDocumentMoniker": "Form1.vb",
-              "ToolTip": "D:\\LEARN-PROJECT\\VB\\03_05\\Form1.vb*",
-              "RelativeToolTip": "Form1.vb*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\LEARN-PROJECT\\VB\\03_05\\Form1.vb",
+              "RelativeToolTip": "Form1.vb",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-10-04T18:25:38.807Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form1.vb [Dise\u00F1o]",
               "DocumentMoniker": "D:\\LEARN-PROJECT\\VB\\03_05\\Form1.vb",
               "RelativeDocumentMoniker": "Form1.vb",
-              "ToolTip": "D:\\LEARN-PROJECT\\VB\\03_05\\Form1.vb [Dise\u00F1o]*",
-              "RelativeToolTip": "Form1.vb [Dise\u00F1o]*",
+              "ToolTip": "D:\\LEARN-PROJECT\\VB\\03_05\\Form1.vb [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.vb [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-10-03T07:37:28.759Z",
               "EditorCaption": " [Dise\u00F1o]"
