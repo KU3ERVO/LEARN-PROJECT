@@ -67,20 +67,20 @@ public class Main {
  //               String[] dnis = {"66666666G", "33333333E"};
  //               ej45.printClientesDni(connection, dnis);
 //
-                Ej46 ej46 = new Ej46();
-                List<Company> companies = new ArrayList<>(Arrays.asList(
-                        new Company("26331733A", "INDRA", "DEFENSA"),
-                        new Company("66666666E", "EA", "VIDEOJUEGOS"),
-                        new Company("23523454B", "ACCENTURE", "INFORMATICA")
-                ));
-                ej46.rollback(connection, companies);
+//                Ej46 ej46 = new Ej46();
+//                List<Company> companies = new ArrayList<>(Arrays.asList(
+//                        new Company("26331733A", "INDRA", "DEFENSA"),
+//                        new Company("66666666E", "EA", "VIDEOJUEGOS"),
+//                        new Company("23523454B", "ACCENTURE", "INFORMATICA")
+//                ));
+//                ej46.rollback(connection, companies);
 //
 //                Ej47 ej47 = new Ej47();
 //                System.out.println("Introduce el DNI del que te gustaría saber el apellido");
 //                ej47.getApellidosFromDni(connection, sc.next());
 //
-//                Ej48 ej48 = new Ej48();
-//                ej48.navegarTabla(connection,"COUNTRIES");
+                Ej48 ej48 = new Ej48();
+                ej48.navegarTabla(connection,"COUNTRIES");
 
 
             }
