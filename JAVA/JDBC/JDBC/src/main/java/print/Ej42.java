@@ -2,13 +2,7 @@ package print;
 
 import java.sql.*;
 
-/**
- * Actividad 4.2
- * Probar recuperar la columna CP (CHAR(5)) con getInt() en lugar de getString().
- *
- * Implementa un método imprimirRegistros2 que replica imprimirRegistros pero
- * recupera CP con getInt() y muestra si fue NULL (usando rs.wasNull()).
- */
+
 public class Ej42 {
 
     public void imprimirRegistros2(Connection conn, String nombreTabla) {

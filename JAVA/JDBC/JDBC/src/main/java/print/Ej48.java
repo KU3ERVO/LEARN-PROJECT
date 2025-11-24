@@ -66,7 +66,7 @@ public class Ej48 {
         }
     }
 
-    /** ---- MÉTODOS AUXILIARES ---- */
+
 
     private void moverSiguiente(ResultSet rs, int totalFilas) throws SQLException {
         if (rs.isLast()) {

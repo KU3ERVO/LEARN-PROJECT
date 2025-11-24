@@ -2,19 +2,10 @@ package print;
 
 import java.sql.*;
 
-/**
- * Actividad 4.4
- * Contar el número de filas devueltas por una consulta sin recorrer todos los registros.
- * Estrategia: solicitar un ResultSet scrollable, mover el cursor a rs.last() y usar rs.getRow().
- */
+
 public class Ej44 {
 
-    /**
-     * Cuenta las filas devueltas por la consulta SQL dada usando ResultSet scrollable.
-     * @param conn Conexión activa.
-     * @param sql La consulta a ejecutar (puedes pasar "SELECT * FROM CLIENTES" u otra).
-     * @return número de filas encontradas.
-     */
+
     public int contarFilas(Connection conn, String sql) {
         try (Statement stmt = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
              ResultSet rs = stmt.executeQuery(sql)) {
