@@ -18,7 +18,7 @@
         </foreign-key>
     </table>
     <table name="empleado" class="Empleado">
-        <column name="nom_emp" property="nombre"/> <foreign-key constraintname="fk_empleado_depto">
+        <column name="nom_emp" property="nombre"/> <foreign-key constraint-name ="fk_empleado_depto">
         <many-to-one property="departamento"/>
     </foreign-key>
     </table>
