@@ -1,4 +1,13 @@
-package PACKAGE_NAME;
+package ticker;
 
-public class Ticker {
+import java.util.TimerTask;
+
+public class Ticker extends TimerTask {
+
+    @Override
+    public void run() {
+        System.out.println("tick");
+    }
+
 }
+
