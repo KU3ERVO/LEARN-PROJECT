@@ -1,6 +1,7 @@
 package com.example.listadosymenus.adapters;
 
 import android.content.Context;
+import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -42,7 +43,7 @@ public class OpcionListaAdapter extends ArrayAdapter<OpcionLista> {
 
         // Aplicar los estilos guardados en el modelo de datos
         textViewOpcion.setTextColor(opcionActual.getColorTexto());
-        textViewOpcion.setTypeface(null, opcionActual.getEstiloFuente());
+        textViewOpcion.setTypeface(null, Typeface.NORMAL);
         textViewOpcion.setTextSize(opcionActual.getTamanoFuente());
 
         return listItem;
