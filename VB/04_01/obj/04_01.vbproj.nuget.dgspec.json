@@ -10,7 +10,7 @@
         "projectUniqueName": "D:\\LEARN-PROJECT\\VB\\04_01\\04_01.vbproj",
         "projectName": "04_01",
         "projectPath": "D:\\LEARN-PROJECT\\VB\\04_01\\04_01.vbproj",
-        "packagesPath": "C:\\Users\\DAM2_Diurno\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\_Administrador_\\.nuget\\packages\\",
         "outputPath": "D:\\LEARN-PROJECT\\VB\\04_01\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
@@ -18,7 +18,7 @@
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\DAM2_Diurno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\_Administrador_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -51,6 +51,12 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

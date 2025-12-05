@@ -15,3 +15,11 @@ D:\LEARN-PROJECT\VB\04_01\obj\Debug\net8.0-windows\refint\04_01.dll
 D:\LEARN-PROJECT\VB\04_01\obj\Debug\net8.0-windows\04_01.pdb
 D:\LEARN-PROJECT\VB\04_01\obj\Debug\net8.0-windows\04_01.genruntimeconfig.cache
 D:\LEARN-PROJECT\VB\04_01\obj\Debug\net8.0-windows\ref\04_01.dll
+D:\LEARN-PROJECT\VB\04_01\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+D:\LEARN-PROJECT\VB\04_01\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+D:\LEARN-PROJECT\VB\04_01\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+D:\LEARN-PROJECT\VB\04_01\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+D:\LEARN-PROJECT\VB\04_01\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+D:\LEARN-PROJECT\VB\04_01\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+D:\LEARN-PROJECT\VB\04_01\obj\Debug\net8.0-windows\04_01.vbproj.AssemblyReference.cache
+D:\LEARN-PROJECT\VB\04_01\obj\Debug\net8.0-windows\04_01.vbproj.Up2Date

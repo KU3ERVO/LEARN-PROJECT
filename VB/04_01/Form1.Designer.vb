@@ -23,22 +23,33 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         DataGridView1 = New DataGridView()
+        DataGridView2 = New DataGridView()
         CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(DataGridView2, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' DataGridView1
         ' 
         DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridView1.Location = New Point(91, 396)
+        DataGridView1.Location = New Point(91, 377)
         DataGridView1.Name = "DataGridView1"
         DataGridView1.Size = New Size(631, 250)
         DataGridView1.TabIndex = 0
+        ' 
+        ' DataGridView2
+        ' 
+        DataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        DataGridView2.Location = New Point(91, 99)
+        DataGridView2.Name = "DataGridView2"
+        DataGridView2.Size = New Size(631, 250)
+        DataGridView2.TabIndex = 1
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 800)
+        Controls.Add(DataGridView2)
         Controls.Add(DataGridView1)
         FormBorderStyle = FormBorderStyle.None
         MaximumSize = New Size(800, 800)
@@ -47,9 +58,11 @@ Partial Class Form1
         StartPosition = FormStartPosition.CenterScreen
         Text = "CONEXION"
         CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()
+        CType(DataGridView2, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
     Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents DataGridView2 As DataGridView
 
 End Class
